@@ -1,0 +1,5140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Creator Studio\n"
+"POT-Creation-Date: 2020-08-14 17:19+0200\n"
+"PO-Revision-Date: 2020-08-14 17:20+0200\n"
+"Last-Translator: Yaron Goldstein <yaron@mendele.co.il>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: uploads\n"
+"X-Poedit-SearchPathExcluded-1: nbproject\n"
+"X-Poedit-SearchPathExcluded-2: public/js\n"
+"X-Poedit-SearchPathExcluded-3: public/tinymce\n"
+
+#: controllers/accountcontroller.php:559
+msgid "User does not exist."
+msgstr "User does not exist."
+
+#: controllers/apicontroller.php:324
+msgid "All"
+msgstr "All"
+
+#: controllers/apicontroller.php:494
+msgid "Could not delete the module."
+msgstr "Could not delete the module."
+
+#: controllers/apicontroller.php:694 controllers/apicontroller.php:729
+#: controllers/apicontroller.php:775
+msgid "variables are not correct."
+msgstr "variables are not correct."
+
+#: controllers/apicontroller.php:846
+msgid "The log time has been stopped"
+msgstr "The log time has been stopped"
+
+#: controllers/apicontroller.php:884
+msgid "The time continues"
+msgstr "The time continues"
+
+#: controllers/apicontroller.php:888
+msgid "The log time has been paused"
+msgstr "The log time has been paused"
+
+#: controllers/apicontroller.php:1293
+msgid "not in folder with correct name: "
+msgstr "not in folder with correct name: "
+
+#: controllers/apicontroller.php:1503
+msgid "no project"
+msgstr "no project"
+
+#: controllers/apicontroller.php:1550
+msgid "Worked times on no project"
+msgstr "Worked times on no project"
+
+#: controllers/apicontroller.php:1552
+msgid "Worked times on "
+msgstr "Worked times on "
+
+#: controllers/apicontroller.php:1573
+msgid "person"
+msgstr "person"
+
+#: controllers/apicontroller.php:1573
+msgid "time worked"
+msgstr "time worked"
+
+#: controllers/apicontroller.php:1573
+msgid "on date"
+msgstr "on date"
+
+#: controllers/apicontroller.php:1573
+msgid "from"
+msgstr "from"
+
+#: controllers/apicontroller.php:1573
+msgid "to"
+msgstr "to"
+
+#: controllers/apicontroller.php:1594
+msgid " hour and "
+msgstr " hour and "
+
+#: controllers/apicontroller.php:1594
+msgid " minutes"
+msgstr " minutes"
+
+#: controllers/companiescontroller.php:68
+msgid "You are not allowed here."
+msgstr "You are not allowed here."
+
+#: controllers/companiescontroller.php:126
+msgid "Are you sure you want to delete this company?"
+msgstr "Are you sure you want to delete this company?"
+
+#: controllers/companiescontroller.php:427
+#: controllers/projectscontroller.php:267
+msgid "Sorry, the name that you filled in is already in use."
+msgstr "Sorry, the name that you filled in is already in use."
+
+#: controllers/companiescontroller.php:433
+msgid "Company successfully updated."
+msgstr "Company successfully updated."
+
+#: controllers/companiescontroller.php:435
+msgid "Company successfully created."
+msgstr "Company successfully created."
+
+#: controllers/databaseinstallcontroller.php:171
+msgid "Couldn\\'t find the table to update."
+msgstr "Couldn\\'t find the table to update."
+
+#: controllers/indexcontroller.php:141
+msgid ""
+"If the email adres you submitted is known, you will receive a link to reset "
+"your password."
+msgstr ""
+"If the email adres you submitted is known, you will receive a link to reset "
+"your password."
+
+#: controllers/installationcontroller.php:221
+msgid "All information is provided"
+msgstr "All information is provided"
+
+#: controllers/loggercontroller.php:128
+msgid ""
+"An error was encountered during the process of saving the following "
+"information to the log<br/>username:"
+msgstr ""
+"An error was encountered during the process of saving the following "
+"information to the log<br/>username:"
+
+#: controllers/loggercontroller.php:129
+msgid "<br/>ip:"
+msgstr "<br/>ip:"
+
+#: controllers/loggercontroller.php:130
+msgid "<br/>level:"
+msgstr "<br/>level:"
+
+#: controllers/loggercontroller.php:131
+msgid "<br/>website:"
+msgstr "<br/>website:"
+
+#: controllers/loggercontroller.php:132
+msgid "<br/>text:"
+msgstr "<br/>text:"
+
+#: controllers/loggercontroller.php:133
+msgid "<br>error:"
+msgstr "<br>error:"
+
+#: controllers/loggercontroller.php:134
+msgid "<br/>please look at it."
+msgstr "<br/>please look at it."
+
+#: controllers/loggercontroller.php:136
+msgid "An error was encountered"
+msgstr "An error was encountered"
+
+#: controllers/modulecontroller.php:65 library/errormessage.php:142
+msgid "You are not allowed to do this."
+msgstr "You are not allowed to do this."
+
+#: controllers/modulecontroller.php:127
+msgid "Are you sure to remove this module from the server?"
+msgstr "Are you sure to remove this module from the server?"
+
+#: controllers/modulecontroller.php:169
+msgid "Successfully activated the module."
+msgstr "Successfully activated the module."
+
+#: controllers/modulecontroller.php:174
+msgid "successfully deactivated the module."
+msgstr "successfully deactivated the module."
+
+#: controllers/personcontroller.php:134
+#: controllers/usermanagementcontroller.php:127
+msgid "Are you sure you want to delete this person?"
+msgstr "Are you sure you want to delete this person?"
+
+#: controllers/personcontroller.php:153
+msgid "Sorry, the email that you filled in is already in use."
+msgstr "Sorry, the email that you filled in is already in use."
+
+#: controllers/personcontroller.php:159
+msgid "Person successfully updated."
+msgstr "Person successfully updated."
+
+#: controllers/personcontroller.php:161
+msgid "Person successfully created."
+msgstr "Person successfully created."
+
+#: controllers/personcontroller.php:206
+msgid "You are not allowed to change this user."
+msgstr "You are not allowed to change this user."
+
+#: controllers/projectscontroller.php:135
+msgid "Are you sure you want to delete this project?"
+msgstr "Are you sure you want to delete this project?"
+
+#: controllers/projectscontroller.php:273
+msgid "Project successfully edited"
+msgstr "Project successfully edited"
+
+#: controllers/projectscontroller.php:657
+msgid ""
+"Sorry you can't download the file, If the this error persists contact the IT "
+"department."
+msgstr ""
+"Sorry you can't download the file, If the this error persists contact the IT "
+"department."
+
+#: controllers/settingscontroller.php:305
+msgid "Captcha could not be validated with the filled in values."
+msgstr "Captcha could not be validated with the filled in values."
+
+#: controllers/usermanagementcontroller.php:143
+msgid "Person successfully added"
+msgstr "Person successfully added"
+
+#: controllers/usermanagementcontroller.php:169
+msgid "Person successfully edited"
+msgstr "Person successfully edited"
+
+#: controllers/usermanagementcontroller.php:245
+msgid "Sorry, the email already used."
+msgstr "Sorry, the email already used."
+
+#: controllers/usermanagementcontroller.php:274
+msgid "This person is"
+msgstr "This person is"
+
+#: controllers/usermanagementcontroller.php:341
+msgid "email already used."
+msgstr "email already used."
+
+#: controllers/usermanagementcontroller.php:344 library/errormessage.php:110
+msgid "Admin level is to low to add a person with this admin level."
+msgstr "Admin level is to low to add a person with this admin level."
+
+#: controllers/usermanagementcontroller.php:355 views/settings/admin.php:128
+msgid "None"
+msgstr "None"
+
+#: controllers/usermanagementcontroller.php:355
+#: views/usermanagement/edit_add.php:70
+msgid "Basic employee"
+msgstr "Basic employee"
+
+#: controllers/usermanagementcontroller.php:356
+#: views/usermanagement/edit_add.php:71
+msgid "Admin"
+msgstr "Admin"
+
+#: controllers/usermanagementcontroller.php:356
+#: views/usermanagement/edit_add.php:72
+msgid "High level admin"
+msgstr "High level admin"
+
+#: library/datahandler.php:101
+msgid " is not (correctly) filled in. "
+msgstr " is not (correctly) filled in. "
+
+#: library/datahandler.php:161
+msgid "Saving failed, try again later. errorcode: "
+msgstr "Saving failed, try again later. errorcode: "
+
+#: library/datahandler.php:195
+msgid "no target set"
+msgstr "no target set"
+
+#: library/datahandler.php:204
+msgid "Update went wrong"
+msgstr "Update went wrong"
+
+#: library/datahandler.php:206
+msgid "Update string was empty"
+msgstr "Update string was empty"
+
+#: library/datahandler.php:540
+msgid "Something went wrong during updating the person."
+msgstr "Something went wrong during updating the person."
+
+#: library/errormessage.php:100
+msgid "Incorrect username or password."
+msgstr "Incorrect username or password."
+
+#: library/errormessage.php:101
+msgid "This username is already taken."
+msgstr "This username is already taken."
+
+#: library/errormessage.php:102
+msgid "Passwords do not match."
+msgstr "Passwords do not match."
+
+#: library/errormessage.php:103
+msgid "Your account is not activated yet."
+msgstr "Your account is not activated yet."
+
+#: library/errormessage.php:104
+msgid "Email failed to send."
+msgstr "Email failed to send."
+
+#: library/errormessage.php:105
+msgid "No valid email given or email is invalid."
+msgstr "No valid email given or email is invalid."
+
+#: library/errormessage.php:106
+msgid "Email is already registered."
+msgstr "mail is already registered."
+
+#: library/errormessage.php:107
+msgid "Please fill in the captcha."
+msgstr "Please fill in the captcha."
+
+#: library/errormessage.php:108
+msgid "Security code incorrect."
+msgstr "Security code incorrect."
+
+#: library/errormessage.php:109
+msgid "Can\\'t send emails."
+msgstr "Can\\'t send emails."
+
+#: library/errormessage.php:111
+msgid "Not allowed characters used in username."
+msgstr "Not allowed characters used in username."
+
+#: library/errormessage.php:112
+msgid "Username or email already registered."
+msgstr "Username or email already registered."
+
+#: library/errormessage.php:113
+msgid "Error in the values suplied."
+msgstr "Error in the values suplied."
+
+#: library/errormessage.php:114
+msgid "Incorrect values."
+msgstr "Incorrect values."
+
+#: library/errormessage.php:115
+msgid ""
+"Something went wrong. If this error persists, please contact an "
+"administrator."
+msgstr ""
+"Something went wrong. If this error persists, please contact an "
+"administrator."
+
+#: library/errormessage.php:116
+msgid "You do not have the rights to do this."
+msgstr "You do not have the rights to do this."
+
+#: library/errormessage.php:117
+msgid "Can\\'t removed installed plugins, please uninstall first."
+msgstr "Can\\'t removed installed plugins, please uninstall first."
+
+#: library/errormessage.php:118
+msgid "Timeslot already taken."
+msgstr "Timeslot already taken."
+
+#: library/errormessage.php:119
+msgid "This page does not exists."
+msgstr "This page does not exists."
+
+#: library/errormessage.php:120
+msgid "The company with this id is deleted!"
+msgstr "The company with this id is deleted!"
+
+#: library/errormessage.php:121
+msgid ""
+"Writing to config failed, you need to have the permission to write in the "
+"config folder."
+msgstr ""
+"Writing to config failed, you need to have the permission to write in the "
+"config folder."
+
+#: library/errormessage.php:122
+msgid ""
+"HTTPS cannot be forced on a server that has no HTTPS protocol. Please "
+"uncheck the checkbox."
+msgstr ""
+"HTTPS cannot be forced on a server that has no HTTPS protocol. Please "
+"uncheck the checkbox."
+
+#: library/errormessage.php:123
+msgid "Could not login to the database with these values."
+msgstr "Could not login to the database with these values."
+
+#: library/errormessage.php:124
+msgid ""
+"There were errors during the database installation. please contact us if the "
+"error persists."
+msgstr ""
+"There were errors during the database installation. please contact us if the "
+"error persists."
+
+#: library/errormessage.php:125
+msgid "There was an error during the deactivation of the module."
+msgstr "There was an error during the deactivation of the module."
+
+#: library/errormessage.php:126
+msgid "You need a module/modules for this module to work."
+msgstr "You need a module/modules for this module to work."
+
+#: library/errormessage.php:127
+msgid "This module is set up incorrectly."
+msgstr "This module is set up incorrectly."
+
+#: library/errormessage.php:128
+msgid "Something went wrong with database-update."
+msgstr "Something went wrong with database-update."
+
+#: library/errormessage.php:129
+msgid ""
+"Amount of files are not consistent with parameter given, please remove and "
+"reupload it. If this error persists, contact us."
+msgstr ""
+"Amount of files are not consistent with parameter given, please remove and "
+"reupload it. If this error persists, contact us."
+
+#: library/errormessage.php:130
+msgid "Configupdate was impossible."
+msgstr "Configupdate was impossible."
+
+#: library/errormessage.php:131
+msgid "The person with this id is deleted!"
+msgstr "The person with this id is deleted!"
+
+#: library/errormessage.php:132
+msgid "something went wrong during the account creation for this person."
+msgstr "something went wrong during the account creation for this person."
+
+#: library/errormessage.php:133
+msgid "Can\\'t use https. You will need to turn this on on the server."
+msgstr "Can\\'t use https. You will need to turn this on on the server."
+
+#: library/errormessage.php:134
+msgid ""
+"We were unable to edit the config file, if the error persists contact us."
+msgstr ""
+"We were unable to edit the config file, if the error persists contact us."
+
+#: library/errormessage.php:135
+msgid "There are errors in the email options."
+msgstr "There are errors in the email options."
+
+#: library/errormessage.php:136
+msgid "There are errors in the SMTP options."
+msgstr "There are errors in the SMTP options."
+
+#: library/errormessage.php:137
+msgid "There are errors in the external db options."
+msgstr "There are errors in the external db options."
+
+#: library/errormessage.php:138
+msgid "not active."
+msgstr "not active."
+
+#: library/errormessage.php:139
+msgid ""
+"Something went wrong with your account activation. The link you clicked is "
+"probably no longer active."
+msgstr ""
+"Something went wrong with your account activation. The link you clicked is "
+"probably no longer active."
+
+#: library/errormessage.php:140
+msgid "You are not allowed to delete this."
+msgstr "You are not allowed to delete this."
+
+#: library/errormessage.php:141
+msgid "You can not add this person twice, he's already added to the team."
+msgstr "You can not add this person twice, he's already added to the team."
+
+#: library/errormessage.php:143
+msgid "A general error occurred, please contact the site admin."
+msgstr "A general error occurred, please contact the site admin."
+
+#: library/errormessage.php:153
+msgid "An error occurred in a query in"
+msgstr "An error occurred in a query in"
+
+#: library/functions.php:432 library/functions.php:518
+msgid "Upload failed with error code "
+msgstr "Upload failed with error code "
+
+#: library/functions.php:434
+msgid ""
+"This type of file is not supported. Use a file with a type of JPG, JPEG or "
+"PNG. "
+msgstr ""
+"This type of file is not supported. Use a file with a type of JPG, JPEG or "
+"PNG. "
+
+#: library/functions.php:436
+msgid ""
+"This type of file is not supported. Use a file with a type of JPG, JPEG or "
+"PNG."
+msgstr ""
+"This type of file is not supported. Use a file with a type of JPG, JPEG or "
+"PNG."
+
+#: library/functions.php:438
+msgid "The size of the image is too large, select another image. "
+msgstr "The size of the image is too large, select another image. "
+
+#: library/functions.php:452
+msgid "Sorry, something went wrong, please try again later."
+msgstr "Sorry, something went wrong, please try again later."
+
+#: library/functions.php:455
+msgid "Log in. "
+msgstr "Log in. "
+
+#: library/functions.php:529
+msgid "Sorry, something went wrong. Try later again."
+msgstr "Sorry, something went wrong. Try later again."
+
+#: library/functions.php:532
+msgid "extension not allowed."
+msgstr "extension not allowed."
+
+#: library/functions.php:535
+msgid "Please log in first. "
+msgstr "Please log in first. "
+
+#: library/functions.php:597
+msgid "values were not correct"
+msgstr "values were not correct"
+
+#: library/functions.php:671
+msgid "bare minimum of values neccesary not given. "
+msgstr "bare minimum of values neccesary not given. "
+
+#: library/functions.php:693 library/functions.php:694
+msgid "testing SMTP"
+msgstr "testing SMTP"
+
+#: library/functions.php:696
+msgid "failed to send the email through SMTP. "
+msgstr "failed to send the email through SMTP. "
+
+#: library/functions.php:724
+msgid "use of not allowed definition/model."
+msgstr "use of not allowed definition/model."
+
+#: library/functions.php:730
+msgid "use of not allowed sql command."
+msgstr "use of not allowed sql command."
+
+#: views/companies/edit_add.php:31
+msgid "Here you can add a new company."
+msgstr "Here you can add a new company."
+
+#: views/companies/edit_add.php:33
+msgid "You can edit a company here"
+msgstr "You can edit a company here"
+
+#: views/companies/edit_add.php:80
+msgid "Edit"
+msgstr "Edit"
+
+#: views/companies/edit_add.php:80
+msgid "Add Company"
+msgstr "Add Company"
+
+#: views/companies/edit_add.php:83 views/companies/overzicht.php:86
+#: views/companies/visibility.php:56 views/module/error.php:14
+#: views/module/success.php:14 views/persons/edit_add.php:55
+#: views/persons/overzicht.php:36 views/persons/visibility.php:56
+#: views/projects/edit_add.php:87 views/projects/overzicht.php:69
+#: views/projects/visibility.php:61 views/timesheet/admin.php:10
+#: views/usermanagement/edit_add.php:33 views/usermanagement/overzicht.php:15
+msgid "Go back"
+msgstr "Go back"
+
+#: views/companies/edit_add.php:87 views/persons/index.php:41
+msgid "Company"
+msgstr "Company"
+
+#: views/companies/edit_add.php:104 views/companies/visibility.php:73
+#: views/installation/admincreate.php:87
+msgid "Company name"
+msgstr "Company name"
+
+#: views/companies/edit_add.php:107 views/persons/visibility.php:34
+msgid "Street"
+msgstr "Street"
+
+#: views/companies/edit_add.php:110
+msgid "number"
+msgstr "number"
+
+#: views/companies/edit_add.php:113 views/companies/visibility.php:35
+#: views/persons/edit_add.php:115 views/persons/visibility.php:37
+msgid "1234 AB"
+msgstr "1234 AB"
+
+#: views/companies/edit_add.php:116 views/companies/visibility.php:36
+#: views/persons/edit_add.php:118 views/persons/visibility.php:38
+msgid "City name"
+msgstr "City name"
+
+#: views/companies/edit_add.php:119 views/companies/visibility.php:38
+#: views/persons/edit_add.php:121 views/persons/visibility.php:40
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: views/companies/edit_add.php:122 views/companies/visibility.php:37
+#: views/persons/edit_add.php:124 views/persons/visibility.php:39
+msgid "06 12345678"
+msgstr "06 12345678"
+
+#: views/companies/edit_add.php:125 views/companies/visibility.php:42
+#: views/persons/edit_add.php:147 views/persons/visibility.php:42
+msgid "https://www.website.com"
+msgstr "https://www.website.com"
+
+#: views/companies/edit_add.php:130
+msgid "This is my own company"
+msgstr "This is my own company"
+
+#: views/companies/edit_add.php:149
+msgid "IBAN"
+msgstr "IBAN"
+
+#: views/companies/edit_add.php:152
+msgid "Chamber of Commerce"
+msgstr "Chamber of Commerce"
+
+#: views/companies/edit_add.php:155
+msgid "VAT"
+msgstr "VAT"
+
+#: views/companies/edit_add.php:167 views/persons/edit_add.php:135
+msgid " https://www.facebook.com/linkname"
+msgstr " https://www.facebook.com/linkname"
+
+#: views/companies/edit_add.php:170 views/persons/edit_add.php:138
+msgid " https://www.twitter.com/linkname"
+msgstr " https://www.twitter.com/linkname"
+
+#: views/companies/edit_add.php:173 views/persons/edit_add.php:141
+msgid " https://www.youtube.com/linkname"
+msgstr " https://www.youtube.com/linkname"
+
+#: views/companies/edit_add.php:177 views/persons/edit_add.php:144
+msgid " https://www.linkdin.com/linkname"
+msgstr " https://www.linkdin.com/linkname"
+
+#: views/companies/edit_add.php:186 views/persons/edit_add.php:159
+#: views/projects/edit_add.php:348 views/usermanagement/edit_add.php:95
+msgid "SAVE"
+msgstr "SAVE"
+
+#: views/companies/edit_add.php:186 views/persons/edit_add.php:159
+#: views/projects/edit_add.php:348 views/usermanagement/edit_add.php:95
+msgid "CREATE"
+msgstr "CREATE"
+
+#: views/companies/index.php:44
+msgid "ADD COMPANY"
+msgstr "ADD COMPANY"
+
+#: views/companies/index.php:48
+msgid "Overview companies"
+msgstr "Overview companies"
+
+#: views/companies/index.php:50
+msgid "Here you have the overview off all companies in the system"
+msgstr "Here you have the overview off all companies in the system"
+
+#: views/companies/index.php:75 views/module/index.php:33
+#: views/persons/index.php:38 views/projects/index.php:52
+#: views/usermanagement/index.php:29
+msgid "id"
+msgstr "id"
+
+#: views/companies/index.php:75 views/module/index.php:33
+#: views/persons/index.php:38 views/projects/index.php:52
+#: views/usermanagement/index.php:29
+msgid "ID"
+msgstr "ID"
+
+#: views/companies/index.php:76
+msgid "Name company"
+msgstr "Name company"
+
+#: views/companies/index.php:77
+msgid "Logo and name"
+msgstr "Logo and name"
+
+#: views/companies/index.php:81
+msgid "Website company"
+msgstr "Website company"
+
+#: views/companies/index.php:81 views/persons/index.php:67
+msgid "Website"
+msgstr "Website"
+
+#: views/companies/index.php:84
+msgid "Contact company"
+msgstr "Contact company"
+
+#: views/companies/index.php:84 views/persons/index.php:75
+msgid "Contact"
+msgstr "Contact"
+
+#: views/companies/index.php:87
+msgid "Address company"
+msgstr "Address company"
+
+#: views/companies/index.php:87 views/persons/index.php:43
+msgid "Address"
+msgstr "Address"
+
+#: views/companies/index.php:90 views/persons/index.php:53
+msgid "City company"
+msgstr "City company"
+
+#: views/companies/index.php:90 views/persons/index.php:53
+msgid "City"
+msgstr "City"
+
+#: views/companies/index.php:93 views/persons/index.php:58
+msgid "Country company"
+msgstr "Country company"
+
+#: views/companies/index.php:93 views/persons/index.php:58
+msgid "Country"
+msgstr "Country"
+
+#: views/companies/index.php:96
+msgid "VAT nr company"
+msgstr "VAT nr company"
+
+#: views/companies/index.php:96
+msgid "VAT nr"
+msgstr "VAT nr"
+
+#: views/companies/index.php:99
+msgid "Iban company"
+msgstr "Iban company"
+
+#: views/companies/index.php:99
+msgid "Iban"
+msgstr "Iban"
+
+#: views/companies/index.php:102
+msgid "Kvk company"
+msgstr "Kvk company"
+
+#: views/companies/index.php:102
+msgid "Kvk"
+msgstr "Kvk"
+
+#: views/companies/index.php:105 views/persons/index.php:77
+#: views/projects/index.php:74 views/usermanagement/index.php:37
+msgid "Edit/Delete"
+msgstr "Edit/Delete"
+
+#: views/companies/overzicht.php:80
+msgid "Company profile"
+msgstr "Company profile"
+
+#: views/companies/overzicht.php:81
+msgid ""
+"Below you can view the company profile, if you want to edit the profile use "
+"the edit button on the bottom left."
+msgstr ""
+"Below you can view the company profile, if you want to edit the profile use "
+"the edit button on the bottom left."
+
+#: views/companies/overzicht.php:83
+msgid ""
+"To add employees to a company, fill in the company at the people's profile."
+msgstr ""
+"To add employees to a company, fill in the company at the people's profile."
+
+#: views/companies/overzicht.php:160
+msgid "This is my company:"
+msgstr "This is my company:"
+
+#: views/companies/overzicht.php:212
+msgid "EDIT COMPANY"
+msgstr "EDIT COMPANY"
+
+#: views/companies/overzicht.php:222
+msgid "Persons"
+msgstr "Persons"
+
+#: views/companies/overzicht.php:259
+msgid ""
+"Are you sure you want to remove this person from this company? (This does "
+"not delete the person!)"
+msgstr ""
+"Are you sure you want to remove this person from this company? (This does "
+"not delete the person!)"
+
+#: views/companies/overzicht.php:268
+msgid "ADD PERSON TO COMPANY"
+msgstr "ADD PERSON TO COMPANY"
+
+#: views/companies/overzicht.php:277 views/sidebar.php:45 views/sidebar.php:52
+msgid "Projects"
+msgstr "Projects"
+
+#: views/companies/visibility.php:34 views/persons/visibility.php:34
+msgid "Address:"
+msgstr "Address:"
+
+#: views/companies/visibility.php:34 views/persons/edit_add.php:88
+msgid "Street 23"
+msgstr "Street 23"
+
+#: views/companies/visibility.php:35 views/persons/visibility.php:37
+msgid "Postal Code:"
+msgstr "Postal Code:"
+
+#: views/companies/visibility.php:36 views/persons/visibility.php:38
+msgid "City:"
+msgstr "City:"
+
+#: views/companies/visibility.php:37 views/persons/visibility.php:39
+msgid "Phone number:"
+msgstr "Phone number:"
+
+#: views/companies/visibility.php:38 views/persons/visibility.php:40
+msgid "Country:"
+msgstr "Country:"
+
+#: views/companies/visibility.php:39
+msgid "Vat number:"
+msgstr "Vat number:"
+
+#: views/companies/visibility.php:39 views/companies/visibility.php:40
+#: views/companies/visibility.php:41
+msgid "123456798"
+msgstr "123456798"
+
+#: views/companies/visibility.php:40
+msgid "Bank account nr.:"
+msgstr "Bank account nr.:"
+
+#: views/companies/visibility.php:41
+msgid "Chamber of commerce:"
+msgstr "Chamber of commerce:"
+
+#: views/companies/visibility.php:42 views/persons/visibility.php:42
+msgid "Website:"
+msgstr "Website:"
+
+#: views/companies/visibility.php:43 views/persons/visibility.php:43
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: views/companies/visibility.php:43 views/persons/visibility.php:43
+msgid "https://www.facebook.com/linkname"
+msgstr "https://www.facebook.com/linkname"
+
+#: views/companies/visibility.php:44 views/persons/visibility.php:44
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: views/companies/visibility.php:44 views/persons/visibility.php:44
+msgid "https://www.twitter.com/linkname"
+msgstr "https://www.twitter.com/linkname"
+
+#: views/companies/visibility.php:45 views/persons/visibility.php:45
+msgid "Youtube:"
+msgstr "Youtube:"
+
+#: views/companies/visibility.php:45 views/persons/visibility.php:45
+msgid "https://www.youtube.com/linkname"
+msgstr "https://www.youtube.com/linkname"
+
+#: views/companies/visibility.php:46 views/persons/visibility.php:46
+msgid "LinkedIn:"
+msgstr "LinkedIn:"
+
+#: views/companies/visibility.php:46 views/persons/visibility.php:46
+msgid "https://www.linkedin.com/linkname"
+msgstr "https://www.linkedin.com/linkname"
+
+#: views/companies/visibility.php:52 views/persons/visibility.php:52
+#: views/projects/visibility.php:57
+msgid "Set what you see."
+msgstr "Set what you see."
+
+#: views/companies/visibility.php:53 views/persons/visibility.php:53
+#: views/projects/visibility.php:58
+msgid "Here you can customize the fields which will be visible in de screens."
+msgstr "Here you can customize the fields which will be visible in de screens."
+
+#: views/companies/visibility.php:54 views/persons/visibility.php:54
+#: views/projects/visibility.php:59
+msgid "green is visible, red is invisible in the other screens."
+msgstr "green is visible, red is invisible in the other screens."
+
+#: views/companies/visibility.php:60 views/persons/visibility.php:60
+#: views/projects/visibility.php:66
+msgid "Fields"
+msgstr "Fields"
+
+#: views/companies/visibility.php:70
+msgid "Company name:"
+msgstr "Company name:"
+
+#: views/dashboard/index.php:63
+msgid "Upload picture"
+msgstr "Upload picture"
+
+#: views/dashboard/index.php:73
+msgid "Statistics"
+msgstr "Statistics"
+
+#: views/dashboard/index.php:84
+msgid "Worked time today"
+msgstr "Worked time today"
+
+#: views/dashboard/index.php:86
+msgid "From yesterday"
+msgstr "From yesterday"
+
+#: views/dashboard/index.php:91
+msgid "Projects in progress"
+msgstr "Projects in progress"
+
+#: views/dashboard/index.php:97
+msgid "Projects waiting for feedback"
+msgstr "Projects waiting for feedback"
+
+#: views/dashboard/index.php:103
+msgid "Projects in test"
+msgstr "Projects in test"
+
+#: views/dashboard/index.php:114
+msgid "Active projects"
+msgstr "Active projects"
+
+#: views/dashboard/index.php:120
+msgid "Project"
+msgstr "Project"
+
+#: views/dashboard/index.php:121
+msgid "Assigned to"
+msgstr "Assigned to"
+
+#: views/dashboard/index.php:155
+msgid "My To-do list"
+msgstr "My To-do list"
+
+#: views/dashboard/index.php:157
+msgid "Table with active todos"
+msgstr "Table with active todos"
+
+#: views/dashboard/index.php:166
+msgid "Loading"
+msgstr "Loading"
+
+#: views/dashboard/index.php:174
+msgid "All done!"
+msgstr "All done!"
+
+#: views/dashboard/index.php:184 views/projects/overzicht.php:463
+msgid "Edit Todo"
+msgstr "Edit Todo"
+
+#: views/dashboard/index.php:194 views/projects/overzicht.php:392
+#: views/projects/overzicht.php:473
+msgid "Low"
+msgstr "Low"
+
+#: views/dashboard/index.php:195 views/projects/overzicht.php:393
+#: views/projects/overzicht.php:474
+msgid "Medium"
+msgstr "Medium"
+
+#: views/dashboard/index.php:196 views/projects/overzicht.php:394
+#: views/projects/overzicht.php:475
+msgid "High"
+msgstr "High"
+
+#: views/dashboard/index.php:201 views/projects/overzicht.php:480
+msgid "Unassinged"
+msgstr "Unassinged"
+
+#: views/dashboard/index.php:209 views/projects/overzicht.php:488
+msgid "Delete"
+msgstr "Delete"
+
+#: views/dashboard/index.php:213 views/projects/overzicht.php:491
+#: views/projects/overzicht.php:524 views/timesheet/admin.php:139
+#: views/timesheet/index.php:154 views/timesheet/specific.php:128
+msgid "Save"
+msgstr "Save"
+
+#: views/index/activated.php:36
+msgid "Succes:"
+msgstr "Succes:"
+
+#: views/index/activated.php:42
+msgid "Your account has been successfully activated. "
+msgstr "Your account has been successfully activated. "
+
+#: views/index/activated.php:43
+msgid "To use all the features on this website you must login."
+msgstr "To use all the features on this website you must login."
+
+#: views/index/activated.php:44
+msgid "You can do that with the credentials you have received."
+msgstr "You can do that with the credentials you have received."
+
+#: views/index/activated.php:45
+msgid "You will be redirected to the login page."
+msgstr "You will be redirected to the login page."
+
+#: views/index/activated.php:46
+msgid "When you do not get redirected please click:"
+msgstr "When you do not get redirected please click:"
+
+#: views/index/activated.php:48
+msgid "Login"
+msgstr "Login"
+
+#: views/index/alreadyloggedin.php:35
+msgid "Already logged in:"
+msgstr "Already logged in:"
+
+#: views/index/alreadyloggedin.php:41
+msgid ""
+"You are already logged-in. This website does not support logging in multiple "
+"times."
+msgstr ""
+"You are already logged-in. This website does not support logging in multiple "
+"times."
+
+#: views/index/blocked.php:35
+msgid "You're blocked"
+msgstr "You're blocked"
+
+#: views/index/blocked.php:40
+msgid "You tried to login too many times. Try again later."
+msgstr "You tried to login too many times. Try again later."
+
+#: views/index/index.php:41
+msgid "Customer project portal"
+msgstr "Customer project portal"
+
+#: views/index/index.php:46
+msgid "Welcome to the "
+msgstr "Welcome to the "
+
+#: views/index/index.php:46
+msgid " development and project management interface."
+msgstr " development and project management interface."
+
+#: views/index/index.php:47
+msgid ""
+"If you are a customer and want to view your projects under development, "
+"please login using the form with your user name and password that is emailed "
+"to you."
+msgstr ""
+"If you are a customer and want to view your projects under development, "
+"please login using the form with your user name and password that is emailed "
+"to you."
+
+#: views/index/index.php:48
+msgid ""
+"If you lost your password or did not receive an email, please create a "
+"ticket in our"
+msgstr ""
+"If you lost your password or did not receive an email, please create a "
+"ticket in our"
+
+#: views/index/index.php:52
+msgid "support section"
+msgstr "support section"
+
+#: views/index/index.php:57
+msgid "Login for customers"
+msgstr "Login for customers"
+
+#: views/index/index.php:67
+msgid "Proceed to secure backend."
+msgstr "Proceed to secure backend."
+
+#: views/index/index.php:73
+msgid "If you are an employee of "
+msgstr "If you are an employee of "
+
+#: views/index/index.php:73
+msgid ", you can continue to login to the backend."
+msgstr ", you can continue to login to the backend."
+
+#: views/index/index.php:77
+msgid "Login for employees"
+msgstr "Login for employees"
+
+#: views/index/login.php:46
+msgid "Log in with device."
+msgstr "Log in with device."
+
+#: views/index/login.php:46
+msgid "Log in with captcha."
+msgstr "Log in with captcha."
+
+#: views/index/login.php:46
+msgid "Log in to your account."
+msgstr "Log in to your account."
+
+#: views/index/login.php:58
+msgid "Password"
+msgstr "סיסמה:"
+
+#: views/index/login.php:68
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: views/index/login.php:69
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+#: views/index/notactivated.php:37
+msgid "If you continue to receive this notification, please contact."
+msgstr "If you continue to receive this notification, please contact."
+
+#: views/index/passwordset.php:33
+msgid "Success:"
+msgstr "Success:"
+
+#: views/index/passwordset.php:38
+msgid "You have successfully set/changed your password. "
+msgstr "You have successfully set/changed your password. "
+
+#: views/index/passwordset.php:39
+msgid "You'll soon be redirected to the login page. "
+msgstr "You'll soon be redirected to the login page. "
+
+#: views/index/passwordset.php:40
+msgid "If this doesn't happen you can click "
+msgstr "If this doesn't happen you can click "
+
+#: views/index/passwordset.php:41
+msgid "here"
+msgstr "here"
+
+#: views/index/passwordset.php:41
+msgid " to go to the login page."
+msgstr " to go to the login page."
+
+#: views/index/requestpassword.php:36
+msgid "RESET YOUR PASSWORD."
+msgstr "RESET YOUR PASSWORD."
+
+#: views/index/requestpassword.php:42
+msgid "E-mail"
+msgstr "E-mail"
+
+#: views/index/requestpassword.php:45
+msgid "SEND REQUEST"
+msgstr "SEND REQUEST"
+
+#: views/index/setpassword.php:45
+msgid "RESET YOUR PASSWORD"
+msgstr "RESET YOUR PASSWORD"
+
+#: views/index/setpassword.php:50
+msgid ""
+"Password must contain a uppercase letter, lowercase letter, number and must "
+"be at least 6 long."
+msgstr ""
+"Password must contain a uppercase letter, lowercase letter, number and must "
+"be at least 6 long."
+
+#: views/index/setpassword.php:66
+msgid "If you have no linked devices, please check this"
+msgstr "If you have no linked devices, please check this"
+
+#: views/index/setpassword.php:71
+msgid "SEND"
+msgstr "SEND"
+
+#: views/index/thankyou.php:34
+msgid "successfully reported"
+msgstr "successfully reported"
+
+#: views/index/thankyou.php:39
+msgid "Thank you for helping us keep the system safe."
+msgstr "Thank you for helping us keep the system safe."
+
+#: views/installation/admincreate.php:68
+msgid "CREATE ADMIN ACCOUNT"
+msgstr "CREATE ADMIN ACCOUNT"
+
+#: views/installation/admincreate.php:72
+msgid "Installation was successful! Now we need to create your admin account. "
+msgstr ""
+"Installation was successful! Now we need to create your admin account. "
+
+#: views/installation/admincreate.php:75 views/usermanagement/edit_add.php:58
+#: views/usermanagement/index.php:31
+msgid "Username"
+msgstr "Username"
+
+#: views/installation/admincreate.php:79
+msgid "email@adres.com"
+msgstr "email@adres.com"
+
+#: views/installation/admincreate.php:83
+msgid "Name Surname"
+msgstr "Name Surname"
+
+#: views/installation/admincreate.php:114
+#: views/installation/admincreate.php:120 views/installation/index.php:113
+#: views/installation/index.php:119
+msgid " Warning"
+msgstr " Warning"
+
+#: views/installation/admincreate.php:115 views/installation/index.php:114
+msgid ""
+"You are currently using http. for security reasons we suggest to change the "
+"url to https."
+msgstr ""
+"You are currently using http. for security reasons we suggest to change the "
+"url to https."
+
+#: views/installation/index.php:63
+msgid "RAM MANAGEMENT CONFIGURATION"
+msgstr "RAM MANAGEMENT CONFIGURATION"
+
+#: views/installation/index.php:66
+msgid ""
+"Welcome and thank you for choosing RAM project management! Please provide "
+"the following information to start the installation.  "
+msgstr ""
+"Welcome and thank you for choosing RAM project management! Please provide "
+"the following information to start the installation.  "
+
+#: views/installation/index.php:69
+msgid "https://www.website.org"
+msgstr "https://www.website.org"
+
+#: views/installation/index.php:73
+msgid "Database host (localhost)"
+msgstr "Database host (localhost)"
+
+#: views/installation/index.php:77
+msgid "Database name"
+msgstr "Database name"
+
+#: views/installation/index.php:81
+msgid "Database username"
+msgstr "Database username"
+
+#: views/installation/index.php:86
+msgid "Database password"
+msgstr "Database password"
+
+#: views/installation/index.php:90
+msgid "port"
+msgstr "port"
+
+#: views/installation/index.php:97
+msgid "Force the use of https?"
+msgstr "Force the use of https?"
+
+#: views/installation/index.php:102
+msgid "INSTALL"
+msgstr "INSTALL"
+
+#: views/installation/success.php:34
+msgid "Just a moment"
+msgstr "Just a moment"
+
+#: views/installation/success.php:39
+msgid ""
+"The system is saving everything for you, please wait a few seconds. You will "
+"soon be redirected to the dashboard."
+msgstr ""
+"The system is saving everything for you, please wait a few seconds. You will "
+"soon be redirected to the dashboard."
+
+#: views/module/error.php:11
+msgid "Error in module"
+msgstr "Error in module"
+
+#: views/module/error.php:12
+msgid "There was an error in the installation of the module"
+msgstr "There was an error in the installation of the module"
+
+#: views/module/index.php:4
+msgid "Add module"
+msgstr "Add module"
+
+#: views/module/index.php:7
+msgid "Overview modules"
+msgstr "Overview modules"
+
+#: views/module/index.php:8
+msgid "Here you have the overview off all modules in the system"
+msgstr "Here you have the overview off all modules in the system"
+
+#: views/module/index.php:34
+msgid "Name module"
+msgstr "Name module"
+
+#: views/module/index.php:34 views/persons/index.php:39
+#: views/projects/overzicht.php:235 views/usermanagement/index.php:30
+msgid "Name"
+msgstr "Name"
+
+#: views/module/index.php:35
+msgid "Description module"
+msgstr "Description module"
+
+#: views/module/index.php:35
+msgid "Description"
+msgstr "Description"
+
+#: views/module/index.php:36
+msgid "Version module"
+msgstr "Version module"
+
+#: views/module/index.php:36
+msgid "Version"
+msgstr "Version"
+
+#: views/module/index.php:37
+msgid "Whether the module is active."
+msgstr "Whether the module is active."
+
+#: views/module/index.php:37 views/usermanagement/index.php:34
+msgid "Active"
+msgstr "Active"
+
+#: views/module/index.php:51
+msgid "Upload Module"
+msgstr "Upload Module"
+
+#: views/module/success.php:11
+msgid "Module successfully installed"
+msgstr "Module successfully installed"
+
+#: views/module/success.php:12
+msgid "The module was successfully installed"
+msgstr "The module was successfully installed"
+
+#: views/persons/edit_add.php:52 views/usermanagement/edit_add.php:30
+msgid " a person"
+msgstr " a person"
+
+#: views/persons/edit_add.php:58 views/usermanagement/edit_add.php:38
+msgid "Go to settings"
+msgstr "Go to settings"
+
+#: views/persons/edit_add.php:61 views/usermanagement/edit_add.php:39
+msgid "Email sending is disabled"
+msgstr "Email sending is disabled"
+
+#: views/persons/edit_add.php:62
+msgid ""
+"You'll need to activate email sending if you want them to get accounts to "
+"this system."
+msgstr ""
+"You'll need to activate email sending if you want them to get accounts to "
+"this system."
+
+#: views/persons/edit_add.php:68 views/projects/edit_add.php:96
+#: views/usermanagement/edit_add.php:46
+msgid "Edit  "
+msgstr "Edit  "
+
+#: views/persons/edit_add.php:68
+msgid "Add Person"
+msgstr "Add Person"
+
+#: views/persons/edit_add.php:85 views/persons/visibility.php:71
+msgid "Person's name"
+msgstr "Person's name"
+
+#: views/persons/edit_add.php:91
+msgid "Street number"
+msgstr "Street number"
+
+#: views/persons/edit_add.php:98 views/persons/edit_add.php:99
+#: views/persons/edit_add.php:101 views/persons/edit_add.php:102
+msgid "company"
+msgstr "company"
+
+#: views/persons/edit_add.php:109 views/usermanagement/edit_add.php:61
+msgid "email@address.com"
+msgstr "email@address.com"
+
+#: views/persons/edit_add.php:112 views/persons/visibility.php:41
+msgid "CEO"
+msgstr "CEO"
+
+#: views/persons/index.php:9
+msgid "ADD PERSON"
+msgstr "ADD PERSON"
+
+#: views/persons/index.php:13
+msgid "Overview persons"
+msgstr "Overview persons"
+
+#: views/persons/index.php:14
+msgid "Here you have the overview off all persons in the system"
+msgstr "Here you have the overview off all persons in the system"
+
+#: views/persons/index.php:39
+msgid "Name person"
+msgstr "Name person"
+
+#: views/persons/index.php:40
+msgid "Phone number"
+msgstr "Phone number"
+
+#: views/persons/index.php:41
+msgid "Person company"
+msgstr "Person company"
+
+#: views/persons/index.php:43
+msgid "Address person"
+msgstr "Address person"
+
+#: views/persons/index.php:48
+msgid "Postal code person"
+msgstr "Postal code person"
+
+#: views/persons/index.php:48
+msgid "Postal code"
+msgstr "Postal code"
+
+#: views/persons/index.php:60
+msgid "Email person"
+msgstr "Email person"
+
+#: views/persons/index.php:60 views/usermanagement/index.php:32
+msgid "Email"
+msgstr "Email"
+
+#: views/persons/index.php:62
+msgid "Title person"
+msgstr "Title person"
+
+#: views/persons/index.php:62
+msgid "Title"
+msgstr "Title"
+
+#: views/persons/index.php:67
+msgid "Website person"
+msgstr "Website person"
+
+#: views/persons/index.php:75
+msgid "Contact person"
+msgstr "Contact person"
+
+#: views/persons/overzicht.php:28
+msgid "Your profile"
+msgstr "Your profile"
+
+#: views/persons/overzicht.php:28
+msgid "Customer profile"
+msgstr "Customer profile"
+
+#: views/persons/overzicht.php:30
+msgid ""
+"Below you can view the information the system has about you. If you want to "
+"add information or edit it click on the edit button below."
+msgstr ""
+"Below you can view the information the system has about you. If you want to "
+"add information or edit it click on the edit button below."
+
+#: views/persons/overzicht.php:32
+msgid ""
+"Below you can view the customer profile, if you want to edit the profile use "
+"the edit button on the bottom left. "
+msgstr ""
+"Below you can view the customer profile, if you want to edit the profile use "
+"the edit button on the bottom left. "
+
+#: views/persons/overzicht.php:126
+msgid "EDIT PROFILE"
+msgstr "EDIT PROFILE"
+
+#: views/persons/overzicht.php:135
+msgid "User"
+msgstr "User"
+
+#: views/persons/overzicht.php:186
+msgid "My projects"
+msgstr "My projects"
+
+#: views/persons/visibility.php:35
+msgid "Street number:"
+msgstr "Street number:"
+
+#: views/persons/visibility.php:35
+msgid "23 or 23A"
+msgstr "23 or 23A"
+
+#: views/persons/visibility.php:36
+msgid "Company:"
+msgstr "Company:"
+
+#: views/persons/visibility.php:36
+msgid "Van stein en groentjes"
+msgstr "Van stein en groentjes"
+
+#: views/persons/visibility.php:41
+msgid "Position/Title:"
+msgstr "Position/Title:"
+
+#: views/persons/visibility.php:69
+msgid "Person's name:"
+msgstr "Person's name:"
+
+#: views/projects/edit_add.php:90
+msgid " a project"
+msgstr " a project"
+
+#: views/projects/edit_add.php:96
+msgid "Add project"
+msgstr "Add project"
+
+#: views/projects/edit_add.php:106
+msgid "* Leave empty for no change."
+msgstr "* Leave empty for no change."
+
+#: views/projects/edit_add.php:114
+msgid "Name:"
+msgstr "Name:"
+
+#: views/projects/edit_add.php:116 views/projects/index.php:54
+#: views/projects/visibility.php:76
+msgid "Project name"
+msgstr "Project name"
+
+#: views/projects/edit_add.php:122 views/projects/overzicht.php:107
+#: views/projects/visibility.php:40
+msgid "Budget:"
+msgstr "Budget:"
+
+#: views/projects/edit_add.php:124
+msgid "Project budget"
+msgstr "Project budget"
+
+#: views/projects/edit_add.php:130 views/projects/overzicht.php:99
+#: views/projects/visibility.php:42
+msgid "Customer:"
+msgstr "Customer:"
+
+#: views/projects/edit_add.php:133 views/usermanagement/edit_add.php:69
+msgid "Customer"
+msgstr "Customer"
+
+#: views/projects/edit_add.php:144 views/projects/visibility.php:51
+msgid "Status:"
+msgstr "Status:"
+
+#: views/projects/edit_add.php:157 views/projects/overzicht.php:115
+#: views/projects/visibility.php:47
+msgid "Contractor:"
+msgstr "Contractor:"
+
+#: views/projects/edit_add.php:180 views/projects/overzicht.php:122
+#: views/projects/visibility.php:39
+msgid "Deadline:"
+msgstr "Deadline:"
+
+#: views/projects/edit_add.php:182
+msgid "dd/mm/yyyy"
+msgstr "dd/mm/yyyy"
+
+#: views/projects/edit_add.php:188 views/projects/visibility.php:41
+msgid "Hourly wage:"
+msgstr "Hourly wage:"
+
+#: views/projects/edit_add.php:190
+msgid "Price per hour"
+msgstr "Price per hour"
+
+#: views/projects/edit_add.php:196 views/projects/visibility.php:45
+msgid "S&O Hourly:"
+msgstr "S&O Hourly:"
+
+#: views/projects/edit_add.php:198
+msgid "SO hourly Input"
+msgstr "SO hourly Input"
+
+#: views/projects/edit_add.php:204 views/projects/visibility.php:46
+msgid "S&O Description:"
+msgstr "S&O Description:"
+
+#: views/projects/edit_add.php:206
+msgid "SO description"
+msgstr "ThesesSO description"
+
+#: views/projects/edit_add.php:212 views/projects/overzicht.php:152
+msgid "Customer Main Contact:"
+msgstr "Customer Main Contact:"
+
+#: views/projects/edit_add.php:234 views/projects/overzicht.php:158
+msgid "Contractor Main Contact:"
+msgstr "Contractor Main Contact:"
+
+#: views/projects/edit_add.php:249 views/projects/overzicht.php:163
+#: views/projects/visibility.php:49
+msgid "Intermediate:"
+msgstr "Intermediate:"
+
+#: views/projects/edit_add.php:271 views/projects/overzicht.php:168
+msgid "Main resposiblity of:"
+msgstr "Main resposiblity of:"
+
+#: views/projects/edit_add.php:294 views/projects/overzicht.php:186
+#: views/projects/overzicht.php:212 views/projects/visibility.php:34
+msgid "Test page:"
+msgstr "Test page:"
+
+#: views/projects/edit_add.php:296
+msgid "www.developementlink.com"
+msgstr "www.developementlink.com"
+
+#: views/projects/edit_add.php:302 views/projects/overzicht.php:191
+#: views/projects/visibility.php:35
+msgid "Android link:"
+msgstr "Android link:"
+
+#: views/projects/edit_add.php:304
+msgid "www.android.com/link"
+msgstr "www.android.com/link"
+
+#: views/projects/edit_add.php:310 views/projects/visibility.php:36
+msgid "iOS link:"
+msgstr "iOS link:"
+
+#: views/projects/edit_add.php:312
+msgid "www.apple.com/link"
+msgstr "www.apple.com/link"
+
+#: views/projects/edit_add.php:318
+msgid "Respository link:"
+msgstr "Respository link:"
+
+#: views/projects/edit_add.php:320
+msgid "www.bitbucket.com/link"
+msgstr "www.bitbucket.com/link"
+
+#: views/projects/edit_add.php:326 views/projects/visibility.php:38
+msgid "Slug:"
+msgstr "Slug:"
+
+#: views/projects/edit_add.php:328
+msgid "n/a"
+msgstr "n/a"
+
+#: views/projects/edit_add.php:334 views/projects/overzicht.php:174
+#: views/projects/visibility.php:52
+msgid "Description:"
+msgstr "Description:"
+
+#: views/projects/index.php:13
+msgid "ADD PROJECT"
+msgstr "ADD PROJECT"
+
+#: views/projects/index.php:17
+msgid "Overview projects"
+msgstr "Overview projects"
+
+#: views/projects/index.php:18
+msgid "Here you have the overview off all projects in the system"
+msgstr "Here you have the overview off all projects in the system"
+
+#: views/projects/index.php:25
+msgid "Add your first project!"
+msgstr "Add your first project!"
+
+#: views/projects/index.php:53
+msgid "Logo"
+msgstr "Logo"
+
+#: views/projects/index.php:54
+msgid "Name project"
+msgstr "Name project"
+
+#: views/projects/index.php:55
+msgid "Status project"
+msgstr "Status project"
+
+#: views/projects/index.php:55 views/projects/visibility.php:31
+msgid "Status"
+msgstr "Status"
+
+#: views/projects/index.php:57
+msgid "Deadline project"
+msgstr "Deadline project"
+
+#: views/projects/index.php:57
+msgid "Deadline"
+msgstr "Deadline"
+
+#: views/projects/index.php:62
+msgid "Contractor project"
+msgstr "Contractor project"
+
+#: views/projects/index.php:62
+msgid "Contractor"
+msgstr "Contractor"
+
+#: views/projects/index.php:67
+msgid "Contractor main contact project"
+msgstr "Contractor main contact project"
+
+#: views/projects/index.php:67
+msgid "Contractor main contact"
+msgstr "Contractor main contact"
+
+#: views/projects/index.php:72
+msgid "Responsible for project"
+msgstr "Responsible for project"
+
+#: views/projects/index.php:72
+msgid "Main responsible"
+msgstr "Main responsible"
+
+#: views/projects/overzicht.php:71
+msgid "Project overview"
+msgstr "Project overview"
+
+#: views/projects/overzicht.php:72
+msgid ""
+"Here you will find a complete overview of a specific project.</br>\n"
+"            You can add Todo tasks, send a ticket to the complete project "
+"team, or chat with other team members.</br>\n"
+"            While you are on this page, you can log the time to indicate you "
+"work on this project."
+msgstr ""
+"Here you will find a complete overview of a specific project.</br>\n"
+"            You can add Todo tasks, send a ticket to the complete project "
+"team, or chat with other team members.</br>\n"
+"            While you are on this page, you can log the time to indicate you "
+"work on this project."
+
+#: views/projects/overzicht.php:81
+msgid "Project status"
+msgstr "Project status"
+
+#: views/projects/overzicht.php:127
+msgid "Last status change:"
+msgstr "Last status change:"
+
+#: views/projects/overzicht.php:132
+msgid "Hours worked:"
+msgstr "Hours worked:"
+
+#: views/projects/overzicht.php:137
+msgid "Hourly Wage:"
+msgstr "Hourly Wage:"
+
+#: views/projects/overzicht.php:142
+msgid "SO Hourly:"
+msgstr "SO Hourly:"
+
+#: views/projects/overzicht.php:147
+msgid "SO Description:"
+msgstr "SO Description:"
+
+#: views/projects/overzicht.php:198
+msgid "IOS link:"
+msgstr "IOS link:"
+
+#: views/projects/overzicht.php:205
+msgid "Repository link:"
+msgstr "Repository link:"
+
+#: views/projects/overzicht.php:231
+msgid "Project team"
+msgstr "Project team"
+
+#: views/projects/overzicht.php:244
+msgid "Are you sure to delete this person?"
+msgstr "Are you sure to delete this person?"
+
+#: views/projects/overzicht.php:254
+msgid "add person to project"
+msgstr "add person to project"
+
+#: views/projects/overzicht.php:268
+msgid "Attachments"
+msgstr "Attachments"
+
+#: views/projects/overzicht.php:274
+msgid "By"
+msgstr "By"
+
+#: views/projects/overzicht.php:277
+msgid "File"
+msgstr "File"
+
+#: views/projects/overzicht.php:295
+msgid "Are you sure to delete this attachment?"
+msgstr "Are you sure to delete this attachment?"
+
+#: views/projects/overzicht.php:319
+msgid "Tickets"
+msgstr "Tickets"
+
+#: views/projects/overzicht.php:324 views/timesheet/admin.php:121
+#: views/timesheet/index.php:132 views/timesheet/specific.php:110
+msgid "Date"
+msgstr "Date"
+
+#: views/projects/overzicht.php:327
+msgid "From"
+msgstr "From"
+
+#: views/projects/overzicht.php:330
+msgid "subject"
+msgstr "subject"
+
+#: views/projects/overzicht.php:351
+msgid "Are you sure to delete this ticket?"
+msgstr "Are you sure to delete this ticket?"
+
+#: views/projects/overzicht.php:363
+msgid "Subject"
+msgstr "Subject"
+
+#: views/projects/overzicht.php:369
+msgid "Send ticket"
+msgstr "Send ticket"
+
+#: views/projects/overzicht.php:379
+msgid "Add Tasks"
+msgstr "Add Tasks"
+
+#: views/projects/overzicht.php:385
+msgid "Todo..."
+msgstr "Todo..."
+
+#: views/projects/overzicht.php:391
+msgid "Priority"
+msgstr "Priority"
+
+#: views/projects/overzicht.php:399
+msgid "Unassigned"
+msgstr "Unassigned"
+
+#: views/projects/overzicht.php:406
+msgid "dd-mm-yyyy"
+msgstr "dd/mm/yyyy"
+
+#: views/projects/overzicht.php:406
+msgid "deadline"
+msgstr "deadline"
+
+#: views/projects/overzicht.php:421
+msgid "Todo"
+msgstr "Todo"
+
+#: views/projects/overzicht.php:435
+msgid "In progress"
+msgstr "In progress"
+
+#: views/projects/overzicht.php:449
+msgid "Done"
+msgstr "Done"
+
+#: views/projects/overzicht.php:502
+msgid "Change status"
+msgstr "Change status"
+
+#: views/projects/visibility.php:34
+msgid "www.test.com"
+msgstr "www.test.com"
+
+#: views/projects/visibility.php:35
+msgid "android link"
+msgstr "android link"
+
+#: views/projects/visibility.php:36
+msgid "ios link"
+msgstr "ios link"
+
+#: views/projects/visibility.php:37
+msgid "Respository:"
+msgstr "Respository:"
+
+#: views/projects/visibility.php:37
+msgid "repository"
+msgstr "repository"
+
+#: views/projects/visibility.php:38
+msgid "slug"
+msgstr "slug"
+
+#: views/projects/visibility.php:39
+msgid "16-10-2020"
+msgstr "16-10-2020"
+
+#: views/projects/visibility.php:40
+msgid "$ 300"
+msgstr "$ 300"
+
+#: views/projects/visibility.php:41
+msgid "$ 12,45"
+msgstr "$ 12,45"
+
+#: views/projects/visibility.php:42 views/projects/visibility.php:43
+#: views/projects/visibility.php:48 views/usermanagement/edit_add.php:64
+msgid "John Doe"
+msgstr "John Doe"
+
+#: views/projects/visibility.php:43
+msgid "Customer main contact:"
+msgstr "Customer main contact:"
+
+#: views/projects/visibility.php:45 views/projects/visibility.php:46
+msgid "S&O"
+msgstr "S&O"
+
+#: views/projects/visibility.php:47
+msgid "contractor"
+msgstr "contractor"
+
+#: views/projects/visibility.php:48
+msgid "Contractor main contact:"
+msgstr "Contractor main contact:"
+
+#: views/projects/visibility.php:49
+msgid "intermediate"
+msgstr "intermediate"
+
+#: views/projects/visibility.php:50
+msgid "Main responsibility:"
+msgstr "Main responsibility:"
+
+#: views/projects/visibility.php:50
+msgid "responsible"
+msgstr "responsible"
+
+#: views/projects/visibility.php:51
+msgid "status"
+msgstr "status"
+
+#: views/projects/visibility.php:52
+msgid "Lorum ipsum"
+msgstr "Lorum ipsum"
+
+#: views/projects/visibility.php:74
+msgid "Project name:"
+msgstr "Project name:"
+
+#: views/settings/admin.php:9 views/sidebar.php:60
+msgid "Admin settings"
+msgstr "Admin settings"
+
+#: views/settings/admin.php:10
+msgid ""
+"Here you can set all important settings, from emailing to logging. DON'T "
+"FORGET TO SAVE!"
+msgstr ""
+"Here you can set all important settings, from emailing to logging. DON'T "
+"FORGET TO SAVE!"
+
+#: views/settings/admin.php:13
+msgid "Change the visible inputs."
+msgstr "Change the visible inputs."
+
+#: views/settings/admin.php:14
+msgid "You can change which inputs you can see."
+msgstr "You can change which inputs you can see."
+
+#: views/settings/admin.php:16
+msgid "Set visibility company"
+msgstr "Set visibility company"
+
+#: views/settings/admin.php:17
+msgid "Set visibility person"
+msgstr "Set visibility person"
+
+#: views/settings/admin.php:18
+msgid "Set visibility projects"
+msgstr "Set visibility projects"
+
+#: views/settings/admin.php:32
+msgid "Title of the website:"
+msgstr "Title of the website:"
+
+#: views/settings/admin.php:40
+msgid "Force all to https(Recommended)"
+msgstr "Force all to https(Recommended)"
+
+#: views/settings/admin.php:40
+msgid "If https is not enabled on this site, this will not work.!"
+msgstr "If https is not enabled on this site, this will not work.!"
+
+#: views/settings/admin.php:46
+msgid "Set mails."
+msgstr "Set mails."
+
+#: views/settings/admin.php:51
+msgid "Emails sent under the name:"
+msgstr "Emails sent under the name:"
+
+#: views/settings/admin.php:53
+msgid "Van Stein en Groentjes B.V."
+msgstr "Van stein en Groentjes B.V."
+
+#: views/settings/admin.php:58
+msgid "Emails really from:"
+msgstr "Emails really from:"
+
+#: views/settings/admin.php:60 views/settings/admin.php:67
+#: views/settings/admin.php:74 views/settings/admin.php:81
+#: views/settings/admin.php:113 views/settings/admin.php:120
+#: views/settings/admin.php:138 views/settings/admin.php:189
+msgid "website@hosting.domain"
+msgstr "website@hosting.domain"
+
+#: views/settings/admin.php:65
+msgid "Email address for noreply emails:"
+msgstr "Email address for noreply emails:"
+
+#: views/settings/admin.php:72
+msgid "Set reply to to:"
+msgstr "Set reply to to:"
+
+#: views/settings/admin.php:79
+msgid "Send important warnings to:"
+msgstr "Send important warnings to:"
+
+#: views/settings/admin.php:90
+msgid "add mail account for sending."
+msgstr "add mail account for sending."
+
+#: views/settings/admin.php:95
+msgid "SMTP host:"
+msgstr "SMTP host:"
+
+#: views/settings/admin.php:97
+msgid "website.domain"
+msgstr "website.domain"
+
+#: views/settings/admin.php:103
+msgid "use SMTP authenticate"
+msgstr "use SMTP authenticate"
+
+#: views/settings/admin.php:111
+msgid "SMTP username:"
+msgstr "SMTP username:"
+
+#: views/settings/admin.php:118
+msgid "SMTP password:"
+msgstr "SMTP password:"
+
+#: views/settings/admin.php:125
+msgid "SMTP encryption:"
+msgstr "SMTP encryption:"
+
+#: views/settings/admin.php:129
+msgid "tls"
+msgstr "tls"
+
+#: views/settings/admin.php:130
+msgid "ssl"
+msgstr "ssl"
+
+#: views/settings/admin.php:136
+msgid "Use port:"
+msgstr "Use port:"
+
+#: views/settings/admin.php:146
+msgid "Activate accounts before able to use it."
+msgstr "Activate accounts before able to use it."
+
+#: views/settings/admin.php:153
+msgid "Log events."
+msgstr "Log events."
+
+#: views/settings/admin.php:158
+msgid "Log ip."
+msgstr "Log ip."
+
+#: views/settings/admin.php:158
+msgid ""
+"This function is usefull, but not always allowed. Check the applicable laws "
+"in your region."
+msgstr ""
+"This function is usefull, but not always allowed. Check the applicable laws "
+"in your region."
+
+#: views/settings/admin.php:164
+msgid "Name website in log:"
+msgstr "Name website in log:"
+
+#: views/settings/admin.php:166
+msgid "Name website for in log"
+msgstr "Name website for in log"
+
+#: views/settings/admin.php:170
+msgid "Save to log:"
+msgstr "Save to log:"
+
+#: views/settings/admin.php:173
+msgid "Everything"
+msgstr "Everything"
+
+#: views/settings/admin.php:174
+msgid "Warning and errors"
+msgstr "Warning and errors"
+
+#: views/settings/admin.php:175
+msgid "Only errors"
+msgstr "Only errors"
+
+#: views/settings/admin.php:180
+msgid "Use external log."
+msgstr "Use external log."
+
+#: views/settings/admin.php:187
+msgid "Host:"
+msgstr "Host:"
+
+#: views/settings/admin.php:194
+msgid "Port:"
+msgstr "Port:"
+
+#: views/settings/admin.php:196
+msgid "3306"
+msgstr "3306"
+
+#: views/settings/admin.php:202
+msgid "Database name:"
+msgstr "Database name:"
+
+#: views/settings/admin.php:204
+msgid "name"
+msgstr "name"
+
+#: views/settings/admin.php:210
+msgid "Username:"
+msgstr "Username:"
+
+#: views/settings/admin.php:212
+msgid "username"
+msgstr "username"
+
+#: views/settings/admin.php:218
+msgid "Password:"
+msgstr "Password:"
+
+#: views/settings/admin.php:220
+msgid "password"
+msgstr "password"
+
+#: views/settings/admin.php:226
+msgid "Table name:"
+msgstr "Table name:"
+
+#: views/settings/admin.php:228
+msgid "log"
+msgstr "log"
+
+#: views/settings/admin.php:239
+msgid "use cookies."
+msgstr "use cookies."
+
+#: views/settings/admin.php:239
+msgid ""
+"The cookie is used as a backup for the login system. We store the username "
+"and sessioncode, but it might be"
+msgstr ""
+"The cookie is used as a backup for the login system. We store the username "
+"and sessioncode, but it might be"
+
+#: views/settings/admin.php:246
+msgid "Use captcha for login."
+msgstr "Use captcha for login."
+
+#: views/settings/admin.php:251
+msgid "Captcha secret code:"
+msgstr "Captcha secret code:"
+
+#: views/settings/admin.php:253
+msgid "captcha secret"
+msgstr "captcha secret"
+
+#: views/settings/admin.php:258
+msgid "Captcha public code:"
+msgstr "Captcha public code:"
+
+#: views/settings/admin.php:260
+msgid "captcha public"
+msgstr "captcha public"
+
+#: views/settings/admin.php:265
+msgid ""
+"Click here after changing the captcha public key. After that, please verify "
+"you are not a robot with the captcha box."
+msgstr ""
+"Click here after changing the captcha public key. After that, please verify "
+"you are not a robot with the captcha box."
+
+#: views/settings/admin.php:274
+msgid "Default hourly wage:"
+msgstr "Default hourly wage:"
+
+#: views/settings/admin.php:282
+msgid "Save settings"
+msgstr "Save settings"
+
+#: views/settings/index.php:9 views/sidebar.php:56
+msgid "Personal settings"
+msgstr "Personal settings"
+
+#: views/settings/index.php:10
+msgid ""
+"Here you can specify your own preferences for viewing your Dashboard, lists "
+"and other content. <br>Note that these preferences are for you only, other "
+"users are not affected by these settings."
+msgstr ""
+"Here you can specify your own preferences for viewing your Dashboard, lists "
+"and other content. <br>Note that these preferences are for you only, other "
+"users are not affected by these settings."
+
+#: views/settings/index.php:15
+msgid "General settings"
+msgstr "General settings"
+
+#: views/settings/index.php:23
+msgid "Show statistics on dashboard."
+msgstr "Show statistics on dashboard."
+
+#: views/settings/index.php:30
+msgid "Play sounds."
+msgstr "Play sounds."
+
+#: views/settings/index.php:37
+msgid "username:"
+msgstr "username:"
+
+#: views/settings/index.php:46
+msgid "email:"
+msgstr "email:"
+
+#: views/settings/index.php:55
+msgid "SAVE EDITS"
+msgstr "SAVE EDITS"
+
+#: views/settings/success.php:4
+msgid "Config update completed."
+msgstr "Config update completed."
+
+#: views/settings/success.php:6
+msgid "The config is updated and will soon be working correctly."
+msgstr "The config is updated and will soon be working correctly."
+
+#: views/sidebar.php:43 views/sidebar.php:50
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: views/sidebar.php:44 views/sidebar.php:51
+msgid "People"
+msgstr "People"
+
+#: views/sidebar.php:46
+msgid "Companies"
+msgstr "Companies"
+
+#: views/sidebar.php:47
+msgid "Timesheet"
+msgstr "Timesheet"
+
+#: views/sidebar.php:61
+msgid "Module overview"
+msgstr "Module overview"
+
+#: views/sidebar.php:76
+msgid "Welkom "
+msgstr "Welcome"
+
+#: views/sidebar.php:83
+msgid "On project:"
+msgstr "On project:"
+
+#: views/sidebar.php:111
+msgid "Usermanagement"
+msgstr "Usermanagement"
+
+#: views/sidebar.php:141
+msgid "Settings"
+msgstr "Settings"
+
+#: views/timesheet/admin.php:7
+msgid "Timesheets: Admin"
+msgstr "Timesheets: Admin"
+
+#: views/timesheet/admin.php:8
+msgid "Here you can find the specific time sheets for specific people."
+msgstr "Here you can find the specific time sheets for specific people."
+
+#: views/timesheet/admin.php:16 views/timesheet/specific.php:15
+msgid "What do you wish to retrieve?"
+msgstr "What do you wish to retrieve?"
+
+#: views/timesheet/admin.php:21
+msgid "Person:"
+msgstr "Person:"
+
+#: views/timesheet/admin.php:31 views/timesheet/specific.php:21
+msgid "get specific project"
+msgstr "get specific project"
+
+#: views/timesheet/admin.php:44 views/timesheet/specific.php:34
+msgid ""
+"choose an date and the system will get the week and month corresponding with "
+"this date."
+msgstr ""
+"choose an date and the system will get the week and month corresponding with "
+"this date."
+
+#: views/timesheet/admin.php:44 views/timesheet/index.php:38
+#: views/timesheet/specific.php:34
+msgid "Date:"
+msgstr "Date:"
+
+#: views/timesheet/admin.php:51 views/timesheet/specific.php:40
+msgid "SEARCH"
+msgstr "SEARCH"
+
+#: views/timesheet/admin.php:63 views/timesheet/index.php:74
+#: views/timesheet/specific.php:52
+msgid "Current week: "
+msgstr "Current week: "
+
+#: views/timesheet/admin.php:83 views/timesheet/index.php:94
+#: views/timesheet/specific.php:72
+msgid "Current month: "
+msgstr "Current month: "
+
+#: views/timesheet/admin.php:99 views/timesheet/index.php:110
+#: views/timesheet/specific.php:88
+msgid "Year: "
+msgstr "Year: "
+
+#: views/timesheet/admin.php:114 views/timesheet/index.php:125
+#: views/timesheet/specific.php:103
+msgid "Edit Timesheet"
+msgstr "Edit Timesheet"
+
+#: views/timesheet/admin.php:125 views/timesheet/index.php:140
+#: views/timesheet/specific.php:114
+msgid "Start time"
+msgstr "Start time"
+
+#: views/timesheet/admin.php:132 views/timesheet/index.php:147
+#: views/timesheet/specific.php:121
+msgid "End time"
+msgstr "End time"
+
+#: views/timesheet/index.php:8
+msgid "specific"
+msgstr "specific"
+
+#: views/timesheet/index.php:10
+msgid "Specific"
+msgstr "Specific"
+
+#: views/timesheet/index.php:14
+msgid "Timesheets"
+msgstr "Timesheets"
+
+#: views/timesheet/index.php:15
+msgid "Here you can find the time sheets of projects or persons."
+msgstr "Here you can find the time sheets of projects or persons."
+
+#: views/timesheet/index.php:22
+msgid "Change / Add time."
+msgstr "Change / Add time."
+
+#: views/timesheet/index.php:27
+msgid "Project:"
+msgstr "Project:"
+
+#: views/timesheet/index.php:42
+msgid "Start time:"
+msgstr "Start time:"
+
+#: views/timesheet/index.php:49
+msgid "End time:"
+msgstr "End time:"
+
+#: views/timesheet/index.php:57 views/timesheet/index.php:137
+msgid "s&o"
+msgstr "s&o"
+
+#: views/timesheet/specific.php:7
+msgid "Timesheets: specific"
+msgstr "Timesheets: specific"
+
+#: views/timesheet/specific.php:8
+msgid "Here you can find the specific time sheets."
+msgstr "Here you can find the specific time sheets."
+
+#: views/usermanagement/edit_add.php:40
+msgid "You'll need to activate email sending if you want to use this."
+msgstr "You'll need to activate email sending if you want to use this."
+
+#: views/usermanagement/edit_add.php:46
+msgid "Add User"
+msgstr "Add User"
+
+#: views/usermanagement/edit_add.php:68
+msgid "Select admin level"
+msgstr "Select admin level"
+
+#: views/usermanagement/index.php:1
+msgid "ADD USER"
+msgstr "ADD USER"
+
+#: views/usermanagement/index.php:4
+msgid "Overview users"
+msgstr "Overview users"
+
+#: views/usermanagement/index.php:5
+msgid "Here you have the overview off all users in the system"
+msgstr "Here you have the overview off all users in the system"
+
+#: views/usermanagement/index.php:30
+msgid "Full name user"
+msgstr "Full name user"
+
+#: views/usermanagement/index.php:32
+msgid "User email"
+msgstr "User email"
+
+#: views/usermanagement/index.php:33
+msgid "User admin lvl"
+msgstr "User admin lvl"
+
+#: views/usermanagement/index.php:33
+msgid "User access level"
+msgstr "User access level"
+
+#: views/usermanagement/index.php:34
+msgid "active"
+msgstr "active"
+
+#: views/usermanagement/index.php:35
+msgid "User date joined"
+msgstr "User date joined"
+
+#: views/usermanagement/index.php:35
+msgid "Joined"
+msgstr "Joined"
+
+#: views/usermanagement/index.php:36
+msgid "Coupled person"
+msgstr "Coupled person"
+
+#: views/usermanagement/overzicht.php:12
+msgid "user overview"
+msgstr "user overview"
+
+#: views/usermanagement/overzicht.php:13
+msgid ""
+"Below you can view the user profile, if you want to edit the profile use the "
+"edit button on the bottom left."
+msgstr ""
+"Below you can view the user profile, if you want to edit the profile use the "
+"edit button on the bottom left."
+
+#: views/usermanagement/overzicht.php:55
+msgid "EDIT THE USER"
+msgstr "EDIT THE USER"
+
+#: views/usermanagement/overzicht.php:55
+msgid "EDIT USER"
+msgstr "EDIT USER"
+
+#: views/usermanagement/overzicht.php:62
+msgid "My linked person"
+msgstr "My linked person"
+
+#~ msgid "dd-mm-YYYY"
+#~ msgstr "dd-mm-YYYY"
+
+#~ msgid "John Deer"
+#~ msgstr "John Deer"
+
+#~ msgid "Stein en Groentjes"
+#~ msgstr "Stein en Groentjes"
+
+#~ msgid "userName"
+#~ msgstr "userName"
+
+#, fuzzy
+#~| msgid "Incorrect password"
+#~ msgid "Incorrect values provided."
+#~ msgstr "סיסמה שגויה"
+
+#, fuzzy
+#~| msgid "Success"
+#~ msgid "success"
+#~ msgstr "Succes"
+
+#, fuzzy
+#~| msgid "Sommige velden zijn niet (goed) ingevuld."
+#~ msgid " is niet (goed) ingevuld. "
+#~ msgstr "Please fill in (all) fields correctly."
+
+#, fuzzy
+#~| msgid "Vul de captcha in a.u.b."
+#~ msgid "Vul de captcha in aub"
+#~ msgstr "Please fill in the captcha."
+
+#, fuzzy
+#~| msgid "Opleiding"
+#~ msgid "loading"
+#~ msgstr "Programme"
+
+#, fuzzy
+#~| msgid "Error"
+#~ msgid "error"
+#~ msgstr "Error"
+
+#, fuzzy
+#~| msgid "U bent al ingelogd."
+#~ msgid "Je bent al ingelogd:"
+#~ msgstr "You are already logged in."
+
+#~ msgid "Success"
+#~ msgstr "Succes"
+
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#, fuzzy
+#~| msgid "U bent al ingelogd."
+#~ msgid "Niet ingelogd:"
+#~ msgstr "You are already logged in."
+
+#, fuzzy
+#~| msgid "Error"
+#~ msgid "Error:"
+#~ msgstr "Error"
+
+#, fuzzy
+#~| msgid "Registratie afgerond"
+#~ msgid "Registratie succesvol"
+#~ msgstr "Registration finished"
+
+#, fuzzy
+#~| msgid ""
+#~| "Er is een e-mail verstuurd aan de nieuwe gebruiker met het verzoek dit "
+#~| "account te activeren."
+#~ msgid ""
+#~ "Er is een email gestuurd naar de nieuwe gebruiker met het verzoek zijn "
+#~ "account te activeren. Na die mail is er\n"
+#~ "            nog een mail gestuurd met de gebruikersgegevens voor deze "
+#~ "gebruiker."
+#~ msgstr ""
+#~ "An email has been sent to the new user with a request to activate her/his "
+#~ "account."
+
+#, fuzzy
+#~| msgid ""
+#~| "Deze pagina herlaadt automatisch zodat een nieuwe gebruiker kan worden "
+#~| "toegevoegd."
+#~ msgid ""
+#~ "Deze pagina herleid automatisch terug naar het registratie scherm om nog "
+#~ "een gebruiker toe te voegen."
+#~ msgstr ""
+#~ "This page will automatically reload to allow for a new user to be "
+#~ "registered."
+
+#, fuzzy
+#~| msgid "E-mail:"
+#~ msgid "Email:"
+#~ msgstr "אימייל:"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgid "Title:"
+#~ msgstr "כותרת"
+
+#, fuzzy
+#~| msgid "Ja"
+#~ msgid "Jan"
+#~ msgstr "Yes"
+
+#, fuzzy
+#~| msgid "Master"
+#~ msgid "Mar"
+#~ msgstr "Master"
+
+#, fuzzy
+#~| msgid "url"
+#~ msgid "Jul"
+#~ msgstr "url"
+
+#~ msgid "Vul a.u.b. in."
+#~ msgstr "Please fill in."
+
+#~ msgid "Datum format incorrect: dd-mm-yyyy (01-01-1992)"
+#~ msgstr "Date format incorrect: dd-mm-yyyy (01-01-1992)"
+
+#~ msgid "Er ging iets mis met opslaan"
+#~ msgstr "Something went wrong while saving"
+
+#~ msgid "Om op te slaan moet het studentnummer worden ingevuld."
+#~ msgstr "To save you need to provide the student number."
+
+#~ msgid "Aanpassen van persoon ging mis. Errorcode: "
+#~ msgstr "An error occurred while editing the student. Errorcode: "
+
+#~ msgid "Aanpassen scriptie ging mis. Errorcode: "
+#~ msgstr "While editing a thesis we ran into a problem. Errorcode: "
+
+#~ msgid "5-cijferige code incorrect"
+#~ msgstr "5-digit code incorrect"
+
+#~ msgid "Weghalen van de handtekening bij beoordeling ging mis: "
+#~ msgstr "We couldn't remove the signature from the assessment: "
+
+#~ msgid "Scriptiebeoordelingssysteem"
+#~ msgstr "Thesis grading system"
+
+#~ msgid "Gebruiker verwijderd."
+#~ msgstr "User deleted."
+
+#~ msgid "De gebruiker die u probeert te verwijderen bestaat niet."
+#~ msgstr "The user you are trying to delete doesn't exist."
+
+#~ msgid "Gebruiker is succesvol toegevoegd."
+#~ msgstr "User successfully added."
+
+#~ msgid "Registreer"
+#~ msgstr "Register"
+
+#~ msgid "U bent geen admin dus kunt geen gebruikers toevoegen."
+#~ msgstr "You are not an admin, so you can't add users."
+
+#~ msgid "Wachtwoord is vernieuwd"
+#~ msgstr "Password reset"
+
+#~ msgid "Wachtwoord succesvol vernieuwd, log in om door te gaan"
+#~ msgstr "Password successfully reset, log in to proceed"
+
+#~ msgid "Verkeerde link"
+#~ msgstr "Wrong link"
+
+#~ msgid "Wachtwoord vernieuwd"
+#~ msgstr "Password reset"
+
+#~ msgid "Link niet meer actueel"
+#~ msgstr "Link not up to date"
+
+#~ msgid ""
+#~ "Een e-mail is verstuurd naar het opgegeven e-mailadres met instructies "
+#~ "hoe u uw wachtwoord kunt vernieuwen."
+#~ msgstr ""
+#~ "An email is send to the registered email address with instructions on how "
+#~ "to reset your password."
+
+#~ msgid "Wachtwoord vernieuw e-mail verstuurd"
+#~ msgstr "Password reset email has been sent"
+
+#~ msgid "Er ging iets mis"
+#~ msgstr "Something went wrong"
+
+#~ msgid "Wachtwoord vernieuwen"
+#~ msgstr "Reset password"
+
+#~ msgid "Vul a.u.b. een geldig e-mail adres in."
+#~ msgstr "Please provide a valid email address."
+
+#~ msgid "Nieuw wachtwoord"
+#~ msgstr "New password"
+
+#~ msgid "5-cijferige code"
+#~ msgstr "5-digit code"
+
+#~ msgid "Kies a.u.b. een 5-cijferige code"
+#~ msgstr "Please choose a 5-digit code"
+
+#~ msgid "Account succesvol geactiveerd"
+#~ msgstr "Account activation succesfull"
+
+#~ msgid "Geactiveerd"
+#~ msgstr "Activated"
+
+#~ msgid "Vul a.u.b. alleen getallen in."
+#~ msgstr "Please provide only digits."
+
+#~ msgid "Reden: "
+#~ msgstr "Reason: "
+
+#~ msgid "De student die u probeert te verwijderen bestaat niet."
+#~ msgstr "The student you are trying to delete doesn't exist."
+
+#~ msgid "Studentmanagement"
+#~ msgstr "Student management"
+
+#~ msgid "Studentenoverzicht"
+#~ msgstr "Students overview"
+
+#~ msgid "Er is geen persoon met dit ID"
+#~ msgstr "A user with this id does not exist"
+
+#~ msgid "Dit persoons-ID klopt niet"
+#~ msgstr "This user id is invalid"
+
+#~ msgid "E-mailadres niet geldig."
+#~ msgstr "Email address invalid."
+
+#~ msgid "Studentnummer niet geldig"
+#~ msgstr "Student number invalid"
+
+#~ msgid "Er zijn fouten"
+#~ msgstr "There are errors"
+
+#~ msgid "Opslaan ging mis: "
+#~ msgstr "Something went wrong while saving: "
+
+#~ msgid "Scriptiemanagement"
+#~ msgstr "Thesis management"
+
+#~ msgid "Overzicht van scriptie van "
+#~ msgstr "Overview of thesis of "
+
+#~ msgid "Er is geen e-mail verstuurd naar"
+#~ msgstr "Something went wrong in sending an email to"
+
+#~ msgid ""
+#~ "Te veel foutieve pogingen gedaan. Wacht een uur om het opnieuw te "
+#~ "proberen."
+#~ msgstr "Too many failed attempts. Try again in an hour."
+
+#~ msgid ""
+#~ "De beoordeling is nog niet compleet ingevuld en kan daarom nog niet "
+#~ "getekend worden."
+#~ msgstr ""
+#~ "Assessment form not yet completely filled out. Therefore it cannot be "
+#~ "signed."
+
+#~ msgid "De pincode in niet correct"
+#~ msgstr "PIN is incorrect"
+
+#~ msgid "Er is een e-mail verstuurd naar: "
+#~ msgstr "An email has been sent to: "
+
+#~ msgid "Selecteer type"
+#~ msgstr "Select type"
+
+#~ msgid ""
+#~ "Succesvol opgeslagen. Alle verplichte velden zijn gevuld. U kunt "
+#~ "rechtsonder op 'Definitief opslaan en ondertekenen' klikken."
+#~ msgstr ""
+#~ "Saved successfully. All required fields are filled in. You can click "
+#~ "'Save, lock and sign' in the bottom right corner."
+
+#~ msgid "Succesvol opgeslagen. Nog niet alle verplichte velden zijn ingevuld."
+#~ msgstr "Saved successfully. Not all required fields are provided."
+
+#~ msgid "De beoordeling is met succes verwijderd."
+#~ msgstr "Thesis successfully deleted."
+
+#~ msgid ""
+#~ "U heeft geen rechten om de beoordeling die u wilt verwijderen te "
+#~ "verwijderen."
+#~ msgstr ""
+#~ "You are not allowed to delete the assessment you are trying to delete."
+
+#~ msgid "Uw profiel is opgeslagen."
+#~ msgstr "Your profile has been saved."
+
+#~ msgid "Pincode is vernieuwd"
+#~ msgstr "Pincode updated"
+
+#~ msgid "Er ging iets mis met vernieuwen"
+#~ msgstr "Something went wrong while updating"
+
+#~ msgid "Pincode is niet vernieuwd"
+#~ msgstr "PIN not updated"
+
+#~ msgid "Incorrect wachtwoord"
+#~ msgstr "Incorrect password"
+
+#~ msgid "Pincodes niet gelijk"
+#~ msgstr "PINs does not match"
+
+#~ msgid "Vul a.u.b. alle velden in"
+#~ msgstr "Please fill in all the fields"
+
+#~ msgid "Pincode vernieuwen"
+#~ msgstr "Renew PIN"
+
+#~ msgid ""
+#~ "Een email is verstuurd naar het opgegeven e-mailadres met instructies hoe "
+#~ "u uw wachtwoord kunt vernieuwen."
+#~ msgstr ""
+#~ "An email is send to the registered email address with instructions on how "
+#~ "to reset your password."
+
+#~ msgid "Er is een fout opgetreden in een query in"
+#~ msgstr "An error occurred executing the query"
+
+#~ msgid "Ongeldige gebruikersnaam of wachtwoord"
+#~ msgstr "Invalid username or password"
+
+#~ msgid "Deze gebruikersnaam is al in gebruik."
+#~ msgstr "Username already in use."
+
+#~ msgid "De wachtwoorden komen niet overeen."
+#~ msgstr "Passwords do  not match."
+
+#~ msgid "Fout bij het versturen van e-mail."
+#~ msgstr "Error sending email."
+
+#~ msgid "Opgegeven e-mailadres niet geldig"
+#~ msgstr "Supplied email address invalid"
+
+#~ msgid "Het opgegeven e-mailadres is al in gebruik"
+#~ msgstr "Supplied email address already taken"
+
+#~ msgid "De naam van het team is al in gebruik"
+#~ msgstr "Teamname already in use"
+
+#~ msgid "Upload een handtekening"
+#~ msgstr "Upload signature"
+
+#~ msgid "Incorrecte bestandsextensie: "
+#~ msgstr "Invalid file extension: "
+
+#~ msgid "Er is iets mis gegaan in "
+#~ msgstr "Something went wrong in "
+
+#~ msgid ", neem contact op met de beheerder."
+#~ msgstr ", please contact the administrator."
+
+#~ msgid "Wachtwoord is te kort."
+#~ msgstr "Password too short."
+
+#~ msgid "Wachtwoord moet ten minste 1 cijfer bevatten."
+#~ msgstr "Password must contain at least 1 digit."
+
+#~ msgid "Wachtwoord moet ten minste 1 letter bevatten."
+#~ msgstr "Password must contain at least 1 character."
+
+#~ msgid "Bachelor"
+#~ msgstr "Bachelor"
+
+#~ msgid "Researchmaster"
+#~ msgstr "Research Master"
+
+#~ msgid "Master NL"
+#~ msgstr "Master NL"
+
+#~ msgid "Nee"
+#~ msgstr "No"
+
+#~ msgid "width"
+#~ msgstr "width"
+
+#~ msgid "key"
+#~ msgstr "key"
+
+#~ msgid "text"
+#~ msgstr "text"
+
+#~ msgid "year"
+#~ msgstr "year"
+
+#~ msgid "Algemene voorwaarden"
+#~ msgstr "General terms"
+
+#~ msgid "Overzicht"
+#~ msgstr "Dashboard"
+
+#~ msgid "Start nieuwe beoordeling."
+#~ msgstr "Start new assessment."
+
+#~ msgid "Nieuwe scripties"
+#~ msgstr "New theses"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Stud. nr."
+#~ msgstr "Stud. nr."
+
+#~ msgid "Naam"
+#~ msgstr "Name"
+
+#~ msgid "1e Beoordelaar"
+#~ msgstr "1st evaluator"
+
+#~ msgid "2e Beoordelaar"
+#~ msgstr "2nd evaluator"
+
+#~ msgid "Pas aan"
+#~ msgstr "Edit"
+
+#~ msgid "teken"
+#~ msgstr "sign"
+
+#~ msgid "pdf"
+#~ msgstr "pdf"
+
+#~ msgid "Verwijder"
+#~ msgstr "Delete"
+
+#~ msgid "Lopende beoordelingen"
+#~ msgstr "Current assessments"
+
+#~ msgid "Teken"
+#~ msgstr "Sign"
+
+#~ msgid "Ondertekenen"
+#~ msgstr "Sign"
+
+#~ msgid "Overleg"
+#~ msgstr "Discuss"
+
+#~ msgid ""
+#~ "Voor onderstaande scripties dient u in overleg te treden met de andere "
+#~ "beoordelaar. Reden hiervoor is ofwel dat de gegeven resultaten twee of "
+#~ "meer punten uit elkaar liggen, ofwel dat een van beide resultaten "
+#~ "onvoldoende is. Ondertekening kan pas plaats vinden wanneer u "
+#~ "overeenstemming over het resultaat heeft bereikt. Indien u geen "
+#~ "overeenstemming kunt bereiken kunt u de examencommissie verzoeken een "
+#~ "derde lezer aan te wijzen."
+#~ msgstr ""
+#~ "For below theses you disagree significantly with the other evaluator. "
+#~ "Please contact him/her to discuss your disagreements. If you cannot reach "
+#~ "a joined assessment you can opt to let the Board of Examiners appoint an "
+#~ "independent third reader to assess the thesis."
+
+#~ msgid "Beoordelingsverschil"
+#~ msgstr "Assessment difference"
+
+#~ msgid "Derde lezer"
+#~ msgstr "Third reader"
+
+#~ msgid "Gezamenlijk formulier"
+#~ msgstr "Combined form"
+
+#~ msgid "Gezamenlijke formulieren"
+#~ msgstr "Final assessments"
+
+#~ msgid ""
+#~ "De volgende scriptiebeoordelingen zitten in de afrondende fase. Overleg "
+#~ "met u medebeoordelaar om tot een finaal oordeel te komen. Bent u het eens "
+#~ "dan kunt u deze beoordelingen temede beoordelaarkenen en is de "
+#~ "beoordeling afgerond."
+#~ msgstr ""
+#~ "The following theses are in the final stage, please contact your co-"
+#~ "evaluator to reach a final assessment. Once you agree, you can sign to "
+#~ "complete the assessment of the thesis."
+
+#~ msgid "naam"
+#~ msgstr "name"
+
+#~ msgid ""
+#~ "Uw account is geactiveerd. Om de website te gebruiken kunt u inloggen met "
+#~ "de aan u toegestuurde gegevens. Klik op de volgende link om in te loggen: "
+#~ msgstr ""
+#~ "Your account has been activated successfully. To use the website please "
+#~ "login with the credentials that were provided to you by email. Click on "
+#~ "the following link to log in: "
+
+#~ msgid ""
+#~ "U bent al ingelogd. Om in te loggen met een ander account dient u eerst "
+#~ "uit te loggen."
+#~ msgstr ""
+#~ "You are already logged in. To log in with a different account please log "
+#~ "out first."
+
+#~ msgid "Vul een 5-cijferige code in"
+#~ msgstr "Provide a 5-digit code"
+
+#~ msgid ""
+#~ "De 5-cijferige code heeft u nodig om een beoordeelde scriptie te kunnen "
+#~ "ondertekenen."
+#~ msgstr "You need the 5-digit code to sign a assessed thesis."
+
+#~ msgid "Verstuur"
+#~ msgstr "Send"
+
+#~ msgid ""
+#~ "U komt op deze pagina omdat er iets mis is gegaan. Neem contact op met de "
+#~ "beheerder via "
+#~ msgstr ""
+#~ "You see this page because something went wrong. Please contact the "
+#~ "administrator via "
+
+#~ msgid ""
+#~ "om te kijken of dit probleem te verhelpen is. Gebruik in de communicatie "
+#~ "de code "
+#~ msgstr ""
+#~ "to see if the problem can be solved. In your communication please use the "
+#~ "code "
+
+#~ msgid "Scriptiebeoordelingssysteem Login"
+#~ msgstr "Thesis assessment system login"
+
+#~ msgid "Gebruikersnaam"
+#~ msgstr "Username"
+
+#~ msgid "Wachtwoord"
+#~ msgstr "Password"
+
+#~ msgid "Vraag nieuw wachtwoord aan"
+#~ msgstr "Request new password"
+
+#~ msgid "Vul hieronder uw e-mailadres in."
+#~ msgstr "Provide your email address below."
+
+#~ msgid "Vraag aan"
+#~ msgstr "Request"
+
+#~ msgid "Geen toegang"
+#~ msgstr "No Access"
+
+#~ msgid ""
+#~ "U heeft geen rechten om de functionaliteit te gebruiken die u probeert te "
+#~ "benaderen."
+#~ msgstr "You have insufficient rights."
+
+#~ msgid "Er ging iets mis bij het activeren van uw account."
+#~ msgstr "Something went wrong while activating your account."
+
+#~ msgid "Blijft u dit bericht zien? Neem dan alstublieft contact op met "
+#~ msgstr "If you keep seeing this message, please contact "
+
+#~ msgid ""
+#~ "Vul hieronder twee keer een nieuw wachtwoord in. Houd er rekening mee dat "
+#~ "het wachtwoord aan een aantal eisen moet voldoen. Deze eisen zijn"
+#~ msgstr ""
+#~ "Please provide a new password below. Keep in mind that the password must "
+#~ "adhere to some rules. These rules are"
+
+#~ msgid "Minimaal lengte van 6"
+#~ msgstr "Minimum length of 6"
+
+#~ msgid "Tenminste 1 cijfer"
+#~ msgstr "At least 1 digit"
+
+#~ msgid "Tenminste 1 letter"
+#~ msgstr "At least 1 character"
+
+#~ msgid "Herhaal wachtwoord"
+#~ msgstr "Repeat password"
+
+#~ msgid "Sla uw wachtwoord op"
+#~ msgstr "Save your password"
+
+#~ msgid ""
+#~ "Het wachtwoord is met succes gewijzigd. U wordt automatisch doorgelinkt "
+#~ "naar de login pagina in 15 seconden. Als dit niet gebeurt ga dan zelf "
+#~ "naar "
+#~ msgstr ""
+#~ "Your password has been changed successfully. You will be redirected to "
+#~ "the login page within 15 seconds. If this doesn't happen please go to "
+
+#~ msgid "de loginpagina"
+#~ msgstr "login page"
+
+#~ msgid "om in te loggen met uw nieuwe gegevens."
+#~ msgstr "to log in with your new credentials."
+
+#~ msgid "Scriptiebeoordelingsysteem"
+#~ msgstr "Thesis grading system"
+
+#~ msgid "Studenten"
+#~ msgstr "Students"
+
+#~ msgid "Registreer gebruiker"
+#~ msgstr "Register"
+
+#~ msgid "Mijn gegevens"
+#~ msgstr "My details"
+
+#~ msgid "Engels"
+#~ msgstr "English"
+
+#~ msgid "Pas student aan"
+#~ msgstr "Edit Student"
+
+#~ msgid "Hier kunt u de gegevens van een student aanpassen"
+#~ msgstr "Here you can change the details of the student"
+
+#~ msgid "Terug naar overzicht"
+#~ msgstr "Back to overview"
+
+#~ msgid "Persoonsgegevens"
+#~ msgstr "Personal details"
+
+#~ msgid "Tussenvoegsel"
+#~ msgstr "Last name prefix"
+
+#~ msgid "Achternaam"
+#~ msgstr "Last name"
+
+#~ msgid "Studentnummer"
+#~ msgstr "Student number"
+
+#~ msgid "Opslaan"
+#~ msgstr "Save"
+
+#~ msgid "Opleidingsgegevens:"
+#~ msgstr "Programme details:"
+
+#~ msgid "Opleiding:"
+#~ msgstr "Programme:"
+
+#~ msgid "Afstudeerrichting:"
+#~ msgstr "Specialisation:"
+
+#~ msgid "Afstudeerrichting"
+#~ msgstr "Specialisation"
+
+#~ msgid "Hier kunt u een overzicht van alle studenten in het systeem vinden."
+#~ msgstr ""
+#~ "Here you will find an overview of all students registered in the system."
+
+#~ msgid "Voeg nieuwe student toe"
+#~ msgstr "Add new student"
+
+#~ msgid "stud. nr."
+#~ msgstr "stud. nr."
+
+#~ msgid "voornaam"
+#~ msgstr "first name"
+
+#~ msgid "tussenvoegsel"
+#~ msgstr "last name prefix"
+
+#~ msgid "achternaam"
+#~ msgstr "last name"
+
+#~ msgid "e-mail"
+#~ msgstr "email"
+
+#~ msgid "pas aan"
+#~ msgstr "edit"
+
+#~ msgid "verwijder"
+#~ msgstr "delete"
+
+#~ msgid ""
+#~ "Hier vindt u een overzicht van alle gegevens die van een persoon bekend "
+#~ "zijn."
+#~ msgstr "Here you will see all available details of a student in the system."
+
+#~ msgid "Opleidingsgegevens"
+#~ msgstr "Programme details"
+
+#~ msgid "Maak een keuze."
+#~ msgstr "Choose."
+
+#~ msgid "Maak een keuze"
+#~ msgstr "Choose"
+
+#~ msgid "Voeg student toe"
+#~ msgstr "Add student"
+
+#~ msgid "Hier kunt u een student aan het systeem toevoegen."
+#~ msgstr "Add a student to the system."
+
+#~ msgid "Weet u zeker dat u deze gebruiker wilt verwijderen?"
+#~ msgstr "Are you sure you want to delete the user?"
+
+#~ msgid "Gebruikersmanagement"
+#~ msgstr "User Management"
+
+#~ msgid "Voeg gebruikers toe of verwijder ze."
+#~ msgstr "Add users or delete them."
+
+#~ msgid "Volledige naam"
+#~ msgstr "Full name"
+
+#~ msgid "Engelstalig"
+#~ msgstr "In English"
+
+#~ msgid "Examencommissie"
+#~ msgstr "Board of Examiners"
+
+#~ msgid "Gebruikers"
+#~ msgstr "Users"
+
+#~ msgid "Ex com"
+#~ msgstr "Board of Examiners"
+
+#~ msgid "Actief"
+#~ msgstr "Active"
+
+#~ msgid "Acties"
+#~ msgstr "Actions"
+
+#~ msgid "Voeg tweede eerste beoordelaar toe"
+#~ msgstr "Add a second first evaluator"
+
+#~ msgid "Verwijder tweede eerste beoordelaar toe"
+#~ msgstr "Remove second first evaluator"
+
+#~ msgid "Beoordelingsformulier bacheloreindwerkstuk"
+#~ msgstr "Thesis assessment form"
+
+#~ msgid "Beoordelingsformulier masterscriptie"
+#~ msgstr "Assessment form Master's thesis"
+
+#~ msgid "Beoordelingsformulier researchmasterscriptie"
+#~ msgstr "Assessment form Research Master's thesis"
+
+#~ msgid "Universiteit Leiden, Faculteit der Geesteswetenschappen"
+#~ msgstr "Leiden University, Faculty of Humanities"
+
+#~ msgid "Dit is het gezamelijk formulier van deze scriptie. "
+#~ msgstr ""
+#~ "This is your joined assessment of this thesis. You are the first "
+#~ "evaluator. "
+
+#~ msgid "U bent eerste beoordelaar van deze scriptie. "
+#~ msgstr "You are the first evaluator of this thesis. "
+
+#~ msgid ""
+#~ "De toelichtingsvelden bevatten nu de opmerkingen van beide beoordelaars. "
+#~ "Hiervan kunt u één tekst maken. "
+#~ msgstr ""
+#~ "All fields now contain the assessment of both evaluators. You can combine "
+#~ "them into a single assessment. "
+
+#~ msgid ""
+#~ "Wanneer u met de tweede beoordelaar tot overeenstemming bent gekomen over "
+#~ "het definitieve oordeel kunt u, na tussentijds opslaan, rechtsonder op "
+#~ "'Definitief opslaan en ondertekenen' klikken. "
+#~ msgstr ""
+#~ "When you are in agreement with the second assessor on the final "
+#~ "assessment you can, after having saved the assessment, click on 'Save, "
+#~ "lock and sign' in the bottom right corner. "
+
+#~ msgid ""
+#~ "De tweede beoordelaar ontvangt per e-mail een verzoek tot tekenen voor "
+#~ "akkoord. Na ondertekening door de tweede beoordelaar gaat een kopie van "
+#~ "het formulier naar de student."
+#~ msgstr ""
+#~ "The second assessor will receive an email with a request to sign to "
+#~ "concur. After the second assessor has signed the assessment a copy of the "
+#~ "form will be sent to the student."
+
+#~ msgid "Dit is uw onafhankelijke beoordeling. "
+#~ msgstr "You are the first assessor of this thesis. "
+
+#~ msgid "Deze beoordeling dient u in het Engels in te vullen. "
+#~ msgstr "This assessment needs to be filled out in English. "
+
+#~ msgid "Deze beoordeling dient u in het Nederlands in te vullen. "
+#~ msgstr "This assessment needs to be filled out in Dutch. "
+
+#~ msgid ""
+#~ "Vul de velden hieronder in. De gegevens worden opgeslagen nadat u op de "
+#~ "knop tussentijds opslaan heeft geklikt. Wanneer u alle verplichte velden "
+#~ "gevuld heeft kunt u, na tussentijds opslaan, rechtsonder op 'Definitief "
+#~ "opslaan en ondertekenen' klikken. We adviseren u uw werk regelmatig op te "
+#~ "slaan."
+#~ msgstr ""
+#~ "Please complete your independent assessment in English by filling in the "
+#~ "fields below. Your input will be stored after the ‘Save progress’ button "
+#~ "is clicked. When all required fields are provided you can click the "
+#~ "'Save, lock and sign' in the bottom right corner. We recommend that you "
+#~ "save your work on a regular basis."
+
+#~ msgid "Tussentijds opslaan"
+#~ msgstr "Save progress"
+
+#~ msgid "Definitief opslaan en ondertekenen"
+#~ msgstr "Save, lock and sign"
+
+#~ msgid "Studentgegevens"
+#~ msgstr "Student details"
+
+#~ msgid "Studentnummer<br/>(zonder S)"
+#~ msgstr "Student number<br/>(without S)"
+
+#~ msgid "Geen afstudeerrichting"
+#~ msgstr "No specialisation"
+
+#~ msgid "Kies eerst een opleiding"
+#~ msgstr "First select a Programme"
+
+#~ msgid "EC"
+#~ msgstr "EC"
+
+#~ msgid "Scriptiegegevens"
+#~ msgstr "Thesis details"
+
+#~ msgid "Titel"
+#~ msgstr "Title"
+
+#~ msgid "Titel(EN)"
+#~ msgstr "Title(EN)"
+
+#~ msgid "Eerste beoordelaar"
+#~ msgstr "First evaluator"
+
+#~ msgid "Tweede eerste beoordelaar "
+#~ msgstr "Second first evaluator"
+
+#~ msgid "Tweede eerste beoordelaar"
+#~ msgstr "Second first evaluator"
+
+#~ msgid "Tweede beoordelaar"
+#~ msgstr "Second evaluator"
+
+#~ msgid "Nodig externe beoordelaar uit"
+#~ msgstr "Invite external evaluator"
+
+#~ msgid "Is het eindwerkstuk naar uw oordeel vrij van plagiaat?"
+#~ msgstr "Is the thesis in your assessment free of plagiarism?"
+
+#~ msgid ""
+#~ "Plagiaat is een ernstig vergrijp. De faculteit moedigt plagiaatcontrole "
+#~ "met behulp van 'Turnitin' door de eerste beoordelaar aan. Van de tweede "
+#~ "beoordelaar wordt slechts een marginale check op plagiaat verwacht."
+#~ msgstr ""
+#~ "Plagiarism is a serious offense. The Humanities faculty encourages "
+#~ "checking on plagiarism with \"Turnitin\" by the first assessor. The "
+#~ "second assessor is expected to do a simple check on plagiarism."
+
+#~ msgid "Bekijk beoordeling van "
+#~ msgstr "View assessment of "
+
+#~ msgid "Toelichting"
+#~ msgstr "Explanation"
+
+#~ msgid "Opname repositorium"
+#~ msgstr "Student repository"
+
+#~ msgid ""
+#~ "Alle BA-eindwerkstukken moeten worden opgenomen in het repositorium. BA-"
+#~ "eindwerkstukken in het repositorium zijn in beginsel \n"
+#~ "                                             vertrouwelijk tenzij student "
+#~ "èn docent goede redenen zien om het werkstuk toch openbaar te laten zijn. "
+#~ "Dan dit hierna aangeven. "
+#~ msgstr ""
+#~ "The standard procedure is that Bachelor’s theses in the repository are "
+#~ "confidential, unless the student and the lecturer have good reasons to "
+#~ "make it public. Please indicate this below. "
+
+#~ msgid ""
+#~ "De standaardprocedure is dat masterscripties via het repositorium publiek "
+#~ "worden gemaakt, tenzij de student of de docent goede redenen zien om het "
+#~ "werkstuk toch vertrouwelijk, of tijdelijk vertrouwelijk te houden. Dan "
+#~ "dit hierna aangeven"
+#~ msgstr ""
+#~ "The standard procedure is that Master’s theses in the repository are "
+#~ "public, unless the student or lecturer has good reasons to keep the "
+#~ "thesis confidential, or temporarily confidential. Please indicate this "
+#~ "below"
+
+#~ msgid ""
+#~ "De standaardprocedure is dat researchmasterscripties via het repositorium "
+#~ "publiek worden gemaakt, tenzij de student of de docent goede redenen zien "
+#~ "om het werkstuk toch vertrouwelijk, of tijdelijk vertrouwelijk te houden. "
+#~ "Dan dit hierna aangeven"
+#~ msgstr ""
+#~ "The standard procedure is that Researchmaster’s theses in the repository "
+#~ "are public, unless the student or lecturer has good reasons to keep the "
+#~ "thesis confidential, or temporarily confidential. Please indicate this "
+#~ "below"
+
+#~ msgid "Dit eindwerkstuk mag "
+#~ msgstr "This thesis "
+
+#~ msgid "Via het repositorium direct openbaar gemaakt."
+#~ msgstr "Can be made public through the repository immediately."
+
+#~ msgid "Niet via het repositorium openbaar worden gemaakt."
+#~ msgstr "Cannot be made public through the repository."
+
+#~ msgid ""
+#~ "Pas vanaf een latere datum via het repositorium openbaar gemaakt worden."
+#~ msgstr "Can be made public through the repository no earlier than."
+
+#~ msgid "Datum openbaarmaking"
+#~ msgstr "Date publication"
+
+#~ msgid "Scriptie wordt gebruikt voor verder onderzoek."
+#~ msgstr "Thesis will be used for further research."
+
+#~ msgid ""
+#~ "De inhoud van de scriptie bevat gevoelige informatie. Naar buiten brengen "
+#~ "hiervan kan leiden tot een belemmering van de wetenschappelijke en "
+#~ "persoonlijke vrijheid van de student of de docent."
+#~ msgstr ""
+#~ "The content of the thesis contains sensitive information. Disclosure of "
+#~ "this could lead to a restriction of (the practice of) the scientific and/"
+#~ "or personal freedom of the student or lecturer."
+
+#~ msgid ""
+#~ "De scriptie bevat informatie die vanwege de bescherming van de publieke "
+#~ "veiligheid niet naar buiten kan worden gebracht."
+#~ msgstr ""
+#~ "The content of the thesis contains information that cannot be disclosed "
+#~ "because of the protection of public order and safety."
+
+#~ msgid "Anders, geef toelichting:"
+#~ msgstr "Other, please specify:"
+
+#~ msgid "Beoordelingscriteria"
+#~ msgstr "Assessment difference"
+
+#~ msgid "Kennis en Inzicht"
+#~ msgstr "Knowledge and insight"
+
+#~ msgid "Inhoud, relatie met het vakgebied met onder andere"
+#~ msgstr "Contents, relation to the field"
+
+#~ msgid ""
+#~ "De onderzoeksvraag is gebaseerd op een probleemstelling die getuigt van "
+#~ "inzicht in de centrale debatten en methodes van het vakgebied;"
+#~ msgstr ""
+#~ "The research question is based on a problem that reflects insight into "
+#~ "the key discussions and methods of the field;"
+
+#~ msgid "Helderheid, relevantie en afbakening van de probleemstelling;"
+#~ msgstr "Clarity, relevance, and definition of the problem;"
+
+#~ msgid "Inkadering in bestaande literatuur;"
+#~ msgstr "Embedding in the existing literature;"
+
+#~ msgid "Originaliteit."
+#~ msgstr "Originality."
+
+#~ msgid "Inkadering in bestaande literatuur."
+#~ msgstr "Embedding in the existing literature."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Heeft aantoonbare kennis en inzicht, gebaseerd op de "
+#~ "kennis en het inzicht op het niveau van Bachelor en die deze overtreffen "
+#~ "en/of verdiepen, alsmede een basis of een kans bieden om een originele "
+#~ "bijdrage te leveren aan het ontwikkelen en/of toepassen van ideeën, vaak "
+#~ "in onderzoeksverband."
+#~ msgstr ""
+#~ "Dublin-descriptor: Has demonstrated to have knowledge and understanding "
+#~ "in a field of study that builds upon their general secondary education, "
+#~ "and is typically at a level that, whilst supported by advanced textbooks, "
+#~ "includes some aspects that will be informed by knowledge of the forefront "
+#~ "of their field of study."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Heeft aantoonbare kennis en inzicht van een vakgebied, "
+#~ "waarbij wordt voortgebouwd op het niveau bereikt in het voortgezet "
+#~ "onderwijs en dit wordt overtroffen; functioneert doorgaans op een niveau "
+#~ "waarop met ondersteuning van gespecialiseerde handboeken, enige aspecten "
+#~ "voorkomen waarvoor kennis van de laatste ontwikkelingen in het vakgebied "
+#~ "vereist is."
+#~ msgstr ""
+#~ "Dublin descriptor: Has demonstrable knowledge of and insight into a field "
+#~ "of study, to achieve this has built on the level reached in secondary "
+#~ "education and has surpassed this; generally functions at a level where, "
+#~ "with the aid of specialized handbooks, some aspects occur for which "
+#~ "knowledge of the latest developments in the field is necessary."
+
+#~ msgid "Oordeel"
+#~ msgstr "Assessment"
+
+#~ msgid "Zeer goed"
+#~ msgstr "Very Good"
+
+#~ msgid "Goed"
+#~ msgstr "Good"
+
+#~ msgid "(Ruim) Voldoende"
+#~ msgstr "Satisfactory"
+
+#~ msgid "Onvoldoende"
+#~ msgstr "Unsatisfactory"
+
+#~ msgid "Bekijk oordeel van "
+#~ msgstr "View assessment of "
+
+#~ msgid "Weging (optioneel)"
+#~ msgstr "Weighing (optional)"
+
+#~ msgid "Bekijk weging van "
+#~ msgstr "View weighing of "
+
+#~ msgid "Toepassen Kennis en Inzicht"
+#~ msgstr "Application knowledge and insight"
+
+#~ msgid "Methodologie"
+#~ msgstr "Methodology"
+
+#~ msgid ""
+#~ "Kritische analyse van het materiaal en van bronnen (kwaliteit van de "
+#~ "analyse);"
+#~ msgstr ""
+#~ "Critical analysis of the material and sources (quality of the analysis);"
+
+#~ msgid "Operationalisering en gebruik van begrippen;"
+#~ msgstr "Putting into practice and usage of concepts;"
+
+#~ msgid ""
+#~ "Gebruik van secundaire bronnen die bedoeld zijn voor een gevorderd "
+#~ "academisch publiek;"
+#~ msgstr ""
+#~ "Usage secondary sources which are meant for an advanced academic audience;"
+
+#~ msgid ""
+#~ "Toepassen van kennis en inzicht in (onbekende) omstandigheden binnen de "
+#~ "bredere (of multidisciplinaire) context;"
+#~ msgstr ""
+#~ "Application of knowledge and insight into (unfamiliar) circumstances "
+#~ "within a broader (or multidisciplinary) context;"
+
+#~ msgid "Beschrijving en verantwoording gevolgde werkwijze;"
+#~ msgstr "Description and justification of the adopted method;"
+
+#~ msgid "Originaliteit / innovativiteit van het onderzoeksonderwerp;"
+#~ msgstr "Originality / innovativeness of research subject;"
+
+#~ msgid "Gebruik adequate onderzoeksmethoden."
+#~ msgstr "Usage effective research methods."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Is in staat om kennis en inzicht en probleemoplossende "
+#~ "vermogens toe te passen in nieuwe of onbekende omstandigheden binnen een "
+#~ "bredere (of multidisciplinaire) context die gerelateerd is aan het "
+#~ "vakgebied; is in staat om kennis te integreren en met complexe materie om "
+#~ "te gaan."
+#~ msgstr ""
+#~ "Dublin-descriptor: Is capable of applying his/her knowledge and "
+#~ "understanding in a manner that indicates a professional approach to their "
+#~ "work or vocation, and have competences typically demonstrated through "
+#~ "devising and sustaining arguments and solving problems within their field "
+#~ "of study."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Is in staat om zijn/haar kennis en inzicht op "
+#~ "dusdanige wijze toe te passen, dat dit een professionele benadering van "
+#~ "zijn/haar werk of beroep laat zien, en beschikt verder over competenties "
+#~ "voor het opstellen en verdiepen van argumentaties en voor het oplossen "
+#~ "van problemen op het vakgebied."
+#~ msgstr ""
+#~ "Dublin descriptor: Is capable of applying his/her knowledge and insight "
+#~ "in such a way that this demonstrates a professional approach to his/ her "
+#~ "work or profession, and furthermore has the competences for formulating "
+#~ "and developing arguments and for solving problems within the field."
+
+#~ msgid "Oordeelsvorming"
+#~ msgstr "Reaching conclusions"
+
+#~ msgid "Interpretatie, argumentatie, conclusie, met onder andere"
+#~ msgstr "Interpretation, argumentation, conclusion"
+
+#~ msgid ""
+#~ "Logisch en consistent betoog; conclusies volgen logisch en onderbouwd uit "
+#~ "het gepresenteerde materiaal;"
+#~ msgstr ""
+#~ "Logical and consistent reasoning; conclusions are well-founded and follow "
+#~ "logically from the presented material;"
+
+#~ msgid "De mate waarin de onderzoeksvraag daadwerkelijk wordt beantwoord;"
+#~ msgstr "The degree to which the thesis question is actually answered;"
+
+#~ msgid ""
+#~ "De mate waarin de resultaten van het onderzoek worden gekoppeld aan ander "
+#~ "en toekomstig onderzoek;"
+#~ msgstr "Degree to which results are connected to other and future research;"
+
+#~ msgid ""
+#~ "Kritische blik op eigen rol als onderzoeker (sociale en ethische "
+#~ "verantwoordelijkheden);"
+#~ msgstr ""
+#~ "Critical reflection on the own role as researcher (social and ethical "
+#~ "responsibilities);"
+
+#~ msgid ""
+#~ "Kritische weerspiegeling van bestaande theorieën en methoden uit het "
+#~ "vakgebied, welke de grens van kennis opschuiven;"
+#~ msgstr ""
+#~ "Critical reflection on the existing theories and methods in the field, "
+#~ "which push back the frontiers of knowledge;"
+
+#~ msgid "Innovativiteit van de bevindingen;"
+#~ msgstr "Innovativeness of findings;"
+
+#~ msgid ""
+#~ "Indien van toepassing: maatschappelijke en ethische aspecten meegewogen "
+#~ "in oordeelsvorming."
+#~ msgstr ""
+#~ "If applicable: social and ethical aspects taken into consideration in "
+#~ "reaching a conclusion."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Is in staat om oordelen te formuleren op grond van "
+#~ "onvolledige of beperkte informatie en daarbij rekening te houden met "
+#~ "sociaalmaatschappelijke en ethische verantwoordelijkheden, die zijn "
+#~ "verbonden aan het toepassen van de eigen kennis en oordelen."
+#~ msgstr ""
+#~ "Dublin-descriptor: Has the ability to gather and interpret relevant data "
+#~ "(usually within their field of study) to inform judgements that include "
+#~ "reflection on relevant social, scientific or ethical issues."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Is in staat om relevante gegevens te verzamelen en "
+#~ "interpreteren (meestal op het vakgebied) met het doel een oordeel te "
+#~ "vormen dat mede gebaseerd is op het afwegen van relevante "
+#~ "sociaalmaatschappelijke, wetenschappelijke of ethische aspecten."
+#~ msgstr ""
+#~ "Dublin descriptor: Is capable of collecting and interpreting relevant "
+#~ "data (mostly within the field) with the objective of reaching a "
+#~ "conclusion, which is also based on the consideration of relevant social, "
+#~ "scholarly and ethical aspects."
+
+#~ msgid "Communicatie"
+#~ msgstr "Communication"
+
+#~ msgid "Schrijfvaardigheid, structuur, met onder andere"
+#~ msgstr "Writing skills, structure"
+
+#~ msgid ""
+#~ "Taalgebruik (voer- c.q. doeltaal opleiding: niveau van taalvaardigheid, "
+#~ "leesbaarheid, stijl, spelling, grammatica, gebruik en uitleg juiste "
+#~ "vaktermen);"
+#~ msgstr ""
+#~ "Language use (language of instruction and/ or target language of the "
+#~ "programme: degree of linguistic competence, readability, style, spelling, "
+#~ "grammar, use and explanation correct terminology);"
+
+#~ msgid ""
+#~ "Opbouw en opmaak van de scriptie (hoofdstuk- en paragraafindeling, "
+#~ "inhoudsopgave; gebruik illustraties);"
+#~ msgstr ""
+#~ "Structure and layout of the thesis (division into chapters and sections, "
+#~ "table of contents, used illustrations);"
+
+#~ msgid ""
+#~ "Apparaat met inbegrip van annotatie (correct gebruik verwijzingssysteem, "
+#~ "volledigheid verwijzingen, literatuurlijst, etc.)."
+#~ msgstr ""
+#~ "Apparatus including annotations (correct use of reference guidelines, "
+#~ "completeness of references, bibliography, etc.)."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Is in staat om conclusies, alsmede de kennis, motieven "
+#~ "en overwegingen die hieraan ten grondslag liggen, duidelijk en "
+#~ "ondubbelzinnig over te brengen op een publiek van specialisten of niet-"
+#~ "specialisten."
+#~ msgstr ""
+#~ "Dublin descriptor: Is capable of conveying information, ideas and "
+#~ "solutions to an audience consisting of specialists or non-specialists."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Is in staat om informatie, ideeën en oplossingen over "
+#~ "te brengen op publiek bestaande uit specialisten of niet-specialisten."
+#~ msgstr ""
+#~ "Dublin descriptor: Is capable of conveying information, ideas and "
+#~ "solutions to an audience consisting of specialists or non-specialists."
+
+#~ msgid "Leervaardigheden"
+#~ msgstr "Learning skills"
+
+#~ msgid "Proces met onder andere"
+#~ msgstr "Process"
+
+#~ msgid "Mate van zelfstandigheid;"
+#~ msgstr "Degree of independence;"
+
+#~ msgid "Planning en tijdsmanagement;"
+#~ msgstr "Planning and time management;"
+
+#~ msgid "Omgang met feedback begeleiders;"
+#~ msgstr "Handling feedback supervisors;"
+
+#~ msgid "Indien van toepassing: Participatie in scriptiegroep;"
+#~ msgstr "If applicable: participation in thesis group;"
+
+#~ msgid ""
+#~ "Dublin-descriptor: Bezit de leervaardigheden die hem of haar in staat "
+#~ "stellen een vervolgstudie aan te gaan met een grotendeels zelfgestuurd of "
+#~ "autonoom karakter."
+#~ msgstr ""
+#~ "Dublin descriptor: Possesses the learning skills necessary to proceed in "
+#~ "studies which require a high degree of autonomy."
+
+#~ msgid ""
+#~ "Dublin-descriptor: Bezit de leervaardigheden die noodzakelijk zijn om een "
+#~ "vervolgstudie die een hoog niveau van autonomie veronderstelt aan te gaan."
+#~ msgstr ""
+#~ "Dublin descriptor: Possesses the learning skills necessary to proceed in "
+#~ "studies which require a high degree of autonomy."
+
+#~ msgid "Formele vereisten"
+#~ msgstr "Formal requirements"
+
+#~ msgid "Zoals bijvoorbeeld het aantal woorden."
+#~ msgstr "For example the number of words."
+
+#~ msgid "Opleidingsspecifieke (knock-out) criteria"
+#~ msgstr ""
+#~ "Formal requirements including (knock-out) criteria specifically for the "
+#~ "programme"
+
+#~ msgid "Samenvattend oordeel"
+#~ msgstr "Summary assessment/comments"
+
+#~ msgid "Eindoordeel eerste beoordelaar"
+#~ msgstr "Assessment first evaluator"
+
+#~ msgid "Eindoordeel tweede beoordelaar"
+#~ msgstr "Assessment second evaluator"
+
+#~ msgid "Eindoordeel"
+#~ msgstr "Final assessment"
+
+#~ msgid "Inleverdatum"
+#~ msgstr "Handed in to supervisor on"
+
+#~ msgid ""
+#~ "Toetsdatum is gelijk aan de inleverdatum van het definitieve werkstuk, "
+#~ "behalve als er een vaste inleverdatum is, dan geldt deze."
+#~ msgstr ""
+#~ "The date of the assessment is equal to the date the thesis was handed in, "
+#~ "with the exception only when an assessment date is set by the course, "
+#~ "than that date is the assessment date."
+
+#~ msgid ""
+#~ "Let op! Na definitief ondertekenen door beide beoordelaars krijgt de "
+#~ "student een kopie van het formulier."
+#~ msgstr ""
+#~ "Attention please. Signing the document by both evaluators will "
+#~ "automatically sent a copy of the form to the student."
+
+#~ msgid "Nodig uit"
+#~ msgstr "Invite"
+
+#~ msgid ""
+#~ "Nodig een beoordelaar uit door hieronder het e-mailadres in te vullen en "
+#~ "op verstuur te klikken."
+#~ msgstr ""
+#~ "Invite another evaluator by providing the email of the evaluator below "
+#~ "and clicking send."
+
+#~ msgid "Vul een e-mailadres in"
+#~ msgstr "Provide an email address"
+
+#~ msgid "Dublin-descriptor"
+#~ msgstr "Dublin-descriptor"
+
+#~ msgid "Sluiten"
+#~ msgstr "Close"
+
+#~ msgid "Notities openen"
+#~ msgstr "Open notes"
+
+#~ msgid "Notities"
+#~ msgstr "Notes"
+
+#~ msgid ""
+#~ "U bent tweede beoordelaar van deze scriptie. Dit is uw onafhankelijke "
+#~ "beoordeling."
+#~ msgstr ""
+#~ "You are the second evaluator of this thesis. This is your individual "
+#~ "assessment."
+
+#~ msgid "Deze beoordeling dient u in het Engels in te vullen."
+#~ msgstr "This assessment needs to be filled in in English."
+
+#~ msgid "Deze beoordeling dient u in het Nederlands in te vullen."
+#~ msgstr "This assessment needs to be filled in in Dutch."
+
+#~ msgid ""
+#~ "Vul de velden hieronder in. De gegevens worden opgeslagen nadat u op de "
+#~ "knop tussentijds opslaan heeft geklikt.<br />Wanneer u alle verplichte "
+#~ "velden gevuld heeft kunt u, na tussentijds opslaan, rechtsonder op "
+#~ "'Definitief opslaan en ondertekenen' klikken.<br/>We adviseren u uw werk "
+#~ "regelmatig op te slaan."
+#~ msgstr ""
+#~ "Please fill in the fields below. Your input will be stored after the save "
+#~ "progress button is clicked.<br />When all required fields are provided, "
+#~ "you can click the 'Save, lock and sign' button on the bottom right. We "
+#~ "recommend that you save your work on a regular basis."
+
+#~ msgid ""
+#~ "Plagiaat is een ernstig vergrijp. De faculteit moedigt plagiaatcontrole "
+#~ "met behulp van \"Turnitin\" door de eerste beoordelaar aan. Van de tweede "
+#~ "beoordelaar wordt slechts een marginale check op plagiaat verwacht."
+#~ msgstr ""
+#~ "Plagiarism is a serious offense. The Humanities faculty encourages "
+#~ "checking on plagiarism with \"Turnitin\" by the first assessor. The "
+#~ "second assessor is expected to do a simple check on plagiarism."
+
+#~ msgid "Proces, met onder andere"
+#~ msgstr "Process, with"
+
+#~ msgid "Bachelor Nederlands"
+#~ msgstr "Bachelor Dutch"
+
+#~ msgid "Bachelor Engels"
+#~ msgstr "Bachelor English"
+
+#~ msgid "Master Engels"
+#~ msgstr "Master English"
+
+#~ msgid "Master Nederlands"
+#~ msgstr "Master Dutch"
+
+#~ msgid ""
+#~ "Weet u zeker dat u de examencommissie wilt verzoeken om een derde "
+#~ "beoordelaar aan te wijzen?"
+#~ msgstr ""
+#~ "Are you sure you want to request a third assessor appointed by the Board "
+#~ "of Examiners?"
+
+#~ msgid ""
+#~ "Weet u zeker dat u een derde formulier wilt aanmaken? Hierna kunt u geen "
+#~ "verzoek tot het aanwijzen van een derde lezer vanuit het systeem doen."
+#~ msgstr ""
+#~ "Are you sure you would like to create a third assessment form? After "
+#~ "creating a third assessment form you will no longer be able to request a "
+#~ "third assessor through the system."
+
+#~ msgid ""
+#~ "U staat op het punt uw handtekening van het derde formulier te halen. De "
+#~ "tweede lezer kan dan niet tekenen. Weet u het zeker?"
+#~ msgstr ""
+#~ "You are about to remove your signature from the third form. The second "
+#~ "assessor is than unable to sign. Are you sure?"
+
+#~ msgid "Welkom"
+#~ msgstr "Welcome"
+
+#~ msgid "Nieuwe beoordeling starten"
+#~ msgstr "Start new assessment"
+
+#~ msgid ""
+#~ "Wilt u een nieuwe beoordeling starten klik dan rechts op de knop 'Start "
+#~ "nieuwe beoordeling'."
+#~ msgstr ""
+#~ "If you want to start a new assessment you can click the 'Start new "
+#~ "assessment' button."
+
+#~ msgid "Start nieuwe beoordeling"
+#~ msgstr "Start new assessment"
+
+#~ msgid "Scriptie overzicht"
+#~ msgstr "Thesis overview"
+
+#~ msgid ""
+#~ "Hieronder treft u een overzicht aan van alle scripties in het systeem, "
+#~ "waarvan u eerste dan wel tweede beoordelaar bent."
+#~ msgstr ""
+#~ "Below you will find all new theses of which you are the first or second "
+#~ "evaluator."
+
+#~ msgid "Nieuwe beoordelingen"
+#~ msgstr "New assessments"
+
+#~ msgid ""
+#~ "Hieronder treft u alle nieuwe beoordelingen waar u als tweede beoordelaar "
+#~ "voor uitgenodigd bent."
+#~ msgstr ""
+#~ "Below you will find all new theses of which you are the first or second "
+#~ "evaluator."
+
+#~ msgid "type"
+#~ msgstr "type"
+
+#~ msgid "afstudeerrichting"
+#~ msgstr "specialisation"
+
+#~ msgid "1e beoordelaar"
+#~ msgstr "1st evaluator"
+
+#~ msgid "2e beoordelaar"
+#~ msgstr "2nd evaluator"
+
+#~ msgid "titel"
+#~ msgstr "title"
+
+#~ msgid "titel Engels"
+#~ msgstr "title English"
+
+#~ msgid "ECTS"
+#~ msgstr "ECTS"
+
+#~ msgid "vrij van plagiaat"
+#~ msgstr "free of plagiarism"
+
+#~ msgid "oordeel"
+#~ msgstr "assessment"
+
+#~ msgid "datum oordeel"
+#~ msgstr "day of assessment"
+
+#~ msgid "Verzoek tot derde lezer"
+#~ msgstr "Request a third reader"
+
+#~ msgid ""
+#~ "Hieronder kunt u verder gaan met een beoordeling die u al gestart bent."
+#~ msgstr "You can continue with a previous assessment from the list below."
+
+#~ msgid "Wacht op andere beoordelaar"
+#~ msgstr "Waiting for other evaluator"
+
+#~ msgid ""
+#~ "U bent voor nu klaar met onderstaande beoordeling(en). Zodra de andere "
+#~ "beoordelaar getekend heeft gaat het proces verder onder gezamenlijke "
+#~ "beoordelingen."
+#~ msgstr ""
+#~ "For now you are done with below assessments. When the other assessor has "
+#~ "finished assessing and signed his/her assessment, the process will "
+#~ "continue below final assessments."
+
+#~ msgid "Scripties voor overleg"
+#~ msgstr "Theses to discuss"
+
+#~ msgid ""
+#~ "Hieronder treft u de scripties waarvan de beoordeling twee of meer punten "
+#~ "uiteen loopt of waar een/beide beoordelaar(s) een 5,4 of lager hebben "
+#~ "gegeven. Als u niet tot overeenstemming kunt komen over de beoordeling "
+#~ "kan de eerste beoordelaar op het rode duimpje klikken. Daarmee verzoekt u "
+#~ "de examencommissie om een derde lezer aan te wijzen. Als u het eens bent "
+#~ "geworden over de beoordeling kan de eerste beoordelaar op de oranje knop "
+#~ "met pijlen klikken. Hiermee wordt een gezamenlijk formulier aangemaakt. "
+#~ "Ook beoordelingen die leiden tot een onvoldoende eindoordeel moeten "
+#~ "ingediend worden."
+#~ msgstr ""
+#~ "Below you will find the assessments where either the assessments are more "
+#~ "than two grade-points apart, or one/both of you has/have given a grade of "
+#~ "5.4 or below. If you cannot reach agreement on how to reach a joint "
+#~ "assessment, the first assessor clicks the red thumb button. This sends a "
+#~ "request to the Board of Examiners to appoint a third reader. If you do "
+#~ "manage to agree on a joint assessment, the first assessor clicks the "
+#~ "orange button with the two arrows. This starts the process for a third "
+#~ "(joint) form. Please note that insufficient final verdicts do need to be "
+#~ "completed, as students need an official report for any achievement."
+
+#~ msgid "Gezamenlijke beoordelingen"
+#~ msgstr "Final assessments"
+
+#~ msgid ""
+#~ "Hieronder treft u de beoordelingen aan waarvan de individuele beoordeling "
+#~ "door beide beoordelaars is afgerond. De eerste beoordelaar kan het "
+#~ "gezamenlijke oordeel invoeren op het derde formulier. Na ondertekening "
+#~ "wordt de tweede beoordelaar gevraagd het oordeel te controleren en te "
+#~ "ondertekenen. Zodra dit mogelijk is komt een groene tekenknop "
+#~ "beschikbaar. Indien de tweede beoordelaar nog aanpassingen aan het "
+#~ "formulier wenst moet deze dit doorgegeven aan de eerste beoordelaar. Met "
+#~ "de rode knop in de kolom “ontteken” kan het formulier door de eerste "
+#~ "beoordelaar ontgrendeld en aangepast worden. Het formulier moet hierna "
+#~ "opnieuw getekend worden."
+#~ msgstr ""
+#~ "Below you will find all assessments for which both evaluators have "
+#~ "finished their individual assessments. The first evaluator should now "
+#~ "finalize the joint assessment on the third form. After signing the second "
+#~ "evaluator is asked to check the assessment and sign as well. If the "
+#~ "second evaluator would like any adjustments made to the form, he/she "
+#~ "should notify the first evaluator. With the red button in the “sign” "
+#~ "column  the first evaluator can unlock and change the assessment. "
+#~ "Afterwards the form needs to be signed again."
+
+#~ msgid "ontteken"
+#~ msgstr "unsign"
+
+#~ msgid "Afgeronde beoordelingen"
+#~ msgstr "Finished assessments"
+
+#~ msgid "Hieronder treft u alle door u afgeronde scriptiebeoordelingen."
+#~ msgstr "Below you find all your finished assessments."
+
+#~ msgid "inleverdatum"
+#~ msgstr "handed in"
+
+#~ msgid "Geen derde"
+#~ msgstr "No third"
+
+#~ msgid ""
+#~ "Hieronder treft u het door de eerste beoordelaar gemaakte gezamenlijke "
+#~ "beoordelingsformulier van de scriptie ven "
+#~ msgstr ""
+#~ "Below you will find all theses that still need a joined assessment from "
+#~ "you and the other evaluator. "
+
+#~ msgid ""
+#~ "Als u wijzigingen in de beoordeling wenst kunt u buiten het systeem om "
+#~ "contact opnemen met de eerste beoordelaar. Die kan na onttekenen de "
+#~ "aanpassingen doorvoeren."
+#~ msgstr ""
+#~ "If you like to see changes made to the final assessment, you can contact "
+#~ "the first assessor of this thesis outside of this system. He/she can "
+#~ "unsign the assessment and make the required changes."
+
+#~ msgid "Hieronder treft u een overzicht aan van de scriptie van "
+#~ msgstr "Below you find an overview of the thesis of "
+
+#~ msgid "Pas beoordeling aan"
+#~ msgstr "Edit assessment"
+
+#~ msgid "Student gegevens"
+#~ msgstr "Student details"
+
+#~ msgid "Niveau"
+#~ msgstr "Level"
+
+#~ msgid "Titel (Engels)"
+#~ msgstr "Title (English)"
+
+#~ msgid "Bevindingen"
+#~ msgstr "Findings"
+
+#~ msgid "Vrij van plagiaat"
+#~ msgstr "Free of plagiarism"
+
+#~ msgid "Criteria"
+#~ msgstr "Criteria"
+
+#~ msgid "Weging"
+#~ msgstr "Weighing"
+
+#~ msgid "Genereer gezamenlijk formulier"
+#~ msgstr "Generate final form"
+
+#~ msgid "We komen er niet uit"
+#~ msgstr "We can't agree"
+
+#~ msgid "Tekenen voor akkoord"
+#~ msgstr "Sign for approval"
+
+#~ msgid "Genereer Pdf"
+#~ msgstr "Generate Pdf"
+
+#~ msgid "Keuzemenu type scriptie"
+#~ msgstr "Thesis grading options"
+
+#~ msgid "Selecteer type scriptie"
+#~ msgstr "Select type of thesis"
+
+#~ msgid "Bachelorscriptie (NL)"
+#~ msgstr "Bachelor thesis (NL)"
+
+#~ msgid "Bachelorscriptie (EN)"
+#~ msgstr "Bachelor thesis (EN)"
+
+#~ msgid "Masterscriptie (NL)"
+#~ msgstr "Master thesis (NL)"
+
+#~ msgid "Masterscriptie (EN)"
+#~ msgstr "Master thesis (EN)"
+
+#~ msgid "Researchmasterscriptie (EN)"
+#~ msgstr "Research Master thesis (EN)"
+
+#~ msgid "Verder"
+#~ msgstr "Continue"
+
+#~ msgid "Vul uw pincode in:"
+#~ msgstr "Provide your PIN:"
+
+#~ msgid ""
+#~ "Vul aub uw pincode in die u bij registratie heeft opgegeven. Na invullen "
+#~ "van de code wordt de beoordeling ondertekend."
+#~ msgstr ""
+#~ "Please provide the PIN you created after registration for the system. "
+#~ "Once filled in the assessment will be signed."
+
+#~ msgid "Pincode (vijf cijfers)"
+#~ msgstr "PIN (five digits)"
+
+#~ msgid "Document wordt ondertekend"
+#~ msgstr "Signing documents"
+
+#~ msgid "De documenten worden ondertekend, een moment geduld aub."
+#~ msgstr "The documents are being signed, please be patient."
+
+#~ msgid ""
+#~ "Alle BA-eindwerkstukken moeten worden opgenomen in het repositorium. BA-"
+#~ "eindwerkstukken in het repositorium zijn in beginselvertrouwelijk tenzij "
+#~ "student èn docent goede redenen zien om het werkstuk toch openbaar te "
+#~ "laten zijn. Dan dit hierna aangeven. "
+#~ msgstr ""
+#~ "The standard procedure is that Bachelor’s theses in the repository are "
+#~ "confidential, unless the student and the lecturer have good reasons to "
+#~ "make it public. Please indicate this below. "
+
+#~ msgid "Datum openbaarmaking:"
+#~ msgstr "Date of publication:"
+
+#~ msgid "Instellingen"
+#~ msgstr "Settings"
+
+#~ msgid "5-cijferige code vernieuwen"
+#~ msgstr "renew 5-digit code"
+
+#~ msgid ""
+#~ "Vul hieronder twee keer een nieuwe pincode in. Houd er rekening mee dat "
+#~ "de pincode 5 cijfers moet bevatten"
+#~ msgstr ""
+#~ "Below please provide your new PIN twice. Keep in mind that a pincode "
+#~ "consists of 5 digits"
+
+#~ msgid "Herhaal pincode"
+#~ msgstr "Repeat PIN"
+
+#~ msgid "Sla je pincode op"
+#~ msgstr "Save PIN"
+
+#~ msgid "Persoonlijk overzicht"
+#~ msgstr "Personal overview"
+
+#~ msgid ""
+#~ "Hieronder treft u uw persoonlijke gegevens. U kunt uw gegevens wijzigen "
+#~ "door op de wijzig knop te klikken."
+#~ msgstr ""
+#~ "Below you find your personal details. You can change your details by "
+#~ "clicking the edit button."
+
+#~ msgid "Wijzig gegevens"
+#~ msgstr "Edit details"
+
+#~ msgid "Persoonlijke gegevens"
+#~ msgstr "Personal details"
+
+#~ msgid "Taal"
+#~ msgstr "Language"
+
+#~ msgid "English"
+#~ msgstr "English"
+
+#~ msgid "Wijzig wachtwoord"
+#~ msgstr "Reset password"
+
+#~ msgid "Wijzig pincode"
+#~ msgstr "Update PIN"
+
+#~ msgid ""
+#~ "Er is een e-mail gestuurd naar het adres dat bij ons gekoppeld is aan uw "
+#~ "gebruikersnaam. Volg de instructies in die e-mail om uw wachtwoord te "
+#~ "resetten. Mocht u geen e-mail hebben ontvangen kijk dan in uw spam "
+#~ "folder, of neem contact op met "
+#~ msgstr ""
+#~ "An email has been sent to the email address linked to your username. "
+#~ "Follow the instructions to reset your password. If you did not receive an "
+#~ "email please check your spam folder, or contact  "
+
+#~ msgid ""
+#~ "Het wachtwoord is met succes gewijzigd. U wordt automatisch doorgelinkt "
+#~ "naar de login pagina in 15 seconden. Als dit niet gebeurd ga dan zelf "
+#~ "naar "
+#~ msgstr ""
+#~ "Your password has been changed successfully. You will be redirected to "
+#~ "the login page within 15 seconds. If this doesn't happen please go to "
+
+#~ msgid ""
+#~ "U staat op het punt een onvoldoende definitief op te slaan. Weet u het "
+#~ "zeker?"
+#~ msgstr ""
+#~ "You are about to store, sign and lock an unsatisfactory grade. Are you "
+#~ "sure?"
+
+#~ msgid "Toetsdatum"
+#~ msgstr "Date assessment"
+
+#~ msgid "toetsdatum"
+#~ msgstr "date assessment"
+
+#~ msgid ""
+#~ "Succesvol opgeslagen. Alle verplichte velden zijn gevuld. U kunt "
+#~ "rechtsonder 'Definitief opslaan en ondertekenen'"
+#~ msgstr ""
+#~ "Saved successfully. All required fields are filled in. You can click "
+#~ "'Save, lock and sign' in the bottom right corner"
+
+#~ msgid "Datum Openbaarmaking"
+#~ msgstr "Date of publication"
+
+#~ msgid "Scriptie beoordeling systeem"
+#~ msgstr "Thesis assessment system"
+
+#~ msgid ""
+#~ "Het wachtwoord is met succes gewijzigd. Je wordt automatisch doorgelinkt "
+#~ "naar de login pagina in 15 seconden. Als dit niet gebeurd\n"
+#~ "                        ga dan zelf naar "
+#~ msgstr ""
+#~ "Password successfully changed. You will be automatically linked to the "
+#~ "login page in 15 seconds. If this does not happen\n"
+#~ " \n"
+#~ "go to "
+
+#~ msgid "Vul aub in."
+#~ msgstr "Please fill in."
+
+#~ msgid "Research Master"
+#~ msgstr "Research Master"
+
+#~ msgid ""
+#~ "U heeft geen rechten om de scriptie die u wilt verwijderen te verwijderen."
+#~ msgstr "You are not allowed to delete the thesis you are trying to delete."
+
+#~ msgid "Studenten overzicht"
+#~ msgstr "Student overview"
+
+#~ msgid "er ging iets mis met opslaan"
+#~ msgstr "something went wrong while saving"
+
+#~ msgid "onvoldoende"
+#~ msgstr "unsatisfactory"
+
+#~ msgid "voldoende"
+#~ msgstr "satisfactory"
+
+#~ msgid "goed"
+#~ msgstr "good"
+
+#~ msgid "zeer goed"
+#~ msgstr "very good"
+
+#~ msgid "Titel(NL)"
+#~ msgstr "Title(NL)"
+
+#~ msgid ""
+#~ "Zoals bijvoorbeeld het aantal woorden. Zie de website voor <a "
+#~ "target='_blank' href='https://www.medewerkers.universiteitleiden.nl/"
+#~ "onderwijs/cursus-voorbereiden-en-uitvoeren/toetsen-en-beoordelen/toetsen-"
+#~ "en-beoordelen/geesteswetenschappen/fgw-bestuur-"
+#~ "bureau#tab-2'>opleidingsspecifieke (knock-out) criteria</a>"
+#~ msgstr ""
+#~ "For example the amount of words. See the <a target='_blank' href='https://"
+#~ "www.staff.universiteitleiden.nl/education/tests-and-theses/tests-and-"
+#~ "theses/tests-and-theses/humanities/fgw-board-office#tab-2'>website for "
+#~ "the (knock-out) criteria specifically for the programme</a>"
+
+#~ msgid ""
+#~ "Dit is uw onafhankelijke beoordeling. U bent tweede beoordelaar van deze "
+#~ "scriptie."
+#~ msgstr ""
+#~ "This is your independent assessment. You are second evaluator to this "
+#~ "thesis."
+
+#~ msgid ""
+#~ "Zoals bijvoorbeeld het aantal woorden. Zie de website voor <a "
+#~ "target='_blank' href='https://www.medewerkers.universiteitleiden.nl/"
+#~ "onderwijs/cursus-voorbereiden-en-uitvoeren/toetsen-en-beoordelen/toetsen-"
+#~ "en-beoordelen/geesteswetenschappen/fgw-bestuur-bureau?"
+#~ "cf=geesteswetenschappen&cd=fgw-bestuur-bureau#tab-2'>opleidingsspecifieke "
+#~ "(knock-out)criteria</a>"
+#~ msgstr ""
+#~ "For example the amount of words. See the <a target='_blank' href='https://"
+#~ "www.staff.universiteitleiden.nl/education/tests-and-theses/tests-and-"
+#~ "theses/tests-and-theses/humanities/fgw-board-office#tab-2'>website for "
+#~ "the (knock-out) criteria specifically for the programme</a>"
+
+#~ msgid ""
+#~ "Hieronder treft u een overzicht aan van alle scripties in het systeem, "
+#~ "waarvan u eerste dan wel tweede beoordelaar bent. <br />Wilt u een nieuwe "
+#~ "beoordeling starten klik dan rechts op de knop 'Start nieuwe beoordeling'."
+#~ msgstr ""
+#~ "Below you find an overview of all theses in the system of which you are "
+#~ "an evaluator. <br />If you would like to start a new assessment you can "
+#~ "do so by clicking on 'Start new assessment'."
+
+#~ msgid "Afgeronde scripties"
+#~ msgstr "Finished assessments"
+
+#~ msgid "nvt"
+#~ msgstr "n.a."
+
+#~ msgid ""
+#~ "Hieronder treft u de scripties waarover u in overleg moet treden met de "
+#~ "andere beoordelaar. U heeft namelijk meer dan 2 punten verschil in uw "
+#~ "beoordelingen, danwel 1 van u heeft een onvoldoende gegeven."
+#~ msgstr ""
+#~ "Below you find the theses that need discussion between you and the other "
+#~ "evaluator."
+
+#, fuzzy
+#~| msgid ""
+#~| "Zoals bijvoorbeeld het aantal woorden. Zie de website voor <a href="
+#~| "\"https://www.medewerkers.universiteitleiden.nl/onderwijs/cursus-"
+#~| "voorbereiden-en-uitvoeren/toetsen-en-beoordelen/toetsen-en-beoordelen/"
+#~| "geesteswetenschappen/fgw-bestuur-bureau#tab-2\">opleidingsspecifieke "
+#~| "(knock-out) criteria</a>"
+#~ msgid ""
+#~ "Zoals bijvoorbeeld het aantal woorden. Zie de website voor <a "
+#~ "href='https://www.medewerkers.universiteitleiden.nl/onderwijs/cursus-"
+#~ "voorbereiden-en-uitvoeren/toetsen-en-beoordelen/toetsen-en-beoordelen/"
+#~ "geesteswetenschappen/fgw-bestuur-bureau?cf=geesteswetenschappen&cd=fgw-"
+#~ "bestuur-bureau#tab-2'>opleidingsspecifieke (knock-out)criteria</a>"
+#~ msgstr ""
+#~ "For example the amount of words. See the <a href=\"https://www.staff."
+#~ "universiteitleiden.nl/education/tests-and-theses/tests-and-theses/tests-"
+#~ "and-theses/humanities/fgw-board-office#tab-2\">website for the (knock-"
+#~ "out) criteria specifically for the programme</a>"
+
+#~ msgid ""
+#~ "Het wachtwoord is met succes gewijzigd. Je wordt automatisch doorgelinkt "
+#~ "naar de login pagina in 15 seconden. Als dit niet gebeurd ga dan zelf "
+#~ "naar "
+#~ msgstr ""
+#~ "Your password has successfully been changed. You will be redirected "
+#~ "automatically to the login page. If after 15 seconds this hasn't happened "
+#~ "yet please go to "
+
+#~ msgid ""
+#~ "Hieronder treft u een overzicht aan van alle scripties in het systeem, "
+#~ "waarvan u eerste dan wel tweede beoordelaar bent. <br />\n"
+#~ "                      Wilt u een nieuwe beoordeling starten klik dan "
+#~ "rechts op de knop 'Start nieuwe beoordeling'."
+#~ msgstr ""
+#~ "Below you find an overview of all theses in the system of which you are "
+#~ "the first or second evaluator. <br/>\n"
+#~ "If you want to start a new Assessment you can do so by clicking on the "
+#~ "button to the right that says 'Start new assessment'."
+
+#~ msgid "Niet valide waarden"
+#~ msgstr "Invalid values"
+
+#~ msgid "index"
+#~ msgstr "index"
+
+#~ msgid ""
+#~ "Dublin-descriptor: Heeft aantoonbare kennis en inzicht van een vakgebied, "
+#~ "waarbij wordt voortgebouwd op het niveau bereikt in het voortgezet "
+#~ "onderwijs en dit wordt overtroffen; functioneert doorgaans opeen niveau "
+#~ "waarop met ondersteuning van gespecialiseerde handboeken, enige aspecten "
+#~ "voorkomen waarvoor kennis van de laatste ontwikkelingen in het vakgebied "
+#~ "vereist is."
+#~ msgstr ""
+#~ "Dublin descriptor: Has demonstrable knowledge of and insight into a field "
+#~ "of study, to achieve this has built on the level reached in secondary "
+#~ "education and has surpassed this; generally functions at a level where, "
+#~ "with the aid of specialized handbooks, some aspects occur for which "
+#~ "knowledge of the latest developments in the field is necessary"
+
+#~ msgid ""
+#~ "Er is een e-mail gestuurd naar het adres dat bij ons gekoppeld is aan je "
+#~ "gebruikersnaam. Volg de instructies in die e-mail om je wachtwoord te "
+#~ "resetten.\n"
+#~ "        Mocht je geen email hebben ontvangen kijk dan in je spam folder, "
+#~ "of neem contact op met "
+#~ msgstr ""
+#~ "An email has been send to the email address linked to your username. "
+#~ "Follow the instructions to reset your password.\n"
+#~ "If you did not receive an email please check your spam folder, or contact "
+
+#~ msgid ""
+#~ "Hieronder treft u de waarover u in overleg moet treden met de andere "
+#~ "beoordelaar. U heeft namelijk meer dan 2 punten verschil in uw "
+#~ "beoordelingen, danwel 1 van u heeft een onvoldoende gegeven."
+#~ msgstr ""
+#~ "Below you find the theses that need discussion between you and the other "
+#~ "assessor."
+
+#~ msgid "afstudeer richting"
+#~ msgstr "specialization"
+
+#~ msgid ""
+#~ "Nodig een beoordelaar uit door hieronder het mailadres van deze in te "
+#~ "vullen en op verstuur te klikken."
+#~ msgstr ""
+#~ "Invite another evaluator by providing the email of the evaluator below "
+#~ "and clicking send."
+
+#~ msgid "Methodologie met onder andere"
+#~ msgstr "Methodology"
+
+#~ msgid ""
+#~ "De standaard procedure is dat research master scripties via het "
+#~ "repositorium publiek worden gemaakt, tenzij de student of de docent goede "
+#~ "redenen zien om het werkstuk toch vertrouwelijk, of tijdelijk "
+#~ "vertrouwelijk te houden. Dan dit hierna aangeven"
+#~ msgstr ""
+#~ "The standard procedure is that Researchmaster’s theses in the repository "
+#~ "are public, unless the student or lecturer has good reasons to keep the "
+#~ "thesis confidential, or temporarily confidential. Please indicate this "
+#~ "below. "
+
+#~ msgid "Examen commissie"
+#~ msgstr "Examination Board"
+
+#~ msgid "tussenv"
+#~ msgstr "last name prefix"
+
+#~ msgid ""
+#~ "U heeft geen rechten om de funtionaliteit te gebruiken die u probeerd te "
+#~ "benaderen."
+#~ msgstr "You have insufficient rights to do what you are trying to do."
+
+#~ msgid "Scriptie beoordeling systeem Login"
+#~ msgstr "Thesis assessment system login"
+
+#~ msgid ""
+#~ "Je komt op deze pagina omdat er iets mis is gegaan. Neem contact op met "
+#~ "de site beheerder via "
+#~ msgstr ""
+#~ "You see this page because something went wrong. Please contact the page "
+#~ "administrator via"
+
+#~ msgid ""
+#~ "De vijf cijfer code heeft u nodig om een beoordeelde scriptie te kunnen "
+#~ "ondertekenen."
+#~ msgstr "The five digit code you need to sign a graded thesis."
+
+#~ msgid "Vul een 5 cijfercode in"
+#~ msgstr "Provide a 5 digit code"
+
+#~ msgid "Fout bij het versturen van email."
+#~ msgstr "Error during sending of email."
+
+#~ msgid "Opgegeven email adres niet valide"
+#~ msgstr "Supplied email address invalid"
+
+#~ msgid "Het opgegeven email adres is al in gebruik"
+#~ msgstr "Supplied email address already taken"
+
+#~ msgid "Incorrecte fileextentie: "
+#~ msgstr "Invalid file extension:"
+
+#~ msgid ", neem contact op met de site beheerder."
+#~ msgstr ", please contact the site administrator."
+
+#~ msgid "Wachtwoord moet te minsten 1 cijfer bevatten!"
+#~ msgstr "Password must contain at least 1 digit!"
+
+#~ msgid "Wachtwoord moet te minsten 1 letter bevatten!"
+#~ msgstr "Password must contain at least 1character!"
+
+#~ msgid "Deze gebruikernaam is al in gebruik."
+#~ msgstr "Username already in use."
+
+#~ msgid "Persoon overzicht"
+#~ msgstr "Student overview"
+
+#~ msgid "Scriptie management"
+#~ msgstr "Thesis management"
+
+#~ msgid "Emailadres niet valide."
+#~ msgstr "Email address invalid"
+
+#~ msgid "Scriptie beoordeelsysteem"
+#~ msgstr "Thesis grading system"
+
+#~ msgid "5-cijfercode"
+#~ msgstr "5-digit code"
+
+#~ msgid "Kies aub een 5 cijfer code"
+#~ msgstr "Please choose a 5-digit code"
+
+#~ msgid "5-cijfercode vernieuwen"
+#~ msgstr "Renew 5-digit code"
+
+#~ msgid "Vul aub een geldig email adres in."
+#~ msgstr "Please provide a valid email address"
+
+#~ msgid "Passwoord vernieuw mail verstuurd"
+#~ msgstr "Password reset email send"
+
+#~ msgid ""
+#~ "Een email is verstuurd naar het opgegeven emailadres met instructies hoe "
+#~ "u uw wachtwoord kunt vernieuwen."
+#~ msgstr ""
+#~ "An email is send to the registered email address with instructions on how "
+#~ "to reset your password."
+
+#~ msgid "Scriptie beoordeel systeem"
+#~ msgstr "Thesis grading system"
+
+#~ msgid "Om een persoon op te slaan moet het studentnummer worden ingevuld"
+#~ msgstr "To save a student you need to provide the student number"
+
+#~ msgid "Voeg nieuwe student toe."
+#~ msgstr "Add student"
+
+#~ msgid "Wijzig gegevens."
+#~ msgstr "Edit details"
+
+#~ msgid "Cummunicatie"
+#~ msgstr "Communication"
+
+#~ msgid "gebruiker"
+#~ msgstr "user"
+
+#~ msgid "Voeg nieuwe scriptie toe."
+#~ msgstr "Assess new thesis"
+
+#~ msgid "Nodig beoordelaar uit"
+#~ msgstr "Invite evaluator"
+
+#~ msgid "Onderteken"
+#~ msgstr "Sign"
+
+#~ msgid ""
+#~ "Hieronder treft u een overzicht aan van alle scripties in het systeem, "
+#~ "waarvan u eerste dan wel tweede beoordelaar bent. <br />\n"
+#~ "                      Wilt u een nieuwe beoordeling starten klik dan "
+#~ "rechts op de knop 'Voeg nieuwe scriptie toe'."
+#~ msgstr ""
+#~ "Below you find an overview of aal theses in the system of which you are "
+#~ "the first or the second evaluator. <br />\n"
+#~ "If you want to start a new Assessment then click the button 'Add new "
+#~ "thesis'"
+
+#~ msgid "Teken en rond af"
+#~ msgstr "Sign and finalize"
+
+#~ msgid ""
+#~ "Uw beoordeling en de beoordeling van de andere beoordelaar liggen 2 of "
+#~ "meer punten uit elkaar. U dient met elkaar in gesprek te gaan om dit "
+#~ "probleem te verhelpen. U kunt de scriptie pas ondertekenen zodra het "
+#~ "verschil minder is dan 2 punten. Het eindcijfer is dan het cijfer van de "
+#~ "eerste beoordelaar."
+#~ msgstr ""
+#~ "Your assessment and the assessment of the other evaluator differ by more "
+#~ "than 2 points. You are asked to deliberate with each other to remove this "
+#~ "difference. You can sign the thesis when the difference is less then 2 "
+#~ "points. The final grade linked to the students thesis will be the grade "
+#~ "assigned by the first evaluator."
+
+#~ msgid "Wat voor scriptie wilt u beoordelen?"
+#~ msgstr "What kind of thesis do you want to assess?"
+
+#~ msgid "Hier kunt u een overzicht zien van uw lopende scripties."
+#~ msgstr "Here you will find an overview of all your active theses"
+
+#~ msgid "Hieronder treft u al uw nieuwe scripties."
+#~ msgstr "Below you will find all new theses for grading."
+
+#~ msgid "Hieronder treft u al uw lopende beoordelingen van scripties."
+#~ msgstr "Below you will find all current theses for assessing."
+
+#~ msgid ""
+#~ "Hieronder treft u alle beoordeelde scripties die wachten op een "
+#~ "handtekening."
+#~ msgstr "Below you will find all theses waiting to be signed."
+
+#~ msgid ""
+#~ "Kritische weerspiegeling van bestaande theorieen en methoden uit het "
+#~ "vakgebied, welke de grens van kennis opschuiven;"
+#~ msgstr ""
+#~ "critical reflection on the existing theories and methods in the field, "
+#~ "which push back the frontiers of knowledge;"
+
+#~ msgid ""
+#~ "Toepassen van kennis en inzich in (onbekende) omstandigheden binnen de "
+#~ "bredere (of multidiciplinaire) context;"
+#~ msgstr ""
+#~ "application of knowledge and insight into (unfamiliar) circumstances "
+#~ "within a broader (or multidisciplinary) context.\""
+
+#~ msgid ""
+#~ "De standaard procedure is dat masterscripties via het repositorium "
+#~ "publiek worden gemaakt, tenzij de student of de docent goederedenen zien "
+#~ "om het werkstuk toch vertrouwelijk, of tijdelijk vertrouwelijk te houden. "
+#~ "Dan dit hierna aangeven"
+#~ msgstr ""
+#~ "The standard procedure is that Master’s theses in the repository are "
+#~ "public, unless the student or lecturer has good reasons to keep the "
+#~ "thesis confidential, or temporarily confidential. Please indicate this "
+#~ "below. "
+
+#~ msgid ""
+#~ "De standaard procedure is dat research master scripties via het "
+#~ "repositorium publiek worden gemaakt, tenzij de student of de docent "
+#~ "goederedenen zien om het werkstuk toch vertrouwelijk, of tijdelijk "
+#~ "vertrouwelijk te houden. Dan dit hierna aangeven"
+#~ msgstr ""
+#~ "The standard procedure is that Research Master’s theses in the repository "
+#~ "are public, unless the student or lecturer has good reasons to keep the "
+#~ "thesis confidential, or temporarily confidential. Please indicate this "
+#~ "below."
+
+#~ msgid "Reden:"
+#~ msgstr "Reason"
+
+#~ msgid "Vul aub een 5 cijfer code in om de scriptie te ondertekenen."
+#~ msgstr "Please provide your 5-digit code to sign the thesis."
+
+#~ msgid "niet via het repositorium openbaar worden gemaakt."
+#~ msgstr "not be made public through the repository."
+
+#~ msgid "via het repositorium direct openbaar gemaakt."
+#~ msgstr "be made public through the repository."
+
+#~ msgid ""
+#~ "pas vanaf een latere datum via het repositorium openbaar gemaakt worden."
+#~ msgstr ""
+#~ "can be made\n"
+#~ "\n"
+#~ "public through the repository no earlier than a set date."
+
+#~ msgid ""
+#~ "De onderzoeksvraag is gebasseerd op een probleemstelling die getuigt van "
+#~ "inzicht in de centrale debatten en methodes van het vakgebied;"
+#~ msgstr ""
+#~ "Research question is based on a problem that reflects insight into the "
+#~ "key discussions and methods of the field;"
+
+#~ msgid ""
+#~ "Taalgebruik (voer- c.q. doeltaal opleiding: niveau van taalvaardigheid, "
+#~ "leesbaarheid, stijl, spelling, grammatica, gebruik en uileg juiste "
+#~ "vaktermen);"
+#~ msgstr ""
+#~ "Language use (language of instruction and/ or target language of the "
+#~ "programme: degree of linguistic competence, readability, style, spelling, "
+#~ "grammar, use and explanation correct terminology);"
+
+#~ msgid ""
+#~ "Vul aub uw pincode in die u bij registratie heeft opgegeven. Na invullen "
+#~ "van de code word de scriptie ondertekend."
+#~ msgstr ""
+#~ "Please provide your pincode. Use the pincode you supplied after "
+#~ "registration. When the pincode is provided the thesis will be signed."
+
+#~ msgid "Er ging iets mis met het versturen van de rapporten"
+#~ msgstr "Something went wrong while sending the reports"
+
+#~ msgid ""
+#~ "U heeft geen rechten om de scriptie die u probeert op te halen in te zien."
+#~ msgstr "You have no viewing rights on the thesis you are trying to access."
+
+#~ msgid "Pas scriptie aan"
+#~ msgstr "Edit thesis assessment"
+
+#~ msgid "Wat voor scriptie wilt u beoordelen"
+#~ msgstr "What type of thesis do you want to assess"
+
+#~ msgid "Wat voor type scriptie wilt u beoordelen?"
+#~ msgstr "What type of thesis do you want to assess?"
+
+#~ msgid ""
+#~ "Te veel foutieve pogingen gedaan. Wacht een uur om het opnieuw te proberen"
+#~ msgstr "Too many failed attempts. Try again in an hour."
+
+#~ msgid "Vul aub een code in van 5 cijfers"
+#~ msgstr "Please fill in a code of 5 digits"
+
+#~ msgid ""
+#~ "De scriptie is nog niet compleet ingevulde en kan daarom nog niet "
+#~ "getekend worden."
+#~ msgstr ""
+#~ "The thesis grading is not yet finished so you can't sign this thesis yet."
+
+#~ msgid "Vul uw 5 cijfercode in"
+#~ msgstr "Provide your 5-digit code"
+
+#~ msgid ""
+#~ "Vul aub de vijf cijfer code in die u bij registratie heeft opgegeven. Na "
+#~ "invullen van de code word de scriptie ondertekend. "
+#~ msgstr ""
+#~ "Please provide the 5 digit code you entered when registering for your "
+#~ "account. After submitting the code the thesis will be signed."
+
+#~ msgid "tussenv."
+#~ msgstr "last name prefix"
+
+#~ msgid "Terug naar overzicht."
+#~ msgstr "Back to overview"
+
+#~ msgid ""
+#~ "Alle BA-Eindwerkstukken moeten worden opgenomen in het repositorium. BA-"
+#~ "eindwerkstukken in het repositorium zijn in beginsel \n"
+#~ "                            vertrouwelijk tenzij student èn docent goede "
+#~ "redenen zien om het werkstuk toch openbaar te laten zijn. Dan dit hierna "
+#~ "aangeven."
+#~ msgstr ""
+#~ "The standard procedure is that Bachelor’s theses in the repository are "
+#~ "confidential, \n"
+#~ " unless the student and the lecturer have good reasons to make it public. "
+#~ "Please indicate this below. "
+
+#~ msgid "Beschrijving en verantwoording gevolgde werkwijze."
+#~ msgstr "Description and justification of the adopted method"
+
+#~ msgid ""
+#~ "Alle BA-Eindwerkstukken moeten worden opgenomen in het repositorium. BA-"
+#~ "eindwerkstukken in het repositorium zijn in beginsel \n"
+#~ "                            vertrouwelijk tenzij student èn docent goede "
+#~ "redenen zien om het werkstuk toch openbaar te laten zijn. Dan dit hierna "
+#~ "aangeven. "
+#~ msgstr ""
+#~ "The standard procedure is that Bachelor’s theses in the repository are "
+#~ "confidential, unless the student and the lecturer have good reasons to "
+#~ "make it public. Please indicate this below. "
+
+#~ msgid "Password reset"
+#~ msgstr "Passwoord reset"
+
+#~ msgid "5-cijfer code"
+#~ msgstr "5-digit code"
+
+#~ msgid "er ging iets mis met het versturen van de rapporten: "
+#~ msgstr "Something went wrong while sending the reports"
+
+#~ msgid "Register"
+#~ msgstr "הרשם"
+
+#~ msgid "align"
+#~ msgstr "יישר"
+
+#~ msgid "blockquote"
+#~ msgstr "ציטוט"
+
+#~ msgid "p"
+#~ msgstr "פסקה"
+
+#~ msgid "Error: Could not get user account."
+#~ msgstr "שגיאה: לא מצליח לשמור לוגו"
+
+#~ msgid "Genre of writing"
+#~ msgstr "סוגת הכתיבה"
+
+#~ msgid "Edit account"
+#~ msgstr "עריכת פרטי החשבון"
+
+#~ msgid ""
+#~ "An error has occured while updating the template. Please contact the "
+#~ "webmaster"
+#~ msgstr "חלה שגיאה בעת אתחול התבנית. צרו בבקשה קשר עם התמיכה"
+
+#~ msgid "Added "
+#~ msgstr "התווסף"
+
+#~ msgid " to playlist."
+#~ msgstr "לרשימת ההשמעה."
+
+#~ msgid "Deleted "
+#~ msgstr "נמחק"
+
+#~ msgid " from playlist."
+#~ msgstr "מרשימת ההשמעה."
+
+#~ msgid "Book meta info changed succesfuly!"
+#~ msgstr "נתוני המטא של הספר עודכנו בהצלחה!"
+
+#~ msgid "There was a problem saving the book meta info, please try again."
+#~ msgstr "חלה שגיאה בשמירת נתוני המטא. אנא נסו שוב."
+
+#~ msgid "Chapter moved to position:"
+#~ msgstr "הפרק הועבר למיקום: "
+
+#~ msgid "Chapter added."
+#~ msgstr "הפרק התווסף."
+
+#~ msgid "Chapter deleted"
+#~ msgstr "הפרק נמחק"
+
+#~ msgid "Could not save chapter."
+#~ msgstr "לא ניתן היה לשמור את הפרק."
+
+#~ msgid "Chapter saved."
+#~ msgstr "הפרק נשמר."
+
+#~ msgid "Book not found or not from user."
+#~ msgstr "הספר לא נמצא או לא שייך למשתמש."
+
+#~ msgid "Caption 1: Family photo"
+#~ msgstr "כותרת 1: תמונה משפחתית"
+
+#~ msgid "Caption 2: Another Family Photo"
+#~ msgstr "כותרת 2: עוד תמונה משפחתית"
+
+#~ msgid "REPLACE PHOTO AFTER INSERTION"
+#~ msgstr "החלף את התמונה לאחר הכנסתה"
+
+#~ msgid "Princess Title"
+#~ msgstr "כותר נסיכות"
+
+#~ msgid "Numbered Page"
+#~ msgstr "עמוד ממוספר"
+
+#~ msgid "Place here your content."
+#~ msgstr "מקמו  את התוכן שלכם כאן"
+
+#~ msgid "Normal page"
+#~ msgstr "עמוד רגיל"
+
+#~ msgid "Reverse Page"
+#~ msgstr "עמוד הפוך"
+
+#~ msgid "Two photos row"
+#~ msgstr "שתי תמונות בשורה"
+
+#~ msgid "Full width photo"
+#~ msgstr "תמונה ברוחב מלא"
+
+#~ msgid "Page with Video"
+#~ msgstr "עמוד עם וידאו"
+
+#~ msgid "Edit the video after inserting to use your own video."
+#~ msgstr "ערכו את סרטון הוידאו לאחר הכנסתו כדי להחליפו בסרטון  וידאו משלכם."
+
+#~ msgid "Family Video"
+#~ msgstr "סרטון וידאו משפחתי"
+
+#~ msgid "Blue Page"
+#~ msgstr "עמוד כחול"
+
+#~ msgid "Princess Page"
+#~ msgstr "עמוד נסיכות"
+
+#~ msgid "Video"
+#~ msgstr "וידאו"
+
+#~ msgid "Princess title"
+#~ msgstr "כותר נסיכה"
+
+#~ msgid "Book:"
+#~ msgstr "ספר:"
+
+#~ msgid "Edit title / cover"
+#~ msgstr "ערוך את הכותרת ותמונת השער"
+
+#~ msgid "Chapter Title"
+#~ msgstr "כותרת הפרק"
+
+#~ msgid "Preview book"
+#~ msgstr "הצג"
+
+#~ msgid ""
+#~ "Password is not long enough (4 characters) or is not the same as the "
+#~ "second password."
+#~ msgstr "הסיסמה אינה ארוכה מספיק (6 תווים) או שהסיסמאות אינן זהות"
+
+#~ msgid "Preferences updated!"
+#~ msgstr "העדיפויות עודכנו!"
+
+#~ msgid "Success!"
+#~ msgstr "בדוק את תיבת האימייל שלך."
+
+#~ msgid "Back"
+#~ msgstr "חזור"
+
+#~ msgid "Change password"
+#~ msgstr "שנה סיסמה"
+
+#~ msgid "type again"
+#~ msgstr "הקלד שוב"
+
+#~ msgid "Leave blank to keep your current password"
+#~ msgstr "השאר ריק כדי להשאיר את הסיסמה הנוכחית שלך"
+
+#~ msgid "Book Title"
+#~ msgstr "כותרת הספר"
+
+#~ msgid "Author"
+#~ msgstr "המחבר/ת"
+
+#~ msgid "Cover Image (only if you want to overwrite the original)"
+#~ msgstr "תמונת שער (רק אם ברצונכם לדרוס את המקור)"
+
+#~ msgid ""
+#~ "* Only png, jpg or gif are allowed. Recommended size of 1024px x 800px."
+#~ msgstr ""
+#~ "* רק קבצי png, jpg או gif מורשים. \n"
+#~ "הגודל המומלץ: 738x985 פיקסלים."
+
+#~ msgid "ePub Creator Studio"
+#~ msgstr "מנדלי עורך ספרים ברשת"
+
+#~ msgid ""
+#~ "You are logged in as another client, <a href='home.php?return=1'>return "
+#~ "to the admin area</a>."
+#~ msgstr ""
+#~ "אתה מחובר כמשתמש אחר, <a href='home.php?return=1'>לחץ לחזרה לאזור הניהול</"
+#~ "a>."
+
+#~ msgid ""
+#~ "Could not delete ebook, this book does not exist or does not belong to "
+#~ "you."
+#~ msgstr "לא ניתן היה למחוק את הספר. הספר לא קיים או אינו שייך לך."
+
+#~ msgid "Create and manage your ePub3 books here."
+#~ msgstr "כאן המקום ליצור ולנהל את ספרייך"
+
+#~ msgid "Language (2 letter code)"
+#~ msgstr "שפה (קוד שתי אותיות)"
+
+#~ msgid "Pagination direction"
+#~ msgstr "כוון הדפדוף"
+
+#~ msgid "Left to right"
+#~ msgstr "שמאל לימין"
+
+#~ msgid "Right to left"
+#~ msgstr "ימין לשמאל"
+
+#~ msgid "Cover Image (optional)"
+#~ msgstr "תמונת השער (אופציונאלי)"
+
+#~ msgid "Template"
+#~ msgstr "תבנית"
+
+#~ msgid "Start from scratch."
+#~ msgstr "התחל מספר רייק"
+
+#~ msgid "Empty"
+#~ msgstr "תבנית רייקה"
+
+#~ msgid "Family Love"
+#~ msgstr "אהבת משפחה"
+
+#~ msgid "Children"
+#~ msgstr "ילדים"
+
+#~ msgid "* You cannot modify the template later."
+#~ msgstr "* לא ניתן יהיה להחליף את התבנית בהמשך"
+
+#~ msgid "Create new Ebook"
+#~ msgstr "צור ספר חדש"
+
+#~ msgid "My Ebooks"
+#~ msgstr "הספרים שלי"
+
+#~ msgid ""
+#~ "Are you sure you want to delete this book? \\nThis action cannot be "
+#~ "undone."
+#~ msgstr ""
+#~ "האם אתה בטוח שברצונך למחוק את הספר הזה? לא ניתן לבטל פעולה זו \\nThis."
+
+#~ msgid "View book"
+#~ msgstr "הצג"
+
+#~ msgid "Download"
+#~ msgstr "הורד"
+
+#~ msgid "Download eBook"
+#~ msgstr "הורד ספר אלקטרוני"
+
+#~ msgid "You can download your ebook in two different formats."
+#~ msgstr "באפשרותך להוריד את הספר האלקטרוני בשני פורמטים שונים"
+
+#~ msgid "Download Strict ePub"
+#~ msgstr "הורד איפאב מוקפד יותר"
+
+#~ msgid "Download ePub"
+#~ msgstr "הורד איפאב"
+
+#~ msgid ""
+#~ "For additional formats you can use an online convertion service such as "
+#~ "<a href=\"http://toepub.com\" target=\"_blank\">ToePub</a>."
+#~ msgstr ""
+#~ "לפורמטים נוספים, ניתן להשתמש בשירות המרה כמו למשל: <a href=\"http://"
+#~ "toepub.com\" target=\"_blank\">ToePub</a>."
+
+#~ msgid "Close"
+#~ msgstr "סגור"
+
+#~ msgid "Book price"
+#~ msgstr "מחיר הספר"
+
+#~ msgid "Add to Store"
+#~ msgstr "הוסף לחנות"
+
+#~ msgid "View in store"
+#~ msgstr "הצג את ממשק הניהול"
+
+#~ msgid "You are logged in, please wait.."
+#~ msgstr "מתחבר, אנא המתן"
+
+#~ msgid "Epub Creator Studio"
+#~ msgstr "מנדלי עורך ספרים ברשת"
+
+#~ msgid "home"
+#~ msgstr "בית"
+
+#~ msgid "Error!"
+#~ msgstr "שגיאה!"
+
+#~ msgid "Login with your Embellisher Ereader account to continue."
+#~ msgstr "התחבר עם האימייל והסיסמה שלך"
+
+#~ msgid ""
+#~ "If you arrived here from another Ereader application, sign up for your "
+#~ "free Embellisher account using the Signup button below."
+#~ msgstr "או לחץ על \"הרשם\" כדי לפתוח חשבון חדש"
+
+#~ msgid "Signup for your free Embellisher account."
+#~ msgstr "הרשם"
+
+#~ msgid "My books"
+#~ msgstr "הספרים שלי"
+
+#~ msgid "My account"
+#~ msgstr "החשבון שלי"
+
+#~ msgid "Chapters"
+#~ msgstr "פרקים"
+
+#~ msgid ""
+#~ "Are you sure you want to delete this chapter? \\nThis action cannot be "
+#~ "undone."
+#~ msgstr "הםא אתה בטוח שברצונך למחוק פרק זה? \\nלא ניתן לבטל פעולה זו."
+
+#~ msgid "New chapter"
+#~ msgstr "פרק חדש"
+
+#~ msgid "Audio Playlist"
+#~ msgstr "רשימת השמעה"
+
+#~ msgid "Song Title"
+#~ msgstr "כותרת השיר"
+
+#~ msgid "File location"
+#~ msgstr "מיקום הקובץ"
+
+#~ msgid "Please fill in a password with a minimum size of 4."
+#~ msgstr "אנא הקלד סיסמה בת 6 תווים לפחות"
+
+#~ msgid "You are registered, login to continue.."
+#~ msgstr "נרשמת למנדלי עורך ספרים ברשת. התחבר כדי להמשיך..."
+
+#~ msgid "Register Embellisher Account"
+#~ msgstr "הרשם למנדלי עורך ספרים ברשת"
+
+#~ msgid "Publish or read?"
+#~ msgstr "האם ברצונך להירשם כקורא בלבד או כסופר / הוצאה לאור?"
+
+#~ msgid "Reader"
+#~ msgstr "קורא בלבד"
+
+#~ msgid "Author/Publisher"
+#~ msgstr "סופר / הוצאה לאור"
+
+#~ msgid ""
+#~ "I have read and accept the <a href=\"EULA.pdf\" target=\"_blank\">EULA</a>"
+#~ msgstr ""
+#~ "קראתי ואני מקבל את <a href=\"EULA.pdf\" target=\"_blank\">הסכם המשתמש</a>"
+
+#~ msgid "Sign up"
+#~ msgstr "הרשם למנדלי עורך ספרים ברשת"
+
+#~ msgid "Password reset Mendele Books Editor"
+#~ msgstr "סיסמתך במנדלי עורך ספרים ברשת עודכנה"
+
+#~ msgid "Dear "
+#~ msgstr "שלום ל"
+
+#~ msgid ""
+#~ "You requested to reset your password.\n"
+#~ "Your new password is: "
+#~ msgstr ""
+#~ "ביקשת לחדש את סיסמתך. \n"
+#~ "סיסמתך החדשה היא:"
+
+#~ msgid ""
+#~ "Kind Regards,\n"
+#~ "The Mendele support team\n"
+#~ "email: support@mendele.co.il\n"
+#~ "phone: +972-(0)9-9563293\n"
+#~ msgstr ""
+#~ "בברכה,\n"
+#~ "צוות מנדלי\n"
+#~ "אימייל:support@mendele.co.il\n"
+#~ "‏טלפון: +972-(0)9-9563293\n"
+
+#~ msgid "There is no account with this email address"
+#~ msgstr "לא קיים חשבון במערכת עבור כתובת האימייל שהקלדת"
+
+#~ msgid "Password Reset"
+#~ msgstr "חידוש סיסמה"
+
+#~ msgid ""
+#~ "You can reset your password here. Enter your email address to continue."
+#~ msgstr "הכניסו את כתובת האימייל אליה תישלח הסיסמה החדשה:"
+
+#~ msgid "A new password has been send to your email address."
+#~ msgstr "סיסמה חדשה נשלחה לכתובת האימייל שהזנת."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "The Mendele support team\n"
+#~ "email: support@mendele.co.il\n"
+#~ "phone: +972-(0)9-9563293\n"
+#~ msgstr ""
+#~ "בברכה,\n"
+#~ "צוות מנדלי\n"
+#~ "אימייל:support@mendele.co.il\n"
+#~ "‏phone: +972-(0)9-9563293\n"
+
+#~ msgid ""
+#~ ",\n"
+#~ "\n"
+#~ "You requested to reset your password.\n"
+#~ "Your new password is: "
+#~ msgstr ""
+#~ "‏,\n"
+#~ "\n"
+#~ "ביקשת לחדש את סיסמתך.\n"
+#~ "סיסמתך החדשה היא:"
+
+#~ msgid ""
+#~ ",\n"
+#~ "\t\t\n"
+#~ "\n"
+#~ "You requested to reset your password.\n"
+#~ "\t\t\n"
+#~ "Your new password is: "
+#~ msgstr ""
+#~ ",\n"
+#~ "\t\t\n"
+#~ "\n"
+#~ "ביקשת לחדש את סיסמתך. \n"
+#~ "\t\t\n"
+#~ "סיסמתך החדשה היא: "
+
+#~ msgid "Password reset Embellisher"
+#~ msgstr "סיסמתך במנדלי עורך ספרים ברשת עודכנה"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "The Embellisher Ereader Team "
+#~ msgstr ""
+#~ "\n"
+#~ "\t\t\n"
+#~ "\n"
+#~ "בברכה, \n"
+#~ "צוות מנדלי"

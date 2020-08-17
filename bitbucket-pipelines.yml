@@ -1,0 +1,42 @@
+# This is a deploy configuration for PHP with composer and git-ftp
+pipelines:
+  pull-requests:
+    feature/*:
+      - step:
+          image: vansteinengroentjes/php7.2-composer-gitftp:v1
+          script:
+            - composer install
+            - vendor/bin/phpunit
+            - composer phpcsfull
+            - vendor/bin/phpunit
+  branches:
+    develope:
+      - step:
+           name: Deploy to accept
+           deployment: Staging
+           image: vansteinengroentjes/php7.2-composer-gitftp:latest
+           script:
+              - echo "Running accept deployment"
+              - git config git-ftp.user "$FTP_USERNAME_LIVE"
+              - git config git-ftp.password "$FTP_PASSWORD_LIVE"
+              - git config git-ftp.url ftp://$FTP_HOST_LIVE
+              - echo "Uploading to $FTP_HOST_LIVE"
+              - git ftp push
+      - step:
+           name: Run composer install
+           script:
+              - echo "Running composer install"
+              - ssh sg@s-g.nu -p 4000 'echo "connected to sg for ram"; cd www/ram/; composer install --no-dev;'
+  custom:
+    re-init-git-ftp:
+        - step:
+           name: Re-init Git
+           deployment: Staging
+           image: vansteinengroentjes/php7.2-composer-gitftp:latest
+           script:
+              - echo "running accept deployment init"
+              - git config git-ftp.user "$FTP_USERNAME_LIVE"
+              - git config git-ftp.password "$FTP_PASSWORD_LIVE"
+              - git config git-ftp.url ftp://$FTP_HOST_LIVE
+              - echo "Uploading to $FTP_HOST_LIVE"
+              - git ftp init --force

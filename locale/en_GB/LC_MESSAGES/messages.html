@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Creator Studio</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { background-color: #fff; color: #333;	font: 14px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; margin-bottom: 20px; }
+
+nav ul { margin: 0; }
+nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
+nav ul li a { color: #333; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer a { color:#999999; }
+footer a:hover { color:#105CB6; }
+footer ul li { display:inline; list-style:none; padding-left:20px; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+h1,h2,h3,h4,h5,h6 { color: #333; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Misc */
+hr { background-color: #ccc; border: 0px; color: #ccc; height: 1px; margin: 8px 0 20px 0; }
+pre, code { background:#E0ECF6; display:block; margin-bottom: 20px; padding:10px; }
+
+blockquote { margin: 10px 10px 20px; padding: 9px; background-color: #f8f8f8; color: #666; border-left: 5px solid #ddd; font: 14px/20px Georgia, Times, serif; quotes: "\201C" "\201D"; }
+blockquote p { margin: 0; }
+blockquote:before { content: open-quote; font-weight: bold; }
+blockquote:after  { content: close-quote; font-weight: bold; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.percent-done    { background-color: #71DD46; height: 10px; }
+.percent-fuzzy   { background-color: #FFD300; height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend {
+  font-size: smaller;
+  color: #aaa;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #E1E1E1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: right;
+  max-width: 75%;
+  font-size: smaller;
+  color: #aaa;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+
+.fuzzy .tra {
+  color: #a9861b;
+}
+
+.msgctxt {
+  font-size: smaller;
+  color: #6d8e13;
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Project:</td><td>Creator Studio</td></tr>
+<tr><td>Language:</td><td>English (United Kingdom)</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-done' style='width: 98%'>&nbsp;</div>
+    <div class='percent-untrans' style='width: 2%'>&nbsp;</div>
+  </div>
+  <div class='legend'>Translated: 343 of 350 (98 %)  •  Remaining: 7  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Source text — Dutch</th>
+      <th>Translation — English (United Kingdom)</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i untrans'>
+<td class='src'  lang='nl'>
+caption</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='nl'>
+width</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='nl'>
+url</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='nl'>
+key</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='nl'>
+text</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='nl'>
+year</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Om een persoon op te slaan moet het studentnummer worden ingevuld</td>
+<td class='tra'  lang='en-GB'>
+To save a student you need to provide the student number</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Aanpassen van persoon ging mis. Errorcode: </td>
+<td class='tra'  lang='en-GB'>
+An error occurred while editing the student. Errorcode:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Aanpassen scriptie ging mis. Errorcode: </td>
+<td class='tra'  lang='en-GB'>
+While editing a thesis we ran into a problem. Errorcode:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+5 cijfer code incorrect</td>
+<td class='tra'  lang='en-GB'>
+5-digit code incorrect</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Weghalen van de handtekening bij scriptie ging mis: </td>
+<td class='tra'  lang='en-GB'>
+We couldn't remove the signature from the thesis:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+index</td>
+<td class='tra'  lang='en-GB'>
+index</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Login</td>
+<td class='tra'  lang='en-GB'>
+Log in</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptie beoordelingssysteem</td>
+<td class='tra'  lang='en-GB'>
+Thesis grading system</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gebruiker verwijderd.</td>
+<td class='tra'  lang='en-GB'>
+User deleted.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De gebruiker die u probeert te verwijderen bestaat niet.</td>
+<td class='tra'  lang='en-GB'>
+The user you are trying to delete doesn't exist.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gebruiker is succesvol toegevoegd.</td>
+<td class='tra'  lang='en-GB'>
+User successfully added.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Registreer</td>
+<td class='tra'  lang='en-GB'>
+Register</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+U bent geen admin dus kunt geen gebruikers toevoegen.</td>
+<td class='tra'  lang='en-GB'>
+You are not an admin, so you can't add users.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord is vernieuwd</td>
+<td class='tra'  lang='en-GB'>
+Password reset</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord succesvol vernieuwd, log in om door te gaan</td>
+<td class='tra'  lang='en-GB'>
+Password successfully reset, log in to proceed</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Succes</td>
+<td class='tra'  lang='en-GB'>
+Success</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Verkeerde link</td>
+<td class='tra'  lang='en-GB'>
+Wrong link</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord vernieuwd</td>
+<td class='tra'  lang='en-GB'>
+Password reset</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Link niet meer actueel</td>
+<td class='tra'  lang='en-GB'>
+Link not up to date</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Een email is verstuurd naar het opgegeven emailadres met instructies hoe u uw wachtwoord kunt vernieuwen.</td>
+<td class='tra'  lang='en-GB'>
+An email is send to the registered email address with instructions on how to reset your password.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Passwoord vernieuw mail verstuurd</td>
+<td class='tra'  lang='en-GB'>
+Password reset email send</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er ging iets mis</td>
+<td class='tra'  lang='en-GB'>
+Something went wrong</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord vernieuwen</td>
+<td class='tra'  lang='en-GB'>
+Password reset</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul aub een geldig email adres in.</td>
+<td class='tra'  lang='en-GB'>
+Please provide a valid email address</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Nieuw Wachtwoord</td>
+<td class='tra'  lang='en-GB'>
+New Password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+5-cijfercode</td>
+<td class='tra'  lang='en-GB'>
+5-digit code</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Kies aub een 5 cijfer code</td>
+<td class='tra'  lang='en-GB'>
+Please choose a 5-digit code</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Account succesvol geactiveerd</td>
+<td class='tra'  lang='en-GB'>
+Account activation succesfull</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Geactiveerd</td>
+<td class='tra'  lang='en-GB'>
+Activated</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Error</td>
+<td class='tra'  lang='en-GB'>
+Error</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul aub alleen getallen in.</td>
+<td class='tra'  lang='en-GB'>
+Please provide only digits.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Reden: </td>
+<td class='tra'  lang='en-GB'>
+Reason</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Persoon management</td>
+<td class='tra'  lang='en-GB'>
+Student management</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De student die u probeert te verwijderen bestaat niet.</td>
+<td class='tra'  lang='en-GB'>
+The student you ar trying to delete doesn't exist.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Student management</td>
+<td class='tra'  lang='en-GB'>
+Student management</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Persoon overzicht</td>
+<td class='tra'  lang='en-GB'>
+Student overview</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er is geen persoon met dit id</td>
+<td class='tra'  lang='en-GB'>
+A user with this id does not exist.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dit persoon id klopt niet</td>
+<td class='tra'  lang='en-GB'>
+This userid is invalid</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptie beoordeelsysteem</td>
+<td class='tra'  lang='en-GB'>
+Thesis grading system</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Emailadres niet valide.</td>
+<td class='tra'  lang='en-GB'>
+Email address invalid</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Studentnummer niet valide</td>
+<td class='tra'  lang='en-GB'>
+Student number invalid</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er zijn fouten</td>
+<td class='tra'  lang='en-GB'>
+There are errors</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul aub in.</td>
+<td class='tra'  lang='en-GB'>
+Please fill in.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Sommige velden zijn niet (goed) ingevuld.</td>
+<td class='tra'  lang='en-GB'>
+Some fields aren't filled in correctly.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opslaan ging mis: </td>
+<td class='tra'  lang='en-GB'>
+Something went wrong while saving:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptie management</td>
+<td class='tra'  lang='en-GB'>
+Thesis management</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+overzicht van scriptie van </td>
+<td class='tra'  lang='en-GB'>
+overview of thesis off</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er is geen mail verstuurd naar</td>
+<td class='tra'  lang='en-GB'>
+An email has been send to </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Te veel foutieve pogingen gedaan. Wacht een uur om het opnieuw te proberen.</td>
+<td class='tra'  lang='en-GB'>
+Too many failed attempts. Try again in an hour.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De pincode is niet correct</td>
+<td class='tra'  lang='en-GB'>
+Pincode incorrect</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De scriptie is nog niet compleet ingevuld en kan daarom nog niet getekend worden.</td>
+<td class='tra'  lang='en-GB'>
+Thesis not yet completely assessed. Therefore it can not be signed yet.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De pincode in niet correct</td>
+<td class='tra'  lang='en-GB'>
+Pincode incorrect</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er is een mail verstuurd naar: </td>
+<td class='tra'  lang='en-GB'>
+An email has been send to: </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Selecteer type</td>
+<td class='tra'  lang='en-GB'>
+Select type</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Niet valide waarden</td>
+<td class='tra'  lang='en-GB'>
+Invalid values</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Datum format incorrect: dd-mm-yyyy (01-01-1992)</td>
+<td class='tra'  lang='en-GB'>
+Date format incorrect: dd-mm-yyyy (01-01-1992)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+er ging iets mis met opslaan</td>
+<td class='tra'  lang='en-GB'>
+Something went wrong while saving</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De scriptie is met succes verwijderd.</td>
+<td class='tra'  lang='en-GB'>
+Thesis successfully deleted</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+U heeft geen rechten om de scritie die u wilt verwijderen te verwijderen.</td>
+<td class='tra'  lang='en-GB'>
+You do not have the appropriate usage rights to delete this thesis.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Uw profiel is opgeslagen.</td>
+<td class='tra'  lang='en-GB'>
+Your profile is saved.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pincode succesvol vernieuwd</td>
+<td class='tra'  lang='en-GB'>
+Pincode update successful</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pincode is vernieuwd</td>
+<td class='tra'  lang='en-GB'>
+Pincode updated</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er ging iets mis met vernieuwen</td>
+<td class='tra'  lang='en-GB'>
+Something went wrong while updating</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pincode is niet vernieuwd</td>
+<td class='tra'  lang='en-GB'>
+Pincode not updatedf</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Incorrect wachtwoord</td>
+<td class='tra'  lang='en-GB'>
+Incorrect password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pincodes niet gelijk</td>
+<td class='tra'  lang='en-GB'>
+Pincodes not the same</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul aub alle velden in</td>
+<td class='tra'  lang='en-GB'>
+Please fill out all the fields</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pincode vernieuwen</td>
+<td class='tra'  lang='en-GB'>
+Renew pincode</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er is een fout opgetreden in een query in</td>
+<td class='tra'  lang='en-GB'>
+An error occurred executing the query </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Invalide gebruikersnaam of wachtwoord</td>
+<td class='tra'  lang='en-GB'>
+Invalid username or password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Deze gebruikernaam is al in gebruik.</td>
+<td class='tra'  lang='en-GB'>
+Username already taken.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De wachtwoorden komen niet overeen.</td>
+<td class='tra'  lang='en-GB'>
+Passwords do  not match.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Uw account is nog niet geactiveerd</td>
+<td class='tra'  lang='en-GB'>
+Your account is not activated yet</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Fout bij het versturen van email.</td>
+<td class='tra'  lang='en-GB'>
+Error during sending of email.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opgegeven email adres niet valide</td>
+<td class='tra'  lang='en-GB'>
+Supplied email address invalid</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Het opgegeven email adres is al in gebruik</td>
+<td class='tra'  lang='en-GB'>
+Supplied email address already taken</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De naam van het team is al in gebruik</td>
+<td class='tra'  lang='en-GB'>
+Teamname already in use</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Upload een handtekening</td>
+<td class='tra'  lang='en-GB'>
+Upload signature</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Incorrecte fileextentie: </td>
+<td class='tra'  lang='en-GB'>
+Invalid file extension:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er is iets mis gegaan in </td>
+<td class='tra'  lang='en-GB'>
+Something went wrong in </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+, neem contact op met de site beheerder.</td>
+<td class='tra'  lang='en-GB'>
+, please contact the site administrator.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord is te kort!</td>
+<td class='tra'  lang='en-GB'>
+Password to short.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord moet te minsten 1 cijfer bevatten!</td>
+<td class='tra'  lang='en-GB'>
+Password must contain at least 1 digit!</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord moet te minsten 1 letter bevatten!</td>
+<td class='tra'  lang='en-GB'>
+Password must contain at least 1character!</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bachelor</td>
+<td class='tra'  lang='en-GB'>
+Bachelor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Master</td>
+<td class='tra'  lang='en-GB'>
+Master</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Research Master</td>
+<td class='tra'  lang='en-GB'>
+Onderzoeksmaster</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Algemene voorwaarden</td>
+<td class='tra'  lang='en-GB'>
+General terms</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Overzicht</td>
+<td class='tra'  lang='en-GB'>
+Dashboard</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Start nieuwe beoordeling.</td>
+<td class='tra'  lang='en-GB'>
+Start new assessment</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Nieuwe scripties</td>
+<td class='tra'  lang='en-GB'>
+New theses</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+id</td>
+<td class='tra'  lang='en-GB'>
+id</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+type</td>
+<td class='tra'  lang='en-GB'>
+type</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+stud. nr.</td>
+<td class='tra'  lang='en-GB'>
+stud. nr.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+naam</td>
+<td class='tra'  lang='en-GB'>
+name</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+1e beoordelaar</td>
+<td class='tra'  lang='en-GB'>
+1st evaluator</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+2e beoordelaar</td>
+<td class='tra'  lang='en-GB'>
+2nd evaluator</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+email</td>
+<td class='tra'  lang='en-GB'>
+email</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+pas aan</td>
+<td class='tra'  lang='en-GB'>
+edit</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+teken</td>
+<td class='tra'  lang='en-GB'>
+sign</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+pdf</td>
+<td class='tra'  lang='en-GB'>
+pdf</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+verwijder</td>
+<td class='tra'  lang='en-GB'>
+delete</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Lopende beoordelingen</td>
+<td class='tra'  lang='en-GB'>
+Current assessments</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Ondertekenen</td>
+<td class='tra'  lang='en-GB'>
+Sign</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Overleg</td>
+<td class='tra'  lang='en-GB'>
+Discuss</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Voor onderstaande scripties dient u in overleg te treden met de andere beoordelaar. Rede hiervoor is ofwel dat de gegeven resultaten twee of meer punten uit elkaar liggen ofwel dat een van beide resultaten onvoldoende is. Ondertekening kan pas plaats vinden wanneer u overeenstemming over het resultaat heeft bereikt. Indien u geen overeenstemming kunt bereiken kunt u de examencommissie verzoeken een derde lezer aan te wijzen.</td>
+<td class='tra'  lang='en-GB'>
+For below theses you disagree significantly with the other assessor. Please contact him/her to discuss your disagreements. If you can not come to a joined assessment you can opt to let a third assessor independently judge the thesis.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gezamenlijke formulieren</td>
+<td class='tra'  lang='en-GB'>
+Final assessments</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De volgende scriptiebeoordelingen zitten in de afrondende fase. Overleg met u mede beoordelaar om tot een finaal oordeel te komen. Bent u het eens dan kunt u deze beoordelingen tekenen en is de beoordeling afgerond.</td>
+<td class='tra'  lang='en-GB'>
+The following theses are in the final stage, discuss with your co-assessor to reach a final assessment. Once you agree, you can sign the theses and the assessment will be finished.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Uw account is geactiveerd. Om de website te gebruiken kunt u inloggen met de aan u toegestuurde gegevens. Klik op de volgende link om in te loggen: </td>
+<td class='tra'  lang='en-GB'>
+Your account has successfully been activated. To use the website login with the credentials that were provided to you by email. Click on the following link to log in: </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+U bent al ingelogd.</td>
+<td class='tra'  lang='en-GB'>
+You are already logged in.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+U bent al ingelogd. Om in te loggen met een ander account dient u eerst uit te loggen.</td>
+<td class='tra'  lang='en-GB'>
+You are already logged in. To log in with a different account please log out first.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Logout</td>
+<td class='tra'  lang='en-GB'>
+Logout</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul een 5 cijfercode in</td>
+<td class='tra'  lang='en-GB'>
+Provide a 5 digit code</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De vijf cijfer code heeft u nodig om een beoordeelde scriptie te kunnen ondertekenen.</td>
+<td class='tra'  lang='en-GB'>
+The five digit code you need to sign a graded thesis.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Verstuur</td>
+<td class='tra'  lang='en-GB'>
+Send</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Je komt op deze pagina omdat er iets mis is gegaan. Neem contact op met de site beheerder via </td>
+<td class='tra'  lang='en-GB'>
+You see this page because something went wrong. Please contact the page administrator via</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+om te kijken of dit probleem te verhelpen is. Gebruik in de communicatie de code </td>
+<td class='tra'  lang='en-GB'>
+to see if the problem can be solved. Use in your communication the code </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptie beoordeling systeem Login</td>
+<td class='tra'  lang='en-GB'>
+Thesis assessment system login</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gebruikersnaam</td>
+<td class='tra'  lang='en-GB'>
+Username</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wachtwoord</td>
+<td class='tra'  lang='en-GB'>
+Password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vraag nieuw wachtwoord aan</td>
+<td class='tra'  lang='en-GB'>
+Request new password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul hieronder uw email adres in.</td>
+<td class='tra'  lang='en-GB'>
+Provide your email address below.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Email adres</td>
+<td class='tra'  lang='en-GB'>
+Email address</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vraag aan</td>
+<td class='tra'  lang='en-GB'>
+Request</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Geen Toegang</td>
+<td class='tra'  lang='en-GB'>
+No Access</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+U heeft geen rechten om de funtionaliteit te gebruiken die u probeerd te benaderen.</td>
+<td class='tra'  lang='en-GB'>
+You have insufficient rights to do what you are trying to do.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er ging iets mis bij het activeren van uw account.</td>
+<td class='tra'  lang='en-GB'>
+Something went wrong while activating your account.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Blijft u dit bericht zien? Neemt dan alstublieft contact op met </td>
+<td class='tra'  lang='en-GB'>
+If you keep seeing this message, contact </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul hieronder twee keer een nieuw wachtwoord in. Houd er rekening mee dat het wachtwoord aan een aantal eisen moet voldoen. Deze eisen zijn</td>
+<td class='tra'  lang='en-GB'>
+Please provide e new password below. Keep in mind that the password must adhere to some rules. These rules are </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Minimaal lengte van 6</td>
+<td class='tra'  lang='en-GB'>
+Minimum length of 6</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Tenminste 1 cijfer</td>
+<td class='tra'  lang='en-GB'>
+At least 1 digit</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Tenminste 1 letter</td>
+<td class='tra'  lang='en-GB'>
+At least 1 character</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Herhaal wachtwoord</td>
+<td class='tra'  lang='en-GB'>
+Repeat password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Sla je wachtwoord op</td>
+<td class='tra'  lang='en-GB'>
+Save you password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Registratie afgerond</td>
+<td class='tra'  lang='en-GB'>
+Registration finished</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er is een email verstuurd aan de nieuwe gebruiker met het verzoek dit account te activeren.</td>
+<td class='tra'  lang='en-GB'>
+An email is send to the new user with the request to activate their account.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Deze pagina herlaad automatisch zodat een nieuwe gebruiker kan worden toegevoegd.</td>
+<td class='tra'  lang='en-GB'>
+This page will automatically reload to allow for a new user to be registered.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Het wachtwoord is met succes gewijzigd. Je wordt automatisch doorgelinkt naar de login pagina in 15 seconden. Als dit niet gebeurd
+<br>                        ga dan zelf naar </td>
+<td class='tra'  lang='en-GB'>
+Password successfully changed. You will be automatically linked to the login page in 15 seconds. If this does not happen
+<br> 
+<br>go to </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+de loginpagina</td>
+<td class='tra'  lang='en-GB'>
+Login page</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+om in te loggen met je nieuwe gegevens.</td>
+<td class='tra'  lang='en-GB'>
+to log in with your new credentials.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptie beoordeling systeem</td>
+<td class='tra'  lang='en-GB'>
+Thesis assessment system</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Home</td>
+<td class='tra'  lang='en-GB'>
+Home</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scripties</td>
+<td class='tra'  lang='en-GB'>
+Theses</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Studenten</td>
+<td class='tra'  lang='en-GB'>
+Students</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Registreer gebruiker</td>
+<td class='tra'  lang='en-GB'>
+Register</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Mijn gegevens</td>
+<td class='tra'  lang='en-GB'>
+My details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Nederlands</td>
+<td class='tra'  lang='en-GB'>
+Dutch</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Engels</td>
+<td class='tra'  lang='en-GB'>
+English</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Maak een keuze</td>
+<td class='tra'  lang='en-GB'>
+Choose</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pas student aan</td>
+<td class='tra'  lang='en-GB'>
+Edit Student</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hier kunt u de gegevens van een student aanpassen</td>
+<td class='tra'  lang='en-GB'>
+Here you can change the details of the student</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Terug naar overzicht</td>
+<td class='tra'  lang='en-GB'>
+Back to overview</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opleidingsgegevens:</td>
+<td class='tra'  lang='en-GB'>
+Programme details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opleiding:</td>
+<td class='tra'  lang='en-GB'>
+Programme:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opleiding</td>
+<td class='tra'  lang='en-GB'>
+Programme</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Afstudeerrichting:</td>
+<td class='tra'  lang='en-GB'>
+Specialisation:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Afstudeerrichting</td>
+<td class='tra'  lang='en-GB'>
+Specialisation</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Persoonsgegevens</td>
+<td class='tra'  lang='en-GB'>
+Personal details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Naam</td>
+<td class='tra'  lang='en-GB'>
+Name</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Tussenvoegsel</td>
+<td class='tra'  lang='en-GB'>
+Last name prefix</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Achternaam</td>
+<td class='tra'  lang='en-GB'>
+Last name</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Studentnummer</td>
+<td class='tra'  lang='en-GB'>
+Student number</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Email</td>
+<td class='tra'  lang='en-GB'>
+Email</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opslaan</td>
+<td class='tra'  lang='en-GB'>
+Save</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Studenten overzicht</td>
+<td class='tra'  lang='en-GB'>
+Student overview</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hier kunt u een overzicht van alle studenten in het systeem vinden.</td>
+<td class='tra'  lang='en-GB'>
+Here you will find an overview of all students registered in the system</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Voeg nieuwe student toe.</td>
+<td class='tra'  lang='en-GB'>
+Add student</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+voornaam</td>
+<td class='tra'  lang='en-GB'>
+firstname</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+tussenv</td>
+<td class='tra'  lang='en-GB'>
+last name prefix</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+achternaam</td>
+<td class='tra'  lang='en-GB'>
+last name</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Persoonsinfo</td>
+<td class='tra'  lang='en-GB'>
+Personal info</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hier vindt u een overzicht van alle gegevens die van een persoon bekend zijn.</td>
+<td class='tra'  lang='en-GB'>
+Here you will see all available details of a student in the system.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opleidingsgegevens</td>
+<td class='tra'  lang='en-GB'>
+Programme details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pas aan</td>
+<td class='tra'  lang='en-GB'>
+Edit</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Maak een keuze.</td>
+<td class='tra'  lang='en-GB'>
+Choose</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Voeg student toe</td>
+<td class='tra'  lang='en-GB'>
+Add student</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hier kunt u een student aan het systeem toevoegen.</td>
+<td class='tra'  lang='en-GB'>
+Add a student to the system</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Ja</td>
+<td class='tra'  lang='en-GB'>
+Yes</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Nee</td>
+<td class='tra'  lang='en-GB'>
+No</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Weet u zeker dat u deze gebruiker wilt verwijderen?</td>
+<td class='tra'  lang='en-GB'>
+Are you sure you want to delete the user?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gebruikers Management</td>
+<td class='tra'  lang='en-GB'>
+User Management</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Voeg gebruikers toe of verwijder ze.</td>
+<td class='tra'  lang='en-GB'>
+Add users or delete them.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Volledige naam</td>
+<td class='tra'  lang='en-GB'>
+Fullname</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Engelstalig</td>
+<td class='tra'  lang='en-GB'>
+English speaking</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Admin account</td>
+<td class='tra'  lang='en-GB'>
+Admin account</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Examen commissie</td>
+<td class='tra'  lang='en-GB'>
+Examination Board</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gebruikers</td>
+<td class='tra'  lang='en-GB'>
+Users</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Admin</td>
+<td class='tra'  lang='en-GB'>
+Admin</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Ex com</td>
+<td class='tra'  lang='en-GB'>
+Examination Board</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Acties</td>
+<td class='tra'  lang='en-GB'>
+Actions</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Deze beoordeling dient u in het engels in te vullen!</td>
+<td class='tra'  lang='en-GB'>
+This assessment needs to be filled in in English</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Beoordelingsformulier bacheloreindwerkstuk</td>
+<td class='tra'  lang='en-GB'>
+Thesis assessment form</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Beoordelingsformulier masterscriptie</td>
+<td class='tra'  lang='en-GB'>
+Assessment form Masters thesis</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Beoordelingsformulier research master scriptie</td>
+<td class='tra'  lang='en-GB'>
+Assessment form Research Masters thesis</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Universiteit Leiden, Faculteit der Geesteswetenschappen</td>
+<td class='tra'  lang='en-GB'>
+University Leiden, Faculty of Humanities</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul de velden hieronder in. De gegevens worden opgeslagen nadat u onderaan de pagina op opslaan heeft geklikt.</td>
+<td class='tra'  lang='en-GB'>
+Please fill in the fields below. Your input will be stored after the save button at the bottom of the page is clicked.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Studentgegevens</td>
+<td class='tra'  lang='en-GB'>
+Student details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+EC</td>
+<td class='tra'  lang='en-GB'>
+EC</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptiegegevens</td>
+<td class='tra'  lang='en-GB'>
+Thesis details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Titel(NL)</td>
+<td class='tra'  lang='en-GB'>
+Title(NL)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Titel(EN)</td>
+<td class='tra'  lang='en-GB'>
+Title(EN)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Eerste beoordelaar</td>
+<td class='tra'  lang='en-GB'>
+First evaluator</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Tweede beoordelaar</td>
+<td class='tra'  lang='en-GB'>
+Second evaluator</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Nodig externe beoordelaar uit</td>
+<td class='tra'  lang='en-GB'>
+Invite external assessor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Is het eindwerkstuk naar uw oordeel vrij van plagiaat?</td>
+<td class='tra'  lang='en-GB'>
+Is the thesis in your assessment free of plagiarism?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bekijk beoordeling van </td>
+<td class='tra'  lang='en-GB'>
+View assessment off</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bevindingen</td>
+<td class='tra'  lang='en-GB'>
+Findings</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opname repositorium</td>
+<td class='tra'  lang='en-GB'>
+Student repository</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Alle BA-Eindwerkstukken moeten worden opgenomen in het repositorium. BA-eindwerkstukken in het repositorium zijn in beginsel 
+<br>                                             vertrouwelijk tenzij student èn docent goede redenen zien om het werkstuk toch openbaar te laten zijn. Dan dit hierna aangeven. </td>
+<td class='tra'  lang='en-GB'>
+The standard procedure is that Bachelor’s theses in the repository are confidential, unless the student and the lecturer have good reasons to make it public. Please indicate this below.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De standaard procedure is dat masterscripties via het repositorium publiek worden gemaakt, tenzij de student of de docent goede redenen zien om het werkstuk toch vertrouwelijk, of tijdelijk vertrouwelijk te houden. Dan dit hierna aangeven</td>
+<td class='tra'  lang='en-GB'>
+The standard procedure is that Master’s theses in the repository are public, unless the student or lecturer has good reasons to keep the thesis confidential, or temporarily confidential. Please indicate this below. </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De standaard procedure is dat research master scripties via het repositorium publiek worden gemaakt, tenzij de student of de docent goede redenen zien om het werkstuk toch vertrouwelijk, of tijdelijk vertrouwelijk te houden. Dan dit hierna aangeven</td>
+<td class='tra'  lang='en-GB'>
+The standard procedure is that Researchmaster’s theses in the repository are public, unless the student or lecturer has good reasons to keep the thesis confidential, or temporarily confidential. Please indicate this below. </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dit eindwerkstuk mag </td>
+<td class='tra'  lang='en-GB'>
+This thesis can</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Via het repositorium direct openbaar gemaakt.</td>
+<td class='tra'  lang='en-GB'>
+can be made public through the repository immediately.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Niet via het repositorium openbaar worden gemaakt.</td>
+<td class='tra'  lang='en-GB'>
+can not be made public through the repository</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pas vanaf een latere datum via het repositorium openbaar gemaakt worden.</td>
+<td class='tra'  lang='en-GB'>
+can be made public through the repository no earlier than ..</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Datum openbaarmaking</td>
+<td class='tra'  lang='en-GB'>
+Date publication</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptie wordt gebruikt voor verder onderzoek.</td>
+<td class='tra'  lang='en-GB'>
+Thesis will be used for further research</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De inhoud van de scriptie bevat gevoelige informatie. Naar buiten brengen hiervan kan leiden tot een belemmering van de wetenschappelijke en persoonlijke vrijheid van de student of de docent.</td>
+<td class='tra'  lang='en-GB'>
+The content of the thesis contains sensitive information. Disclosure of this could lead to a restriction of (the practice of) the scientific and / or personal freedom of the student or lecturer</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De scriptie bevat informatie die vanwege de bescherming van de publieke veiligheid niet naar buiten kan worden gebracht.</td>
+<td class='tra'  lang='en-GB'>
+The content of the thesis contains information that cannot be disclosed because of the protection of public order and safety</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Anders, geef toelichting:</td>
+<td class='tra'  lang='en-GB'>
+Other, please specify</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Toelichting</td>
+<td class='tra'  lang='en-GB'>
+Comments</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Kennis en Inzicht</td>
+<td class='tra'  lang='en-GB'>
+Knowledge and insight</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Inhoud, relatie met het vakgebied met onder andere</td>
+<td class='tra'  lang='en-GB'>
+Contents, relation to the field</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De onderzoeksvraag is gebaseerd op een probleemstelling die getuigt van inzicht in de centrale debatten en methodes van het vakgebied;</td>
+<td class='tra'  lang='en-GB'>
+The research question is based on a problem that reflects insight into the key discussions and methods of the field;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Helderheid, relevantie en afbakening van de probleemstelling;</td>
+<td class='tra'  lang='en-GB'>
+Clarity, relevance, and definition of the problem;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+inkadering in bestaande literatuur;</td>
+<td class='tra'  lang='en-GB'>
+Embedding in the existing literature;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+originaliteit.</td>
+<td class='tra'  lang='en-GB'>
+Originality.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+inkadering in bestaande literatuur.</td>
+<td class='tra'  lang='en-GB'>
+Embedding in the existing literature</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dublin-descriptor: Heeft aantoonbare kennis en inzicht van een vakgebied, waarbij wordt voortgebouwd op het niveau bereikt in het voortgezet onderwijs en dit wordt overtroffen; functioneert doorgaans opeen niveau waarop met ondersteuning van gespecialiseerde handboeken, enige aspecten voorkomen waarvoor kennis van de laatste ontwikkelingen in het vakgebied vereist is.</td>
+<td class='tra'  lang='en-GB'>
+Dublin descriptor: Has demonstrable knowledge of and insight into a field of study, to achieve this has built on the level reached in secondary education and has surpassed this; generally functions at a level where, with the aid of specialized handbooks, some aspects occur for which knowledge of the latest developments in the field is necessary</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Oordeel</td>
+<td class='tra'  lang='en-GB'>
+Assessment</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Zeer goed</td>
+<td class='tra'  lang='en-GB'>
+Very Good</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Goed</td>
+<td class='tra'  lang='en-GB'>
+Good</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Voldoende</td>
+<td class='tra'  lang='en-GB'>
+Satisfactory</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Onvoldoende</td>
+<td class='tra'  lang='en-GB'>
+Unsatisfactory</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Weging (optioneel)</td>
+<td class='tra'  lang='en-GB'>
+Weighting (optional)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bekijk oordeel van </td>
+<td class='tra'  lang='en-GB'>
+View assessment of</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bekijk weging van </td>
+<td class='tra'  lang='en-GB'>
+View assessment of</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Toepassen Kennis en Inzicht</td>
+<td class='tra'  lang='en-GB'>
+Application knowledge and insight</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Methodologie met onder andere</td>
+<td class='tra'  lang='en-GB'>
+Methodology</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Kritische analyse van het materiaal en van bronnen (kwaliteit van de analyse);</td>
+<td class='tra'  lang='en-GB'>
+Critical analysis of the material and sources (quality of the analysis);</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Operationalisering en gebruik van begrippen;</td>
+<td class='tra'  lang='en-GB'>
+Putting into practice and usage of concepts;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gebruik van secundaire bronnen die bedoeld zijn voor een gevorderd academisch publiek;</td>
+<td class='tra'  lang='en-GB'>
+Usage secondary sources which are meant for an advanced academic audience;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Toepassen van kennis en inzicht in (onbekende) omstandigheden binnen de bredere (of multidisciplinaire) context;</td>
+<td class='tra'  lang='en-GB'>
+Application of knowledge and insight into (unfamiliar) circumstances within a broader (or multidisciplinary) context;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Beschrijving en verantwoording gevolgde werkwijze;</td>
+<td class='tra'  lang='en-GB'>
+Description and justification of the adopted method;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Originaliteit / innovativiteit van het onderzoeksonderwerp;</td>
+<td class='tra'  lang='en-GB'>
+Originality / innovativeness of research subject;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gebruik adequate onderzoeksmethoden.</td>
+<td class='tra'  lang='en-GB'>
+Usage effective research methods;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dublin-descriptor: Is in staat om zijn/haar kennis en inzicht op dusdanige wijze toe te passen, dat dit een professionele benadering van zijn/haar werk of beroep laat zien, en beschikt verder over competenties voor het opstellen en verdiepen van argumentaties en voor het oplossen van problemen op het vakgebied.</td>
+<td class='tra'  lang='en-GB'>
+Dublin descriptor: Is capable of applying his/her knowledge and insight in such a way that this demonstrates a professional approach to his/ her work or profession, and furthermore has the competences for formulating and developing arguments and for solving problems within the field.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Oordeelsvorming</td>
+<td class='tra'  lang='en-GB'>
+Reaching conclusions</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Interpretatie, argumentatie, conclusie, met onder andere</td>
+<td class='tra'  lang='en-GB'>
+Interpretation, argumentation, conclusion</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Logisch en consistent betoog; conclusies volgen logisch en onderbouwd uit het gepresenteerde materiaal;</td>
+<td class='tra'  lang='en-GB'>
+Logical and consistent reasoning; conclusions are well-founded and follow logically from the presented material;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De mate waarin de onderzoeksvraag daadwerkelijk wordt beantwoord;</td>
+<td class='tra'  lang='en-GB'>
+The degree to which the thesis question is actually answered; </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+De mate waarin de resultaten van het onderzoek worden gekoppeld aan ander en toekomstig onderzoek;</td>
+<td class='tra'  lang='en-GB'>
+Degree to which results are connected to other and future research; </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Kritische blik op eigen rol als onderzoeker (sociale en ethische verantwoordelijkheden);</td>
+<td class='tra'  lang='en-GB'>
+Critical reflection on the own role as researcher (social and ethical responsibilities).</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Kritische weerspiegeling van bestaande theorieën en methoden uit het vakgebied, welke de grens van kennis opschuiven;</td>
+<td class='tra'  lang='en-GB'>
+Critical reflection on the existing theories and methods in the field, which push back the frontiers of knowledge;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Innovativiteit van de bevindingen;</td>
+<td class='tra'  lang='en-GB'>
+innovativeness of findings;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Indien van toepassing: maatschappelijke en ethische aspecten meegewogen in oordeelsvorming.</td>
+<td class='tra'  lang='en-GB'>
+If applicable: social and ethical aspects taken into consideration in reaching a conclusion</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dublin-descriptor: Is in staat om relevante gegevens te verzamelen en interpreteren (meestal op het vakgebied) met het doel een oordeel te vormen dat mede gebaseerd is op het afwegen van relevante sociaalmaatschappelijke, wetenschappelijke of ethische aspecten.</td>
+<td class='tra'  lang='en-GB'>
+Dublin descriptor: Is capable of collecting and interpreting relevant data (mostly within the field) with the objective of reaching a conclusion, which is also based on the consideration of relevant social, scholarly and ethical aspects.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Communicatie</td>
+<td class='tra'  lang='en-GB'>
+Communication</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Schrijfvaardigheid, structuur, met onder andere</td>
+<td class='tra'  lang='en-GB'>
+Writing skills, structure</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Taalgebruik (voer- c.q. doeltaal opleiding: niveau van taalvaardigheid, leesbaarheid, stijl, spelling, grammatica, gebruik en uitleg juiste vaktermen);</td>
+<td class='tra'  lang='en-GB'>
+Language use (language of instruction and/ or target language of the programme: degree of linguistic competence, readability, style, spelling, grammar, use and explanation correct terminology);</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Opbouw en opmaak van de scriptie (hoofdstuk- en paragraafindeling, inhoudsopgave; gebruik illustraties);</td>
+<td class='tra'  lang='en-GB'>
+Structure and layout of the thesis (division into chapters and sections, table of contents, used illustrations); </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Apparaat met inbegrip van annotatie (correct gebruik verwijzingssysteem, volledigheid verwijzingen, literatuurlijst, etc.).</td>
+<td class='tra'  lang='en-GB'>
+Apparatus including annotations (correct use of reference guidelines, completeness of references, bibliography, etc.).</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dublin-descriptor: Is in staat om informatie, ideëen en oplossingen over te brengen op publiek bestaande uit specialisten of niet-specialisten.</td>
+<td class='tra'  lang='en-GB'>
+Dublin descriptor: Is capable of conveying information, ideas and solutions to an audience consisting of specialists or non-specialists.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Leervaardigheden</td>
+<td class='tra'  lang='en-GB'>
+Learning skills</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Proces met onder andere</td>
+<td class='tra'  lang='en-GB'>
+Process with </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Mate van zelfstandigheid;</td>
+<td class='tra'  lang='en-GB'>
+Degree of independence;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Planning en tijdsmanagement;</td>
+<td class='tra'  lang='en-GB'>
+Planning and time management;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Omgang met feedback begeleiders;</td>
+<td class='tra'  lang='en-GB'>
+Handling feedback supervisors;</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Indien van toepassing: Participatie in scriptiegroep;</td>
+<td class='tra'  lang='en-GB'>
+If applicable: participation in thesis group.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dublin-descriptor: Bezit de leervaardigheden die noodzakelijk zijn om een vervolgstudie die een hoog niveau van autonomie veronderstelt aan te gaan.</td>
+<td class='tra'  lang='en-GB'>
+Dublin descriptor: Possesses the learning skills necessary to proceed in studies which require a high degree of autonomy.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Formele vereisten</td>
+<td class='tra'  lang='en-GB'>
+Formal requirements</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Zoals bijvoorbeeld het aantal woorden</td>
+<td class='tra'  lang='en-GB'>
+For example the amount of word</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Samenvattend oordeel</td>
+<td class='tra'  lang='en-GB'>
+Summary assessment / comments</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Eindoordeel</td>
+<td class='tra'  lang='en-GB'>
+Final assessment</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Toetsdatum</td>
+<td class='tra'  lang='en-GB'>
+Date assesement</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Tussentijds opslaan</td>
+<td class='tra'  lang='en-GB'>
+Save progress</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Definitief opslaan en ondertekenen</td>
+<td class='tra'  lang='en-GB'>
+Save, lock and sign</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Nodig uit</td>
+<td class='tra'  lang='en-GB'>
+Invite</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Nodig een beoordelaar uit door hieronder het mailadres van deze in te vullen en op verstuur te klikken.</td>
+<td class='tra'  lang='en-GB'>
+Invite an other evaluator by providing the email of the evaluator below and clicking send.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul een email adres in</td>
+<td class='tra'  lang='en-GB'>
+Provide an email address</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Kies eerst een opleiding</td>
+<td class='tra'  lang='en-GB'>
+First select a Programme</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Criteria</td>
+<td class='tra'  lang='en-GB'>
+Criteria</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Proces, met onder andere</td>
+<td class='tra'  lang='en-GB'>
+Process, with </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bachelor Nederlands</td>
+<td class='tra'  lang='en-GB'>
+Bachelor Dutch</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bachelor Engels</td>
+<td class='tra'  lang='en-GB'>
+Bachelor English</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Researchmaster</td>
+<td class='tra'  lang='en-GB'>
+Research master thesis</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scriptie overzicht</td>
+<td class='tra'  lang='en-GB'>
+Thesis overview</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hieronder treft u een overzicht aan van alle scripties in het systeem, waarvan u eerste dan wel tweede beoordelaar bent. &lt;br /&gt;
+<br>                      Wilt u een nieuwe beoordeling starten klik dan rechts op de knop 'Start nieuwe beoordeling'.</td>
+<td class='tra'  lang='en-GB'>
+Below you find an overview of all theses in the system of which you are the first or second assessor. &lt;br/&gt;
+<br>If you want to start a new Assessment you can do so by clicking on the button to the right that says 'Start new assessment'.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+opleiding</td>
+<td class='tra'  lang='en-GB'>
+course</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+afstudeer richting</td>
+<td class='tra'  lang='en-GB'>
+specialization</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+ects</td>
+<td class='tra'  lang='en-GB'>
+ects</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+titel</td>
+<td class='tra'  lang='en-GB'>
+title</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+titel engels</td>
+<td class='tra'  lang='en-GB'>
+title (en)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+vrij van plagiaat</td>
+<td class='tra'  lang='en-GB'>
+free of plagiarism</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+oordeel</td>
+<td class='tra'  lang='en-GB'>
+assessment</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+datum oordeel</td>
+<td class='tra'  lang='en-GB'>
+day of assessment</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Verzoek derde</td>
+<td class='tra'  lang='en-GB'>
+Request third grader</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Beoordelingsverschil</td>
+<td class='tra'  lang='en-GB'>
+Assessment difference</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Scripties voor overleg</td>
+<td class='tra'  lang='en-GB'>
+Theses to discuss</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hieronder treft u de waarover u in overleg moet treden met de andere beoordelaar. U heeft namelijk meer dan 2 punten verschil in uw beoordelingen, danwel 1 van u heeft een onvoldoende gegeven.</td>
+<td class='tra'  lang='en-GB'>
+Below you find the theses that need discussion between you and the other assessor.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Derde lezer</td>
+<td class='tra'  lang='en-GB'>
+Third reader</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gezamenlijk formulier</td>
+<td class='tra'  lang='en-GB'>
+Combined form</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Gezamenlijke beoordelingen</td>
+<td class='tra'  lang='en-GB'>
+Joined assessment</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hieronder treft u de scripties die nog een gezamenlijk oordeel behoeven.</td>
+<td class='tra'  lang='en-GB'>
+Below you will find all theses that still need a joined assessment from you and the other assessor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hieronder treft u een overzicht aan van de scriptie van </td>
+<td class='tra'  lang='en-GB'>
+Below you find an overview of the thesis of </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pas beoordeling aan</td>
+<td class='tra'  lang='en-GB'>
+Edit assessment</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Student gegevens</td>
+<td class='tra'  lang='en-GB'>
+Student details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Niveau</td>
+<td class='tra'  lang='en-GB'>
+Level</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Titel</td>
+<td class='tra'  lang='en-GB'>
+Title</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Titel (engels)</td>
+<td class='tra'  lang='en-GB'>
+Title (english)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vrij van plagiaat</td>
+<td class='tra'  lang='en-GB'>
+Free of plagiarism</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Repositorium</td>
+<td class='tra'  lang='en-GB'>
+Repository</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Datum Openbaarmaking</td>
+<td class='tra'  lang='en-GB'>
+Date of publication</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Weging</td>
+<td class='tra'  lang='en-GB'>
+Weighing</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Genereer gezamenlijk formulier</td>
+<td class='tra'  lang='en-GB'>
+Generate final form</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+We komen er niet uit</td>
+<td class='tra'  lang='en-GB'>
+We can't agree</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='nl'>
+Tekenen voor akkoord</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Keuzemenu type scriptie</td>
+<td class='tra'  lang='en-GB'>
+Thesis grading options</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Selecteer type scriptie</td>
+<td class='tra'  lang='en-GB'>
+Select type of thesis</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bacholorscriptie (NL)</td>
+<td class='tra'  lang='en-GB'>
+Bachelor thesis (NL)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Bacholorscriptie (EN)</td>
+<td class='tra'  lang='en-GB'>
+Bachelor thesis (EN)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Masterscriptie</td>
+<td class='tra'  lang='en-GB'>
+Master thesis</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Verder</td>
+<td class='tra'  lang='en-GB'>
+Continue</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul uw pincode in:</td>
+<td class='tra'  lang='en-GB'>
+Provide your pincode</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul aub uw pincode in die u bij registratie heeft opgegeven. Na invullen van de code wordt de scriptie ondertekend.</td>
+<td class='tra'  lang='en-GB'>
+Please provide the pincode you created after registration for the system. Once filled in the thesis will be signed.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pincode (vijf cijfers)</td>
+<td class='tra'  lang='en-GB'>
+Pincode (five digits)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Deze beoordeling dient u in het Engels in te vullen!</td>
+<td class='tra'  lang='en-GB'>
+Please fill in this form in English.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Datum openbaarmaking:</td>
+<td class='tra'  lang='en-GB'>
+Date of publication:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Dublin-descriptor: Is in staat om informatie, ideeën en oplossingen over te brengen op publiek bestaande uit specialisten of niet-specialisten.</td>
+<td class='tra'  lang='en-GB'>
+Dublin descriptor: Is capable of conveying information, ideas and solutions to an audience consisting of specialists or non-specialists.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Instellingen</td>
+<td class='tra'  lang='en-GB'>
+Settings</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+5-cijfercode vernieuwen</td>
+<td class='tra'  lang='en-GB'>
+Renew 5-digit code</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Vul hieronder twee keer een nieuwe pincode in. Houd er rekening mee dat de pincode 5 cijfers moet bevatten</td>
+<td class='tra'  lang='en-GB'>
+Below please provide your new pin twice. Keep in mind that a pincode consists of 5 digits.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Pincode</td>
+<td class='tra'  lang='en-GB'>
+Pincode</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Herhaal pincode</td>
+<td class='tra'  lang='en-GB'>
+Repeat pincode</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Sla je pincode op</td>
+<td class='tra'  lang='en-GB'>
+Save pincode</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Persoonlijk overzicht</td>
+<td class='tra'  lang='en-GB'>
+Personal overview</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Hieronder treft u uw persoonlijke gegevens. U kunt uw gegevens wijzigen door op de wijzig knop te klikken.</td>
+<td class='tra'  lang='en-GB'>
+Below you find your personal details. You can change your details by clicking the edit button.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wijzig gegevens.</td>
+<td class='tra'  lang='en-GB'>
+Edit details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Persoonlijke gegevens</td>
+<td class='tra'  lang='en-GB'>
+Personal details</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Taal</td>
+<td class='tra'  lang='en-GB'>
+Language</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+English</td>
+<td class='tra'  lang='en-GB'>
+English</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wijzig wachtwoord</td>
+<td class='tra'  lang='en-GB'>
+Reset password</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Wijzig pincode</td>
+<td class='tra'  lang='en-GB'>
+Update pincode</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='nl'>
+Er is een e-mail gestuurd naar het adres dat bij ons gekoppeld is aan je gebruikersnaam. Volg de instructies in die e-mail om je wachtwoord te resetten.
+<br>        Mocht je geen email hebben ontvangen kijk dan in je spam folder, of neem contact op met </td>
+<td class='tra'  lang='en-GB'>
+An email has been send to the email address linked to your username. Follow the instructions to reset your password.
+<br>If you did not receive an email please check your spam folder, or contact </td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

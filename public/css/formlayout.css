@@ -1,0 +1,1248 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap");
+h4{
+    margin-left: -2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.extraheight > .col-sm-3, 
+.col-sm-4, 
+.col-md-3, .col-md-4{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* This is where the magic happens */
+}
+
+.inputGroup{
+    margin-top: 6px;
+    padding-bottom: 15px;
+    margin-left: 8px;
+}
+
+.customRow{
+    margin-left: -15px;
+}
+
+.midDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.customRow > a {
+    float: right;
+    margin-top: 35px;
+    margin-right: 15px;
+    color: #ffffff;
+    background-color: #707070;
+    border-color: #707070;
+    border-radius: 20px;
+    height: 36px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+}
+
+.customRow > a:hover{
+    color: #fff;
+    background-color: #707070;
+    border-color: #707070;
+}
+
+
+div.panel-body > div > div.button-row > a, 
+div.button-row > button{
+    color: #ffffff;
+    background-color: #114783;
+    border-color: #114783;
+    border-radius: 20px;
+    height: 39px;
+    width: 146px;
+    margin-left: 34px;
+    margin-top: 13px;
+    font-family: 'Open sans', sans-serif;
+    padding-top: 9px;
+
+}
+
+.custom_pTOc_btn.btn.btn-primary {
+    margin-left: 34px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.fieldSeparators{
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 15px;
+}
+
+.user{
+    padding-left: 17px;
+    width: 183px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.user > h4 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.usertext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    left: 191px;
+
+}
+
+.user:hover .usertext {
+  visibility: visible;
+}
+
+.user .usertext::after {
+  content: " ";
+  position: absolute;
+  top: 32%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.questionMark5{
+    position: absolute;
+    top: -5px;
+    left: 169px;
+    width: 12px;
+    height: 12px;
+}
+
+.general{
+    padding-left: 17px;
+    width: 183px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.generaltext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    left: 110px;
+
+}
+
+.general:hover .generaltext {
+  visibility: visible;
+}
+
+.general .generaltext::after {
+  content: " ";
+  position: absolute;
+  top: 32%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.questionMark{
+    position: absolute;
+    top: -5px;
+    left: 89px;
+    width: 12px;
+    height: 12px;
+}
+
+.financial{
+    width: 183px;
+    position: relative;
+    margin-top: 37px;
+    padding-left: 17px;
+
+}
+
+
+.financialtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -29px;
+    left: 121px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+.financial:hover .financialtext {
+  visibility: visible;
+}
+
+.financial .financialtext::after {
+  content: " ";
+  position: absolute;
+  top: 56%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.questionMark2{
+    position: absolute;
+    top: -5px;
+    left: 99px;
+    width: 12px;
+    height: 12px;
+}
+
+.social{
+    width: 183px;
+    position: relative;
+    margin-top: 37px;
+    padding-left: 17px;
+
+}
+
+.socialtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -29px;
+    left: 149px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+.social:hover .socialtext {
+  visibility: visible;
+}
+
+.social .socialtext::after {
+  content: " ";
+  position: absolute;
+  top: 56%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.questionMark4{
+    position: absolute;
+    top: -5px;
+    left: 129px;
+    width: 12px;
+    height: 12px;
+}
+
+.own{
+    padding-left: 14px;
+    width: 183px;
+    position: relative;
+}
+
+.owntext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 186px;
+    left: 294px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+.own:hover .owntext {
+  visibility: visible;
+}
+
+.own .owntext::after {
+  content: " ";
+  position: absolute;
+  top: 73%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.questionMark3{
+    position: absolute;
+    top: -26px;
+    left: 240px;
+    width: 12px;
+    height: 12px;
+}
+
+.form-check-label{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #646464;
+    margin-left: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+/*Set input images*/
+input#name{
+    height: 45px;
+    background-image: url(../img/icons/user-solid@2x.png);
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 12px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input[placeholder]{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    color: #818181;
+}
+
+input#username{
+    height: 45px;
+    background-image: url(../img/icons/user-solid@2x.png);
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 12px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#fullname{
+    height: 45px;
+    background-image: url(../img/icons/user-solid@2x.png);
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 12px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+select#admin{
+    height: 45px;
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 12px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#tel{
+    height: 45px;
+    background-image: url(../img/icons/phone-alt-solid@2x.png);
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 12px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input[data-target-id="person_id"]{
+    height: 45px;
+    background-image: url(../img/icons/user-solid@2x.png);
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 12px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#address{
+    height: 45px;
+    background-image: url(../img/icons/home-solid@2x.png);
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 16px 13px;
+    background-repeat: no-repeat;  
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#number{
+    height: 45px;
+    width: 115px;
+    margin-left: -2px;
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 16px 13px;
+    background-repeat: no-repeat;  
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+.control-group > #companyNumber > input#number {
+    height: 45px;
+    width: 109px;
+    margin-left: -33px;
+    background-position: left;
+    background-position-x: 20px;
+    background-size: 16px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+}
+
+/*lay-out companies it's a bit smaller*/
+div.inputGroup.generalGroup.col-sm-12.col-md-1.col-lg-1.company_number_input input#number.form-control{
+    margin-left: -29px;
+}
+
+input#number[placeholder]{
+    padding-left: 10px;
+}
+
+input#postcode{
+    height: 45px;
+    background-image: url(../img/icons/envelope-solid@2x.png);
+    background-position: left;
+    background-position-x: 18px;
+    background-size: 13px 10px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#place{
+    height: 45px;
+    background-image: url(../img/icons/building-solid@2x.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-size: 12px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#country{
+    height: 45px;
+    background-image: url(../img/icons/globe-europe-solid@2x.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-size: 13px 13px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#vat_nr, input#kvk{
+    height: 45px;
+    background-image: url(../img/icons/money-check-solid.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-size: 15px 10px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#iban{
+    height: 45px;
+    background-image: url(../img/icons/file-invoice-solid@2x.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-size: 12px 16px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#facebook{
+    height: 45px;
+    background-image: url(../img/icons/facebook-f-brands.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#twitter{
+    height: 45px;
+    background-image: url(../img/icons/twitter-brands.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#youtube{
+    height: 45px;
+    background-image: url(../img/icons/youtube-brands.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#linkedin{
+    height: 45px;
+    background-image: url(../img/icons/linkedin-in-brands.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#gplus, input#email, input#company, input#website{
+    height: 45px;
+    background-image: url(../img/icons/link-solid@2x.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#title{
+    height: 45px;
+    background-image: url(../img/icons/user-tag-solid@2x.png);
+    background-position: left;
+    background-position-x: 21px;
+    background-size: 18px 14px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    padding-left: 48px;
+}
+
+input#cmpny{
+    height: 45px;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+}
+
+.input-group-addon ~ input {
+    width:calc(100% - 34px);
+    margin-left:34px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+/*radio button styling*/
+.radiotextsty {
+  color: #A5A4BF;
+  font-size: 18px;
+}
+
+.form-check{
+    margin-left: 18px;
+}
+
+.customradio {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  height: 23px;
+  width: 23px;
+  background-color: white;
+  border-radius: 50%;
+  border:1px solid #BEBEBE;
+}
+
+/* On mouse-over, add a grey background color */
+.customradio:hover input ~ .checkmark {
+  background-color: transparent;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.customradio input:checked ~ .checkmark {
+  background-color: white;
+  border:1px solid #BEBEBE;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.customradio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.customradio .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #114783;
+}
+
+/*icons*/
+#user-solid-2{
+    height: 13px;
+    width: 12px;
+}
+
+.userOverzichtArea #user-tag-solid-2,
+#user-tag-solid-2,
+#user-shield-solid{
+    height: 15px;
+    width: 17px;
+}
+
+#building-solid{
+    height: 13px;
+    width: 12px;
+}
+
+#envelope-solid{
+    height: 12px;
+    width: 15px;
+}
+
+#home-solid{
+    height: 12px;
+    width: 13px;
+}
+
+#globe-europe-solid{
+    height: 13px;
+    width: 13px;
+}
+
+#file-invoice-solid{
+    height: 16px;
+    width: 12px;
+}
+
+/*kvk and iban*/
+#money-check-solid{
+    height: 10px;
+    width: 15px;
+}
+
+#link-solid{
+    height: 12px;
+    width: 12px;
+}
+
+#facebook-f-brands{
+    height: 14px;
+    width: 8px;
+}
+
+#twitter-brands{
+    height: 12px;
+    width: 15px;
+}
+
+#youtube-brands{
+    height: 10px;
+    width: 15px;
+}
+
+#linkedin-in-brands{
+    height: 13px;
+    width: 9px;
+
+}
+
+
+/*p*/
+.custom_P{
+    overflow:hidden;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: black;
+    margin-left: 37px;
+    margin-top: -18px;
+    height: 20px;
+}
+
+.custom_P_project{
+    margin-left: 17px;
+    overflow:hidden;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: black;
+    margin-top: -18px;
+    height: 20px;
+
+}
+
+.extraheight > div:nth-child(3) > div.panel-body > div > div.socialMedia > div.socialMediaIconLink > div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.extraheight > div:nth-child(3) > div.panel-body > div > div.socialMedia > div.socialMediaIconLink > div:nth-child(2) > div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overzicht.informationSection div.col-sm-7{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*A*/
+.custom_a{
+    margin-left: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #114783;
+}
+
+.custom_a2{
+    margin-left: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #114783;
+}
+
+.ownedByUs{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+.custom_picture_div > img{
+    border-radius: 2%;
+    background-color: #E0E0E0;
+    border: 2px solid #E0E0E0;
+    object-fit: cover;
+    height: inherit;
+}
+.custom_picture_div{
+    margin-left: 0px;
+    height: 121px;
+    width: 121px;
+}
+
+.customOverzicht{
+    margin-left: 46px;
+}
+
+.col-md-9.col-lg-9.overzicht.customOverzicht.userOverzichtArea {
+    margin-left: -12px;
+}
+
+.pfDiv{
+    margin-left: 30px;
+    height: 230px;
+}
+
+.lazyInputGroup{
+    position: relative;
+}
+
+div.inputGroup.col-sm-8.col-lg-9.lazyInputGroup > div.input-group-addon.fasPlusDiv{
+    position: absolute;
+    top: 0px;
+    width: 35px;
+    height: 44px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+div.col-sm-12.inputGroup.lazyInputGroup.col-lg-3 > div.input-group-addon.fasPlusDiv.fasPlusDiv{
+    position: absolute;
+    top: 0px;
+    width: 35px;
+    height: 45px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/*These are styling to target more specifically */
+div.person_gplus_input > div > a {
+    margin-left: 17px;
+}
+
+.panel-body {
+    position: relative;
+}
+
+.projectRow > .overzicht > .pic > img{
+    border-radius: 2%;
+    background-color: #E0E0E0;
+    border: 2px solid #E0E0E0;
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+}
+
+.projectRow > .overzicht > .pic{
+    padding: 5px;
+}
+.projectRow > .overzicht > .tekst{
+    position: absolute;
+    top: 2px;
+    left: 100px;
+}
+
+/* project overview and edit_add*/
+.circleOfStatus {
+    height: 45px;
+    width: 45px;
+    float: none;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+div.statusDiv > h4{
+    color: #114783;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.statusDiv {
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    height: 124px;
+    left: 55%;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    margin-top: 21px;
+}
+
+@media screen and (min-width:1080px) and (max-width: 1919px){
+    .statusDiv {
+        background-color: white;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 4px;
+        position: absolute;
+        height: 125px;
+        left: 54%;
+        box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+        margin-top: 20px;
+    }
+}
+
+.projectPanelBody{
+    padding: 0px;
+}
+
+.labelProject, .labelCompany{
+    margin-left: -3px;
+    color: #818181;
+}
+
+.labelString{
+    color: black;
+    
+}
+
+article{
+    max-height: 46em;
+    overflow: hidden;
+}
+
+.projectPart{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-md-12.pull-left.projectPicture {
+    margin-left: 10px;
+    padding-left: 0px;
+    margin-bottom: 12px;
+}
+
+p.projectinformation{
+    margin-top: 37px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-left: 25px;
+
+}
+
+p.customerinformation{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.btnProject{
+    margin-top: 14px;
+    margin-bottom: 19px;
+    margin-left: 30px;
+}
+
+.labelIcon{
+    margin-top: -3px;
+    padding-right: 6px;
+}
+
+p.statusText {
+    display: table;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#text{
+    display:none;
+}
+
+.btnContainer{
+    margin: auto;
+    height: 44px;
+    width: 166.23px; 
+}
+
+#toggleReadMore{
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    cursor:pointer;
+    border:none;
+    padding:8px;
+    color:black;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    box-sizing:border-box;
+    float: left;
+    margin-left: -7px;
+    margin-top: -12px;
+
+}
+
+.customerTT{
+    padding-left: 17px;
+    width: 183px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.customerTTtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -44px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    left: 196px;
+
+}
+
+.customerTT:hover .customerTTtext {
+  visibility: visible;
+}
+
+.customerTT .customerTTtext::after {
+  content: " ";
+  position: absolute;
+  top: 32%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.customerTTicon{
+    position: absolute;
+    top: -34px;
+    left: 175px;
+    width: 12px;
+    height: 12px;
+}
+
+.projectTT{
+    padding-left: 17px;
+    width: 183px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.projectTTtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -54px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    left: -144px;
+
+}
+
+.projectTT:hover .projectTTtext {
+  visibility: visible;
+}
+
+.projectTT .projectTTtext::after {
+  content: " ";
+  position: absolute;
+  top: 32%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.projectTTicon{
+    position: absolute;
+    top: -43px;
+    left: -167px;
+    width: 12px;
+    height: 12px;
+}
+
+.projectlinkTT{
+    padding-left: 17px;
+    width: 183px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.projectlinkTTtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5d7ba8;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    left: 143px;
+
+}
+
+.projectlinkTT:hover .projectlinkTTtext {
+  visibility: visible;
+}
+
+.projectlinkTT .projectlinkTTtext::after {
+  content: " ";
+  position: absolute;
+  top: 32%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #5d7ba8 transparent transparent;
+}
+
+.projectlinkTTicon{
+    position: absolute;
+    top: -34px;
+    left: 121px;
+    width: 12px;
+    height: 12px;
+}
+
+#addButton{
+    float: right;
+    margin-top: 35px;
+    margin-right: 15px;
+    color: #ffffff;
+    background-color: #707070;
+    border-color: #707070;
+    border-radius: 20px;
+    height: 36px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+}
+
+.add_editPF{
+    padding-right: 75%;
+    padding-bottom: 21px;
+}
+
+.add_editPF .customerinformation{
+    margin-left: -45px;
+}
+
+.pvI{
+    padding-right: 193px;
+    width: 500px;
+}
+
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group p.projectinformation{
+    padding-bottom: 30px;
+    margin-left: 14px;
+}
+
+.name_project,
+.budget_project,
+.customer_project,
+.contracter_project,
+.deadline_project,
+.hourlyWage_project,
+.soHourly_project,
+.soDescription_project,
+.customerMainContact_project,
+.contractorMainContact_project,
+.intermediate_project,
+.responsible_project,
+.status_project,
+.testpage_project,
+.androidLink_project,
+.iosLink_project,
+.repositoryLink_project,
+.slug_project,
+.description_project {
+    padding-left: 4px;
+}
+
+#nameProject,
+#budget,
+#customer,
+#contractor,
+#deadline,
+#hourly_wage,
+#SO_hourly,
+#SO_description,
+#customerMC,
+#contractorMC,
+#intermediate,
+#responsible,
+#project_status,
+#dev_link,
+#android_link,
+#ios_link,
+#repository,
+#slug{
+    padding-left: 13px;
+}
+
+.midDivProject i.fas.fa-plus {
+
+    margin-top: 1px;
+    margin-left: 0px;
+
+}
+
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group div.contracter_project.projects_contractor_name_input div.form-group.input-group.col-sm-12.col-lg-6.projects_contractor_name_input div.dropdown.bootstrap-select.input-group-btn.form-control.bs3.bs3-has-addon,
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group div.customerMainContact_project.projects_person_main_contact_name_input div.form-group.input-group.col-sm-12.col-lg-6.projects_person_main_contact_name_input div.dropdown.bootstrap-select.input-group-btn.form-control.bs3.bs3-has-addon button.btn.dropdown-toggle.btn-default.bs-placeholder,
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group div.intermediate_project.projects_Intermediate_name_input div.form-group.input-group.col-sm-12.col-lg-6.projects_contractor_name_input div.dropdown.bootstrap-select.input-group-btn.form-control.bs3.bs3-has-addon button.btn.dropdown-toggle.btn-default.bs-placeholder,
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group div.customer_project.projects_company_input div.form-group.input-group.col-sm-12.col-lg-6.projects_company_input input.form-control.bedrijfpersoonpickerLazy.searchOnKeyUp,
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group div.contractorMainContact_project.projects_contractor_main_contact_name_input div.form-group.input-group.col-sm-12.col-lg-6.projects_contractor_main_contact_name_input input.form-control.bedrijfpersoonpickerLazy.searchOnKeyUp,
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group div.customerMainContact_project.projects_person_main_contact_name_input div.form-group.input-group.col-sm-12.col-lg-6.projects_person_main_contact_name_input div.dropdown.bootstrap-select.input-group-btn.form-control.bs3.bs3-has-addon,
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group div.intermediate_project.projects_Intermediate_name_input div.form-group.input-group.col-sm-12.col-lg-6.projects_contractor_name_input div.dropdown.bootstrap-select.input-group-btn.form-control.bs3.bs3-has-addon
+{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important
+}
+
+div.midDiv.midDivProject.col-md-12.col-lg-12 div.control-group .input-group-addon {
+
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+
+}
+
+/* The end*/
+
+#userSettingsForm div.extra-values-box.show-box div div.form-group.input-group.col-sm-12.col-lg-9 input#from_name.form-control.willberequired,
+#userSettingsForm div.extra-values-box.show-box div div.form-group.input-group.col-sm-12.col-lg-9 input#email_real.form-control.willberequired,
+#userSettingsForm div.extra-values-box.show-box div div.form-group.input-group.col-sm-12.col-lg-9 input#from_noreply.form-control.willberequired,
+#userSettingsForm div.extra-values-box.show-box div div.form-group.input-group.col-sm-12.col-lg-9 input#email_reply.form-control.willberequired,
+#userSettingsForm div.extra-values-box.show-box div div.form-group.input-group.col-sm-12.col-lg-9 input#emails_dangers.form-control.willberequired{
+    padding-left: 13px;
+}
+
+.bsSettings {
+    margin-left: 31px;
+}
+
+.inputGroup.lazyInputGroup.col-md-3.col-lg-3.person_company_input{
+    overflow:initial;
+}

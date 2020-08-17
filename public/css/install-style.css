@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap");
+
+nav.navbar.navbar-inverse.navbar-fixed-top.sg-menu {
+    display: none;
+}
+
+.menuHeaderLogin{
+    border-radius: 0px;
+}
+
+.InstasllTitel{
+    color: #114783;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.installation{
+    padding: 0px;
+    margin-top: 80px;
+}
+
+.installationContainer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    margin-top: 80px;
+}
+
+.welcomeText{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+}
+
+.center-block.extra-padding-left{
+    padding-left: 10px;
+}
+
+.radiotextsty {
+  color: #A5A4BF;
+  font-size: 18px;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.customradio {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    height: 23px;
+    width: 23px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #BEBEBE;
+}
+
+/* On mouse-over, add a grey background color */
+.customradio:hover input ~ .checkmark {
+  background-color: transparent;
+}
+
+/* When the radio button is checked, add a blue background */
+.customradio input:checked ~ .checkmark {
+  background-color: white;
+  border:1px solid #BEBEBE;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.customradio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.customradio .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #114783;
+}
+
+.custom-control.custom-checkbox.col-xs-12.col-md-8.col-lg-9 {
+    margin-left: 70px;
+    margin-top: 19px;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    overflow:auto;
+}
+
+.InstalLoginBTN {
+    width: 208px;
+    height: 49px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.center-block{
+    display: block;
+    padding: 20px;
+}
+
+input[placeholder] {
+    padding-left: 58px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input#url{
+    float: none;
+    background-image: url(../img/icons/link-solid@2x.png);
+    background-position: 15px 14px;
+    background-size: 24px 26px;
+    background-repeat: no-repeat;
+    border-radius: 4px !important;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    height: 61px;
+}
+
+input#dbhost{
+    float: none;
+    background-image: url(../img/icons/cloud-solid@2x.png);
+    background-position: 15px 18px;
+    background-size: 25px 23px;
+    background-repeat: no-repeat;
+    border-radius: 4px !important;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    height: 61px;
+}
+
+input#dbname{
+    float: none;
+    background-image: url(../img/icons/database-solid@2x.png);
+    background-position: 15px 14px;
+    background-size: 25px 29px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+input#dblogin, input#username{
+    float: none;
+    background-image: url(../img/icons/user-solid@2x.png);
+    background-position: 15px 14px;
+    background-size: 25px 28px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+input#dbpass{
+    float: none;
+    background-image: url(../img/icons/lock-solid@2x.png);
+    background-position: 15px 14px;
+    background-size: 25px 28px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+input#dbport{
+    float: none;
+    background-image: url(../img/icons/ethernet-solid@2x.png);
+    background-position: 15px 14px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    background-size: 30px 29px;
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+.bs-callout .btn{
+    margin-top:16px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+.col-form-label {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+@media only screen and (max-width:767px){
+    .col-form-label{
+        text-align: left;
+    }
+    #navbar-brand-title{
+        display:none;
+    }
+}
+
+.alert.alert-warning > h4 {
+    font-weight: 600;
+}
+
+.alert.alert-warning {
+    position: fixed;
+    z-index:666;
+    top: 50vh;
+    left: 50vw;
+    margin-top:-61px;
+    margin-left:-128px;
+    width: 256px;
+    color: #020202;
+    background-color: #ffffff;
+    border-color: #eaa82b;
+    border-radius: 4px !important;
+    box-shadow: 3px 2px 10px #a3a3a3;
+}
+
+.fas.fa-exclamation-triangle{
+   color: #eaa82b;
+}
+
+/*      Admin create area        */
+.container.installationContainer.createAdmin {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+input#email{
+    float: none;
+    background-image: url(../img/icons/envelope-solid@2x.png);
+    background-position: 15px 18px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    background-size: 29px 22px;
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+input#fullname{
+    float: none;
+    background-image: url(../img/icons/user-edit-solid@2x.png);
+    background-position: 15px 18px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    background-size: 31px 25px;
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+input#company{
+    float: none;
+    background-image: url(../img/icons/building-solid@2x.png);
+    background-position: 15px 18px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    background-size: 25px 29px;
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+input#ps, input#ps2{
+    float: none;
+    background-image: url(../img/icons/lock-solid@2x.png);
+    background-position: 15px 18px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 2px 10px rgba(165, 165, 165, 0.3);
+    background-size: 26px 29px;
+    border-radius: 4px !important;
+    height: 61px;
+}
+
+div.container.installationContainer.createAdmin > div > div > div > div > div.panel-body > form > div > div > i.glyphicon.glyphicon-eye-open{
+    position: relative;
+    float: right;
+    left: 27px;
+    top: -36px;
+}
+
+input[class*="adminCreateBTN"]{
+   margin: 25px 0px 25px 354px;
+}
+
+.welcomAdmin{
+    margin-left: 199px;
+    width: 199px;
+}
+
+@media (min-width: 1400px) and (max-width: 1550px){
+    .createAdmin {
+        width: 912px;
+    }
+    
+    .alert.alert-warning {
+        position: relative;
+        top: -799px;
+        left: -327px;
+        width: 256px;
+        color: #020202;
+        background-color: #ffffff;
+        border-color: #eaa82b;
+        border-radius: 4px !important;
+        box-shadow: 3px 2px 10px #a3a3a3;
+    }
+    
+    input[class*="adminCreateBTN"] {
+        margin: 25px 0px 25px 125px;
+    }
+    
+    .welcomAdmin{
+        margin-left: 131px;
+    }
+    
+    .installationContainer {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1920px){
+    .ramlogo{
+        position: relative;
+        width: 124%;
+        top: -150px;
+        opacity: 0.3;
+        left: -10%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }   
+    
+    .backgroundLogo {
+        position: relative;
+        z-index: -1;
+        width: 50%;
+        left: 50%;
+        height: 1210px;
+        overflow-x: visible;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    body{
+        height:100%;
+        width:100%;
+        overflow: hidden;
+    }
+}
+
+.backgroundLogo{
+    position: relative;
+    z-index: -1;
+    width: 50%;
+    left: 50%;
+    height: 1210px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*Error, Success coloring*/
+.has-error .form-control:focus {
+    border-color: #b11b1b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #b11b1b;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #b11b1b;
+}
+
+.has-error .form-control {
+    border-color: #b11b1b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(255, 2, 2, 0);
+}
+
+.has-success .form-control:focus {
+    border-color: #178351;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #178351;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #178351;
+}
+
+.has-success .form-control {
+    border-color: #178351;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(255, 2, 2, 0);
+}
+
+.success{
+    position: absolute;
+    top: 292px;
+}
+
+.success > .alertSuccessMessage {
+    width: 50%;
+    float: none;
+}

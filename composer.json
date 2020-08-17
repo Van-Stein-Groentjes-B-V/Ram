@@ -1,0 +1,21 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "vlucas/phpdotenv": "^3.3",
+        "tinymce/tinymce": ">=5",
+        "dompdf/dompdf": "^0.8.3",
+        "snapappointments/bootstrap-select": "^1.13"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8",
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "scripts" : {
+        "test" : "phpunit",
+        "phpcs" : "vendor/bin/phpcs --standard=sg_ruleset.xml --report=summary --ignore=config/*,modules/*,public/*,vendor/*,tests/*,views/*./ ",
+        "phpcbf" : "vendor/bin/phpcbf --standard=sg_ruleset.xml --ignore=config/*,modules/*,public/*,vendor/*,tests/*,views/* ./",
+        "phpcsfull" : "vendor/bin/phpcs --standard=sg_ruleset.xml --report=full --ignore=config/*,modules/*,public/*,vendor/*,tests/*,views/* ./",
+        "winphpcbf" : "vendor\\bin\\phpcbf --standard=sg_ruleset.xml --ignore=config/*,modules/*,public/*,vendor/*,tests/*,views/* ./",
+        "winphpcsfull" : "vendor\\bin\\phpcs --standard=sg_ruleset.xml --report=full --ignore=config/*,modules/*,public/*,vendor/*,tests/*,views/* ./"
+    }
+}

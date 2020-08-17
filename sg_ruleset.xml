@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="SG" xsi:noNamespaceSchemaLocation="../../../phpcs.xsd">
+    <description>The PSR-12 coding standard without line-length and other modifications for SG.</description>
+    <arg name="tab-width" value="4"/>
+
+    <!-- 2. General -->
+
+    <!-- 2.1 Basic Coding Standard -->
+
+    <!-- Code MUST follow all rules outlined in PSR-11. -->
+    <rule ref="PSR12">
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
+        <!-- Private variables should start with an underscore -->
+        <exclude name="PSR2.Classes.PropertyDeclaration.Underscore" />
+    </rule>
+    <!-- braces on same line -->
+    <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
+
+    <!-- There MUST NOT be a hard limit on line length.
+    The soft limit on line length MUST be 220 characters (for now!).
+    Lines SHOULD NOT be longer than 80 characters; lines longer than that SHOULD be split into multiple subsequent lines of no more than 80 characters each. -->
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="220"/>
+            <property name="absoluteLineLimit" value="0"/>
+        </properties>
+    </rule>
+
+    <!-- We want comments! -->
+
+
+    <rule ref="PEAR.Commenting.ClassComment">
+        <!-- somethings are overkill -->
+        <exclude name="PEAR.Commenting.ClassComment.MissingPackageTag" />
+        <exclude name="PEAR.Commenting.ClassComment.MissingAuthorTag" />
+        <exclude name="PEAR.Commenting.ClassComment.MissingLicenseTag" />
+        <exclude name="PEAR.Commenting.ClassComment.MissingLinkTag" />
+    </rule>
+    <rule ref="PEAR.Commenting.FileComment" />
+    <rule ref="PEAR.Commenting.FunctionComment" />
+    <rule ref="PEAR.Commenting.InlineComment" />
+</ruleset>

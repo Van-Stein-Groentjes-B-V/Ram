@@ -1,0 +1,38 @@
+ div.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom > div.datepicker-days > table > tbody > tr > td.active.day{
+    background-color: #114783;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+
+div.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom{
+    padding: 10px;
+}
+
+
+td.new.day:hover{
+    background-color: lightblue;
+    border-radius: 4px;
+}
+
+td.old.day:hover{
+    background-color: lightblue;
+    border-radius: 4px;
+}
+
+td.today.day{
+    background-color: #5aa9ff;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+
+td.day:hover{
+    background-color: lightblue;
+    border-radius: 4px;
+}
+
+input[type="date"]::-webkit-clear-button {
+ -webkit-appearance: none;
+  display: none;
+}

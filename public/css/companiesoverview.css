@@ -1,0 +1,124 @@
+.flex-works{
+    display:flex;
+    align-items: stretch;
+    flex-wrap:wrap;
+}
+.personcompany-card{
+    flex: 0 0 25%;
+    overflow:hidden;
+}
+.companycompany-card{
+    flex: 0 0 20%;
+    overflow:hidden;
+}
+.personcompany-card > .customOverzicht, .companycompany-cardview {
+    margin: 8px 16px 24px 16px;
+    border:0px;
+    border-radius:4px;
+    padding:8px 24px 16px 24px;
+    -webkit-box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.15);
+    box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.15);
+    position:relative;
+}
+.personcompany-card .user{
+    width:100%;
+    padding:0;
+    margin-bottom:8px;
+}
+.image-personcompany, .companycompany-image{
+    width:70%;
+    margin: 0 auto 8px auto;
+}
+.image-personcompany img, .companycompany-image img{
+    width:100%;
+    height:auto;
+}
+.textholder-personcompany{
+    padding:8px;
+}
+.textholder-personcompany .logo-personcompany, .companycompany-text .companycompany-logo{
+    width:14px;
+}
+.personcompany-buttons{
+    opacity:0.3;
+    position:absolute;
+    top: 20%;
+    right: 12px;
+    transition:opacity 0.5s ease;
+}
+.companycompany-buttons{
+    opacity:0.3;
+    position:absolute;
+    top: 12px;
+    right: 12px;
+    transition:opacity 0.5s ease;
+}
+.companycompany-buttons > .btn-companycompany {
+    width:30px;
+    margin-bottom:8px;
+    color: #5b9fea;
+    font-size:24px;
+    cursor:pointer;
+    display:block;
+}
+.btn-personcompany .fa-eye{
+    color: #5b9fea;
+    font-size:23px;
+    transition:all 0.5s ease;
+}
+.companycompany-card:hover .fa-eye,.companycompany-card:hover .companycompany-buttons{
+    color: #114783;
+    opacity:1;
+}
+.personcompany-card > .customOverzicht:hover .personcompany-buttons{
+    opacity:1;
+}
+.btn-personcompany{
+    width:30px;
+    margin-bottom:8px;
+    color: #5b9fea;
+    font-size:24px;
+    cursor:pointer;
+    display:block;
+}
+.btn-personcompany .fa-edit, .btn-personcompany .fa-trash{
+    color: #5b9fea;
+    font-size:24px;
+    transition:all 0.5s ease;
+}
+.btn-personcompany:hover .fa-eye{
+    color: #114783;
+    font-size:23px;
+}
+.btn-personcompany:hover .fa-edit, .btn-personcompany:hover .fa-trash{
+    color: #114783;
+    font-size:24px;
+}
+.companycompany-card, .companycompany-card:hover, .companycompany-card:focus, .companycompany-card:visited, .companycompany-card:focus-within{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:1200px){
+    .personcompany-card{
+        flex: 1 1 33.33%;
+    }
+    .companycompany-card{
+        flex: 1 1 25%;
+    }
+}
+@media screen and (max-width:992px){
+    .personcompany-card{
+        flex: 1 1 50%;
+    }
+    .companycompany-card{
+        flex: 1 1 33.33%;
+    }
+}
+@media screen and (max-width:648px){
+    .personcompany-card{
+        flex: 1 1 100%;
+    }
+    .companycompany-card{
+        flex: 1 1 50%;
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="./library/sg_autoload.php">
+
+    <testsuites>
+        <testsuite name="Unit TestSuite">
+            <directory>./tests/unit</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>

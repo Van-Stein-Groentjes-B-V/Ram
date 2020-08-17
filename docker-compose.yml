@@ -1,0 +1,21 @@
+version: '3'
+services:
+    php-apache:
+        image: vansteinengroentjes/php73-apache:latest
+        ports:
+            - 80:80
+        volumes:
+            - ./:/var/www/html
+        links:
+            - 'mariadb'
+    mariadb:
+        image: mariadb:10.4
+        ports:
+            - 3306:3306
+        environment:
+            TZ: "Europe/Amsterdam"
+            MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+            MYSQL_ROOT_PASSWORD: "rootpwd"
+            MYSQL_USER: 'testuser'
+            MYSQL_PASSWORD: 'testpassword'
+            MYSQL_DATABASE: 'local'

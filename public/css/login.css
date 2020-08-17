@@ -1,0 +1,100 @@
+/**
+ * Login CSS.
+ *
+ * @category   Controllers
+ * @package    Ram
+ * @author     Jeroen Carpentier <jeroen@vansteinengroentjes.nl>
+ * @author     Tom Groentjes <tom@vansteinengroentjes.nl>
+ * @author     Bas van Stein <bas@vansteinengroentjes.nl>
+ * @copyright  2020 Van Stein en Groentjes B.V.
+ * @license    GNU Public License V3 or later (GPL-3.0-or-later)
+ * @version    GIT: $Id$
+ * @link       </TODO>: set Git Link
+
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details. <https://www.gnu.org/licenses/>
+ *
+ */
+input[placeholder] {
+    padding-left: 0px !important;
+}
+
+input#gebruiker {
+    width: 320px !important;
+    height: 45px;
+    border-radius: 4px !important;
+    background-position: 8px 9px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-color: #e8f0fe;
+    margin-left: 38px;
+    padding-left: 0px;
+    background-image: none !important;
+}
+
+
+input#password{
+    width: 324px !important;
+    height: 45px;
+    background-position: 8px 9px;
+    background-size: 24px 26px;
+    background-repeat: no-repeat;
+    border-radius: 4px !important;
+    margin-left: 38px;
+    padding-left: 0px;
+    background-color: #e8f0fe;
+    background-image: none !important;
+}
+
+#spn{
+    width: 360px !important;
+    height: 45px;
+    border-radius: 4px !important;
+    background-image: url(../img/icons/user-solid@2x.png);
+    background-position: 8px 9px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-color: #e8f0fe;
+}
+
+#spnPAS{
+    width: 360px !important;
+    height: 45px;
+    border-radius: 4px !important;
+    background-image: url(../img/icons/lock-solid@2x.png);
+    background-position: 8px 9px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-color: #e8f0fe;
+}
+
+.loginInputFields {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-indent: 16px;
+    font-size: 16px;
+    font-family: "Brandon Text", "Asap", Verdana, Arial, sans-serif;
+    color: #4e5056;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+}
+
+.form-control:focus{
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px transparent;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px transparent;
+}

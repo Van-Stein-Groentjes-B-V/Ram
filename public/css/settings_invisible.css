@@ -1,0 +1,156 @@
+/****###
+ * #companies_css# 
+*/ 
+#companyStreet{
+  display: block; 
+} 
+#companyPostalcode{
+  display: block; 
+} 
+#companyCity{
+  display: block; 
+} 
+#companyNumber{
+  display: block; 
+} 
+#companyCountry{
+  display: block; 
+} 
+#companyVat{
+  display: block; 
+} 
+#companyIban{
+  display: block; 
+} 
+#companyCC{
+  display: block; 
+} 
+#companyWebsite{
+  display: block; 
+} 
+#companyFB{
+  display: block; 
+} 
+#companyTwitter{
+  display: block; 
+} 
+#companyYoutube{
+  display: block; 
+} 
+#companyLinkedin{
+  display: block; 
+} 
+
+ /* 
+ * #END_companies_css# 
+ ###****/
+
+/****###
+ * #persons_css# 
+*/ 
+#personStreet{
+  display: block; 
+} 
+#personNumber{
+  display: block; 
+} 
+#personCompany{
+  display: block; 
+} 
+#personPostalcode{
+  display: block; 
+} 
+#personPlace{
+  display: block; 
+} 
+#personTel{
+  display: block; 
+} 
+#personCountry{
+  display: block; 
+} 
+#personTitle{
+  display: block; 
+} 
+#personWebsite{
+  display: block; 
+} 
+#personFB{
+  display: block; 
+} 
+#personTwitter{
+  display: block; 
+} 
+#personYoutube{
+  display: block; 
+} 
+#personLinkedin{
+  display: block; 
+} 
+
+ /* 
+ * #END_persons_css# 
+ ###****/
+
+/****###
+ * #projects_css# 
+*/ 
+#projectDevLink{
+  display: block; 
+} 
+#projectAndroidLink{
+  display: block; 
+} 
+#projectiOSLink{
+  display: block; 
+} 
+#projectResposiLink{
+  display: block; 
+} 
+#projectSlug{
+  display: block; 
+} 
+#projectDeadline{
+  display: block; 
+} 
+#projectBudget{
+  display: block; 
+} 
+#projectHourlywage{
+  display: block; 
+} 
+#projectCustomer{
+  display: block; 
+} 
+#projectCmcDropdown{
+  display: block; 
+} 
+#projectSOhourly{
+  display: block; 
+} 
+#projectSOdescription{
+  display: block; 
+} 
+#projectDropdownContractor{
+  display: block; 
+} 
+#projectCrmcDropdown{
+  display: block; 
+} 
+#projectInterDropdown{
+  display: block; 
+} 
+#projectMainResponDropdown{
+  display: block; 
+} 
+#projectStatusDropdown{
+  display: block; 
+} 
+#projectDescription{
+  display: block; 
+} 
+
+ /* 
+ * #END_projects_css# 
+ ###****/
+
