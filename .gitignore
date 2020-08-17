@@ -1,16 +1,10 @@
-/nbproject/private/
+/nbproject/
 .idea/
-library/phpchat/
 config/config.php
 config/config_ext.php
 config/config_modules.php
 config/config_emails.php
 /vendor
-/notused
-modules/module_projects_extra.zip
-modules/module_template.zip
-modules/module_projects_extra/views/index/indexBot.php
-modules/module_projects_extra/views/index/indexTop.php
 public/img/projects/logos/
 public/img/projects/
 /public/img/person/logos/
@@ -21,6 +15,3 @@ public/img/projects/
 controllers/._
 ._
 .scannerwork
-/nbproject/project.properties
-/nbproject/project.xml
-updates.sql
